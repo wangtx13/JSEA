@@ -1,0 +1,1 @@
+search created intelli j e a user pereira date jun 20 2005 time 5 16 05 p m search state heuristic cost to completion a star state search state get cost to completion cost completion cost 

@@ -1,0 +1,1 @@
+locale 1 0 22 mai 2006 1996 2006 disclose accordance locale provides set get wrapper locale order overcome security restriction preventing applets using their own locale author 1 0 22 mai 2006 created locale locale locale creates instance locale set locale value locale = value locale get locale == ? locale get locale 

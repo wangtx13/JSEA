@@ -1,0 +1,1 @@
+locator 2 1 2006 07 08 1996 2006 disclose accordance ??? draw geom xml locator provides implementations locator author 2 1 2006 07 08 support dom storable <br>2 0 2006 01 14 support precision coordinates <br>1 0 2003 12 01 derived 5 4b1 locator locator dom storable creates instance locator point2 d locate figure owner figure dependent locate owner 

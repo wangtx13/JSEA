@@ -1,0 +1,1 @@
+s v g figure 1 0 2006 07 09 1996 2006 disclose accordance samples svg figures draw s v g figure author 1 0 2006 07 09 created s v g figure figure figure empty one reasons <ul> <li> group has children< li> <li> path has less than two points< li> <li> ellipse rectangle has width height 0< li> <li> text has characters< li> < ul> empty 

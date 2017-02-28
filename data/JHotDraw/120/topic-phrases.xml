@@ -1,0 +1,2628 @@
+<?xml version='1.0' ?>
+<topics>
+  <topic id="0" alpha="0.0032606263948570867" totalTokens="292" titles="parser, xml, builder, access, throws, validator, factory, structure, net, found">
+	<word weight="0.2226027397260274" count="65">parser</word>
+	<word weight="0.1678082191780822" count="49">xml</word>
+	<word weight="0.14383561643835616" count="42">builder</word>
+	<word weight="0.04452054794520548" count="13">access</word>
+	<word weight="0.04452054794520548" count="13">throws</word>
+	<word weight="0.03767123287671233" count="11">validator</word>
+	<word weight="0.03424657534246575" count="10">factory</word>
+	<word weight="0.030821917808219176" count="9">structure</word>
+	<word weight="0.030821917808219176" count="9">net</word>
+	<word weight="0.030821917808219176" count="9">found</word>
+	<phrase weight="0.0967741935483871" count="3">builder builder</phrase>
+	<phrase weight="0.0967741935483871" count="3">throws illegal access parser</phrase>
+	<phrase weight="0.06451612903225806" count="2">xml parser</phrase>
+	<phrase weight="0.06451612903225806" count="2">structure xml</phrase>
+	<phrase weight="0.06451612903225806" count="2">builder xml builder return parser throws found parser found throws instantiation parser</phrase>
+	<phrase weight="0.06451612903225806" count="2">builder builder builder</phrase>
+	<phrase weight="0.06451612903225806" count="2">structure built builder throws net</phrase>
+	<phrase weight="0.03225806451612903" count="1">xml parser create xml parser xml builder builder found instantiation illegal access access control xml parser factory property xml parser factory xml parser factory access control access control xml parser factory create xml parser builder</phrase>
+	<phrase weight="0.03225806451612903" count="1">access control creates xml parser</phrase>
+	<phrase weight="0.03225806451612903" count="1">validator xml</phrase>
+  </topic>
+  <topic id="1" alpha="6.47831950924921E-4" totalTokens="1233" titles="button, popup, stroke, attribute, add, bar, tool, font, set, focusable">
+	<word weight="0.14193025141930252" count="175">button</word>
+	<word weight="0.08191403081914031" count="101">popup</word>
+	<word weight="0.08191403081914031" count="101">stroke</word>
+	<word weight="0.0705596107055961" count="87">attribute</word>
+	<word weight="0.06974858069748581" count="86">add</word>
+	<word weight="0.05596107055961071" count="69">bar</word>
+	<word weight="0.0373073803730738" count="46">tool</word>
+	<word weight="0.0364963503649635" count="45">font</word>
+	<word weight="0.034874290348742905" count="43">set</word>
+	<word weight="0.029197080291970802" count="36">focusable</word>
+	<phrase weight="0.03879310344827586" count="9">bar button</phrase>
+	<phrase weight="0.034482758620689655" count="8">set focusable bar add</phrase>
+	<phrase weight="0.034482758620689655" count="8">popup button</phrase>
+	<phrase weight="0.017241379310344827" count="4">stroke placement</phrase>
+	<phrase weight="0.017241379310344827" count="4">attribute stroke placement</phrase>
+	<phrase weight="0.017241379310344827" count="4">set focusable</phrase>
+	<phrase weight="0.017241379310344827" count="4">bar add</phrase>
+	<phrase weight="0.017241379310344827" count="4">attribute keys underfill stroke placement popup button add attribute</phrase>
+	<phrase weight="0.01293103448275862" count="3">tool bar</phrase>
+	<phrase weight="0.01293103448275862" count="3">attribute keys stroke placement</phrase>
+  </topic>
+  <topic id="2" alpha="0.033866705591984354" totalTokens="811" titles="listener, remove, add, set, adds, focused, removes, sets, container, events">
+	<word weight="0.28236744759556104" count="229">listener</word>
+	<word weight="0.1319358816276202" count="107">remove</word>
+	<word weight="0.08631319358816276" count="70">add</word>
+	<word weight="0.0690505548705302" count="56">set</word>
+	<word weight="0.04562268803945746" count="37">adds</word>
+	<word weight="0.035758323057953144" count="29">focused</word>
+	<word weight="0.0345252774352651" count="28">removes</word>
+	<word weight="0.02219482120838471" count="18">sets</word>
+	<word weight="0.01972872996300863" count="16">container</word>
+	<word weight="0.018495684340320593" count="15">events</word>
+	<phrase weight="0.14583333333333334" count="7">motion listener</phrase>
+	<phrase weight="0.08333333333333333" count="4">listener remove</phrase>
+	<phrase weight="0.08333333333333333" count="4">listener listener</phrase>
+	<phrase weight="0.0625" count="3">listener removes listener</phrase>
+	<phrase weight="0.0625" count="3">listener add</phrase>
+	<phrase weight="0.0625" count="3">set focused</phrase>
+	<phrase weight="0.041666666666666664" count="2">interaction unlike</phrase>
+	<phrase weight="0.041666666666666664" count="2">listener adds listener</phrase>
+	<phrase weight="0.041666666666666664" count="2">listener listener remove</phrase>
+	<phrase weight="0.041666666666666664" count="2">request remove</phrase>
+  </topic>
+  <topic id="3" alpha="0.0046236501960265795" totalTokens="1293" titles="drawing, editor, view, button, set, pane, project, grid, chooser, ">
+	<word weight="0.08662026295436968" count="112">drawing</word>
+	<word weight="0.07579273008507348" count="98">editor</word>
+	<word weight="0.07501933488012374" count="97">view</word>
+	<word weight="0.07192575406032482" count="93">button</word>
+	<word weight="0.06728538283062645" count="87">set</word>
+	<word weight="0.04640371229698376" count="60">pane</word>
+	<word weight="0.038669760247486466" count="50">project</word>
+	<word weight="0.027842227378190254" count="36">draw</word>
+	<word weight="0.02474864655839134" count="32">grid</word>
+	<word weight="0.02474864655839134" count="32">chooser</word>
+	<phrase weight="0.0326530612244898" count="8">button factory</phrase>
+	<phrase weight="0.0326530612244898" count="8">set drawing drawing view drawing</phrase>
+	<phrase weight="0.02857142857142857" count="7">stream nano</phrase>
+	<phrase weight="0.024489795918367346" count="6">stream buffered</phrase>
+	<phrase weight="0.024489795918367346" count="6">quaqua button style placard button</phrase>
+	<phrase weight="0.024489795918367346" count="6">pane constants</phrase>
+	<phrase weight="0.02040816326530612" count="5">quaqua component visual margin insets button set</phrase>
+	<phrase weight="0.0163265306122449" count="4">view view</phrase>
+	<phrase weight="0.0163265306122449" count="4">save chooser chooser</phrase>
+	<phrase weight="0.0163265306122449" count="4">view set drawing drawing</phrase>
+  </topic>
+  <topic id="4" alpha="0.011949413152277866" totalTokens="725" titles="stroke, width, grow, basic, font, fill, double, shape, factor, placement">
+	<word weight="0.28413793103448276" count="206">stroke</word>
+	<word weight="0.10620689655172413" count="77">width</word>
+	<word weight="0.06344827586206897" count="46">grow</word>
+	<word weight="0.037241379310344824" count="27">basic</word>
+	<word weight="0.03586206896551724" count="26">font</word>
+	<word weight="0.03310344827586207" count="24">fill</word>
+	<word weight="0.027586206896551724" count="20">double</word>
+	<word weight="0.027586206896551724" count="20">shape</word>
+	<word weight="0.02482758620689655" count="18">factor</word>
+	<word weight="0.022068965517241378" count="16">placement</word>
+	<phrase weight="0.03389830508474576" count="4">stroke basic stroke</phrase>
+	<phrase weight="0.025423728813559324" count="3">stroke miter limit factor</phrase>
+	<phrase weight="0.025423728813559324" count="3">stroke width</phrase>
+	<phrase weight="0.025423728813559324" count="3">shape shape</phrase>
+	<phrase weight="0.025423728813559324" count="3">basic stroke</phrase>
+	<phrase weight="0.025423728813559324" count="3">area stroke</phrase>
+	<phrase weight="0.01694915254237288" count="2">stroke dashes</phrase>
+	<phrase weight="0.01694915254237288" count="2">type enumeration</phrase>
+	<phrase weight="0.01694915254237288" count="2">grow shrink</phrase>
+	<phrase weight="0.01694915254237288" count="2">grow stroke width</phrase>
+  </topic>
+  <topic id="5" alpha="0.005281498148415321" totalTokens="1169" titles="sheet, pane, option, component, window, chooser, initial, icon, input, location">
+	<word weight="0.223267750213858" count="261">sheet</word>
+	<word weight="0.15739948674080412" count="184">pane</word>
+	<word weight="0.1343028229255774" count="157">option</word>
+	<word weight="0.12403763900769889" count="145">component</word>
+	<word weight="0.03934987168520103" count="46">window</word>
+	<word weight="0.03849443969204448" count="45">chooser</word>
+	<word weight="0.0290846877673225" count="34">initial</word>
+	<word weight="0.026518391787852865" count="31">icon</word>
+	<word weight="0.023952095808383235" count="28">input</word>
+	<word weight="0.023096663815226688" count="27">location</word>
+	<phrase weight="0.05844155844155844" count="9">option pane</phrase>
+	<phrase weight="0.032467532467532464" count="5">sheet component</phrase>
+	<phrase weight="0.032467532467532464" count="5">sheet sheet</phrase>
+	<phrase weight="0.032467532467532464" count="5">content pane</phrase>
+	<phrase weight="0.032467532467532464" count="5">pane option pane</phrase>
+	<phrase weight="0.01948051948051948" count="3">input user</phrase>
+	<phrase weight="0.01948051948051948" count="3">supply icon</phrase>
+	<phrase weight="0.01948051948051948" count="3">brings sheet</phrase>
+	<phrase weight="0.01948051948051948" count="3">location location</phrase>
+	<phrase weight="0.012987012987012988" count="2">sheet create sheet pane</phrase>
+  </topic>
+  <topic id="6" alpha="0.0012976672056914877" totalTokens="1012" titles="point, curve, bez, hat, path, fit, center, prime, digitized, split">
+	<word weight="0.14723320158102768" count="149">point</word>
+	<word weight="0.13537549407114624" count="137">curve</word>
+	<word weight="0.08893280632411067" count="90">bez</word>
+	<word weight="0.07114624505928854" count="72">hat</word>
+	<word weight="0.037549407114624504" count="38">path</word>
+	<word weight="0.0266798418972332" count="27">fit</word>
+	<word weight="0.0266798418972332" count="27">center</word>
+	<word weight="0.024703557312252964" count="25">prime</word>
+	<word weight="0.024703557312252964" count="25">digitized</word>
+	<word weight="0.020750988142292492" count="21">split</word>
+	<phrase weight="0.024539877300613498" count="4">path fit</phrase>
+	<phrase weight="0.024539877300613498" count="4">curve set digitized</phrase>
+	<phrase weight="0.018404907975460124" count="3">det det</phrase>
+	<phrase weight="0.018404907975460124" count="3">indice point</phrase>
+	<phrase weight="0.018404907975460124" count="3">fitted curve</phrase>
+	<phrase weight="0.018404907975460124" count="3">hat unit</phrase>
+	<phrase weight="0.018404907975460124" count="3">curve parameter</phrase>
+	<phrase weight="0.012269938650306749" count="2">hat hat find deviation</phrase>
+	<phrase weight="0.012269938650306749" count="2">hat unit tangent</phrase>
+	<phrase weight="0.012269938650306749" count="2">bez curve split point</phrase>
+  </topic>
+  <topic id="7" alpha="0.007335560739873034" totalTokens="1077" titles="listener, listeners, notify, registered, interest, remove, fire, undoable, add, ">
+	<word weight="0.21727019498607242" count="234">listener</word>
+	<word weight="0.11977715877437325" count="129">listeners</word>
+	<word weight="0.11049210770659239" count="119">list</word>
+	<word weight="0.05385329619312906" count="58">notify</word>
+	<word weight="0.04271123491179202" count="46">registered</word>
+	<word weight="0.04178272980501393" count="45">interest</word>
+	<word weight="0.04085422469823584" count="44">remove</word>
+	<word weight="0.03714020427112349" count="40">fire</word>
+	<word weight="0.034354688950789226" count="37">undoable</word>
+	<word weight="0.03064066852367688" count="33">add</word>
+	<phrase weight="0.09523809523809523" count="14">listener lazily create</phrase>
+	<phrase weight="0.08163265306122448" count="12">listener listeners</phrase>
+	<phrase weight="0.06802721088435375" count="10">notify listeners registered interest guaranteed listeners listener list listener list process listeners notifying interested listeners length listeners</phrase>
+	<phrase weight="0.047619047619047616" count="7">notify listener list registered interest notification type fire</phrase>
+	<phrase weight="0.027210884353741496" count="4">listener list registered interest notification type fire</phrase>
+	<phrase weight="0.027210884353741496" count="4">listener listener</phrase>
+	<phrase weight="0.027210884353741496" count="4">listener listener list add</phrase>
+	<phrase weight="0.02040816326530612" count="3">listener remove</phrase>
+	<phrase weight="0.02040816326530612" count="3">listener listener list remove</phrase>
+	<phrase weight="0.02040816326530612" count="3">listener undoable</phrase>
+  </topic>
+  <topic id="8" alpha="0.0032952299371850607" totalTokens="612" titles="popup, menu, actions, mouse, evt, button, tool, submenu, set, ">
+	<word weight="0.14705882352941177" count="90">popup</word>
+	<word weight="0.10784313725490197" count="66">menu</word>
+	<word weight="0.08496732026143791" count="52">actions</word>
+	<word weight="0.06699346405228758" count="41">mouse</word>
+	<word weight="0.06209150326797386" count="38">evt</word>
+	<word weight="0.04738562091503268" count="29">button</word>
+	<word weight="0.04738562091503268" count="29">action</word>
+	<word weight="0.03758169934640523" count="23">tool</word>
+	<word weight="0.032679738562091505" count="20">submenu</word>
+	<word weight="0.032679738562091505" count="20">set</word>
+	<phrase weight="0.02702702702702703" count="3">actions size popup actions</phrase>
+	<phrase weight="0.02702702702702703" count="3">popup menu</phrase>
+	<phrase weight="0.018018018018018018" count="2">actions set</phrase>
+	<phrase weight="0.018018018018018018" count="2">action actions</phrase>
+	<phrase weight="0.018018018018018018" count="2">mouse click</phrase>
+	<phrase weight="0.018018018018018018" count="2">font item font</phrase>
+	<phrase weight="0.018018018018018018" count="2">evt evt</phrase>
+	<phrase weight="0.018018018018018018" count="2">button groups</phrase>
+	<phrase weight="0.018018018018018018" count="2">popup actions</phrase>
+	<phrase weight="0.018018018018018018" count="2">events popup trigger</phrase>
+  </topic>
+  <topic id="9" alpha="0.0026178696759076416" totalTokens="2080" titles="hash map, code, attribute, set, null, param, parse, preconditions, key, ">
+	<word weight="0.2048076923076923" count="426">code</word>
+	<word weight="0.06153846153846154" count="128">attribute</word>
+	<word weight="0.046153846153846156" count="96">set</word>
+	<word weight="0.036057692307692304" count="75">null</word>
+	<word weight="0.03317307692307692" count="69">param</word>
+	<word weight="0.028846153846153848" count="60">parse</word>
+	<word weight="0.025961538461538463" count="54">preconditions</word>
+	<word weight="0.02548076923076923" count="53">key</word>
+	<word weight="0.025" count="52">hash</word>
+	<word weight="0.023557692307692307" count="49">map</word>
+	<phrase weight="0.04976303317535545" count="21">hash map</phrase>
+	<phrase weight="0.02132701421800948" count="9">code code</phrase>
+	<phrase weight="0.018957345971563982" count="8">receiver updated reflect</phrase>
+	<phrase weight="0.018957345971563982" count="8">preconditions code</phrase>
+	<phrase weight="0.016587677725118485" count="7">code postconditions</phrase>
+	<phrase weight="0.016587677725118485" count="7">null code code</phrase>
+	<phrase weight="0.014218009478672985" count="6">enumeration enumerate</phrase>
+	<phrase weight="0.011848341232227487" count="5">parse parser</phrase>
+	<phrase weight="0.011848341232227487" count="5">preconditions code null code code code valid</phrase>
+	<phrase weight="0.011848341232227487" count="5">enumeration children</phrase>
+  </topic>
+  <topic id="10" alpha="0.008739181581994479" totalTokens="656" titles="text, holder, figure, size, field, font, target, insets, typing, floating">
+	<word weight="0.32621951219512196" count="214">text</word>
+	<word weight="0.11585365853658537" count="76">holder</word>
+	<word weight="0.10823170731707317" count="71">figure</word>
+	<word weight="0.053353658536585365" count="35">size</word>
+	<word weight="0.04573170731707317" count="30">field</word>
+	<word weight="0.04420731707317073" count="29">font</word>
+	<word weight="0.0350609756097561" count="23">target</word>
+	<word weight="0.03353658536585366" count="22">insets</word>
+	<word weight="0.03048780487804878" count="20">typing</word>
+	<word weight="0.028963414634146343" count="19">floating</word>
+	<phrase weight="0.09774436090225563" count="13">text holder</phrase>
+	<phrase weight="0.06766917293233082" count="9">font size</phrase>
+	<phrase weight="0.045112781954887216" count="6">text field</phrase>
+	<phrase weight="0.045112781954887216" count="6">text text</phrase>
+	<phrase weight="0.03759398496240601" count="5">floating text</phrase>
+	<phrase weight="0.03007518796992481" count="4">text holder figure</phrase>
+	<phrase weight="0.022556390977443608" count="3">text figure</phrase>
+	<phrase weight="0.015037593984962405" count="2">editing behavior overlaying figure</phrase>
+	<phrase weight="0.015037593984962405" count="2">font figure font</phrase>
+	<phrase weight="0.015037593984962405" count="2">text holder typing target end</phrase>
+  </topic>
+  <topic id="11" alpha="0.016979416253526006" totalTokens="1448" titles="figure, start, end, connector, connection, set, liner, owner, change, ">
+	<word weight="0.15814917127071823" count="229">figure</word>
+	<word weight="0.1464088397790055" count="212">start</word>
+	<word weight="0.1464088397790055" count="212">end</word>
+	<word weight="0.12016574585635359" count="174">connector</word>
+	<word weight="0.08908839779005524" count="129">connection</word>
+	<word weight="0.05179558011049724" count="75">set</word>
+	<word weight="0.05110497237569061" count="74">liner</word>
+	<word weight="0.024171270718232045" count="35">connect</word>
+	<word weight="0.024171270718232045" count="35">owner</word>
+	<word weight="0.024171270718232045" count="35">change</word>
+	<phrase weight="0.0297029702970297" count="6">connection figure</phrase>
+	<phrase weight="0.0297029702970297" count="6">set end</phrase>
+	<phrase weight="0.024752475247524754" count="5">set start</phrase>
+	<phrase weight="0.019801980198019802" count="4">start start connector find start start</phrase>
+	<phrase weight="0.019801980198019802" count="4">start end connector</phrase>
+	<phrase weight="0.019801980198019802" count="4">connection figure figure</phrase>
+	<phrase weight="0.01485148514851485" count="3">end connector</phrase>
+	<phrase weight="0.01485148514851485" count="3">start connector</phrase>
+	<phrase weight="0.01485148514851485" count="3">set end connector end</phrase>
+	<phrase weight="0.01485148514851485" count="3">figure start figure end</phrase>
+  </topic>
+  <topic id="12" alpha="0.020219032459477926" totalTokens="615" titles="undo, redo, progress, significant, manager, edits, real, presentation, support, ">
+	<word weight="0.2845528455284553" count="175">undo</word>
+	<word weight="0.27967479674796747" count="172">redo</word>
+	<word weight="0.05365853658536585" count="33">progress</word>
+	<word weight="0.05040650406504065" count="31">significant</word>
+	<word weight="0.03577235772357724" count="22">manager</word>
+	<word weight="0.032520325203252036" count="20">edits</word>
+	<word weight="0.02926829268292683" count="18">edit</word>
+	<word weight="0.02926829268292683" count="18">real</word>
+	<word weight="0.026016260162601626" count="16">presentation</word>
+	<word weight="0.022764227642276424" count="14">support</word>
+	<phrase weight="0.14705882352941177" count="15">real redo</phrase>
+	<phrase weight="0.11764705882352941" count="12">undo undo</phrase>
+	<phrase weight="0.08823529411764706" count="9">redo redo</phrase>
+	<phrase weight="0.049019607843137254" count="5">redo redo redo</phrase>
+	<phrase weight="0.049019607843137254" count="5">undo redo</phrase>
+	<phrase weight="0.029411764705882353" count="3">undo undo undo</phrase>
+	<phrase weight="0.029411764705882353" count="3">redo manager</phrase>
+	<phrase weight="0.029411764705882353" count="3">redo undo redo</phrase>
+	<phrase weight="0.0196078431372549" count="2">die redo redo redo</phrase>
+	<phrase weight="0.0196078431372549" count="2">undo undo manager</phrase>
+  </topic>
+  <topic id="13" alpha="0.023292291996827766" totalTokens="901" titles="drawing view, editor, constrainer, set, views, change, active, grid, current, ">
+	<word weight="0.36958934517203107" count="333">view</word>
+	<word weight="0.24084350721420644" count="217">drawing</word>
+	<word weight="0.07880133185349611" count="71">editor</word>
+	<word weight="0.06437291897891231" count="58">constrainer</word>
+	<word weight="0.051054384017758046" count="46">set</word>
+	<word weight="0.04550499445061043" count="41">views</word>
+	<word weight="0.01997780244173141" count="18">active</word>
+	<word weight="0.01997780244173141" count="18">change</word>
+	<word weight="0.013318534961154272" count="12">grid</word>
+	<word weight="0.01220865704772475" count="11">current</word>
+	<phrase weight="0.1476510067114094" count="22">drawing view</phrase>
+	<phrase weight="0.06711409395973154" count="10">drawing editor</phrase>
+	<phrase weight="0.040268456375838924" count="6">drawing view view</phrase>
+	<phrase weight="0.040268456375838924" count="6">view view</phrase>
+	<phrase weight="0.03355704697986577" count="5">editor editor</phrase>
+	<phrase weight="0.026845637583892617" count="4">view drawing</phrase>
+	<phrase weight="0.026845637583892617" count="4">multiple views</phrase>
+	<phrase weight="0.026845637583892617" count="4">view drawing view</phrase>
+	<phrase weight="0.020134228187919462" count="3">view view drawing</phrase>
+	<phrase weight="0.020134228187919462" count="3">constrainer constrainer</phrase>
+  </topic>
+  <topic id="14" alpha="0.010055331775572223" totalTokens="1533" titles="reader, data, buffer, xml, param, chars, throws, unread, end, ">
+	<word weight="0.17025440313111545" count="261">reader</word>
+	<word weight="0.12720156555772993" count="195">read</word>
+	<word weight="0.08871493803000652" count="136">data</word>
+	<word weight="0.060013046314416174" count="92">buffer</word>
+	<word weight="0.055446836268754074" count="85">xml</word>
+	<word weight="0.046314416177429873" count="71">param</word>
+	<word weight="0.04044357469015003" count="62">chars</word>
+	<word weight="0.033920417482061316" count="52">throws</word>
+	<word weight="0.0273972602739726" count="42">unread</word>
+	<word weight="0.020874103065883887" count="32">end</word>
+	<phrase weight="0.04864864864864865" count="9">reader reader</phrase>
+	<phrase weight="0.043243243243243246" count="8">chars read</phrase>
+	<phrase weight="0.02702702702702703" count="5">reader throws</phrase>
+	<phrase weight="0.02702702702702703" count="5">xml data</phrase>
+	<phrase weight="0.021621621621621623" count="4">read read</phrase>
+	<phrase weight="0.021621621621621623" count="4">read reader</phrase>
+	<phrase weight="0.016216216216216217" count="3">throws occurred</phrase>
+	<phrase weight="0.016216216216216217" count="3">throws data</phrase>
+	<phrase weight="0.010810810810810811" count="2">read unread</phrase>
+	<phrase weight="0.010810810810810811" count="2">number data</phrase>
+  </topic>
+  <topic id="15" alpha="0.0019525643002194896" totalTokens="302" titles="data, flavor, transferable, restore, clipboard, flavors, requested, supported, xml, transferables">
+	<word weight="0.2119205298013245" count="64">data</word>
+	<word weight="0.18543046357615894" count="56">flavor</word>
+	<word weight="0.052980132450331126" count="16">transferable</word>
+	<word weight="0.04966887417218543" count="15">restore</word>
+	<word weight="0.03642384105960265" count="11">clipboard</word>
+	<word weight="0.033112582781456956" count="10">flavors</word>
+	<word weight="0.026490066225165563" count="8">requested</word>
+	<word weight="0.026490066225165563" count="8">supported</word>
+	<word weight="0.023178807947019868" count="7">xml</word>
+	<word weight="0.019867549668874173" count="6">transferables</word>
+	<phrase weight="0.2222222222222222" count="4">restore data</phrase>
+	<phrase weight="0.1111111111111111" count="2">restore restore data</phrase>
+	<phrase weight="0.05555555555555555" count="1">data restore data restore data</phrase>
+	<phrase weight="0.05555555555555555" count="1">restore data restore data</phrase>
+	<phrase weight="0.05555555555555555" count="1">datatransfer xml transferable transfering xml documents clipboard drag drop</phrase>
+	<phrase weight="0.05555555555555555" count="1">transferable data flavor transfer data flavors length transferables</phrase>
+	<phrase weight="0.05555555555555555" count="1">represents data transferred defined representation flavor param flavor requested flavor data data flavor#get representation exception data longer requested flavor exception unsupported flavor requested data flavor supported transfer data data flavor flavor unsupported flavor transferable transferable transferables flavor unsupported flavor flavor transfer data flavor data flavor indicating flavors data ordered preference providing data richly descriptive descriptive return data flavors data transferred data flavor transfer data flavors data flavor flavors data flavor transferables</phrase>
+	<phrase weight="0.05555555555555555" count="1">composite transferable composite transferable</phrase>
+	<phrase weight="0.05555555555555555" count="1">transferable datatransfer transferable datatransfer clipboard owner data data flavor flavor</phrase>
+	<phrase weight="0.05555555555555555" count="1">data flavor supported param flavor requested flavor data return indicating wjether data flavor supported data flavor supported data flavor flavor transferables</phrase>
+  </topic>
+  <topic id="16" alpha="0.003925532068934221" totalTokens="831" titles="tag, node, dom, list, xml, equals, count, index, text, input">
+	<word weight="0.12033694344163658" count="100">tag</word>
+	<word weight="0.08784596871239471" count="73">node</word>
+	<word weight="0.07942238267148015" count="66">dom</word>
+	<word weight="0.07099879663056559" count="59">list</word>
+	<word weight="0.061371841155234655" count="51">xml</word>
+	<word weight="0.056558363417569195" count="47">equals</word>
+	<word weight="0.048134777376654635" count="40">count</word>
+	<word weight="0.04091456077015644" count="34">index</word>
+	<word weight="0.03850782190132371" count="32">text</word>
+	<word weight="0.03850782190132371" count="32">input</word>
+	<phrase weight="0.0446927374301676" count="8">index makes</phrase>
+	<phrase weight="0.0335195530726257" count="6">linked list</phrase>
+	<phrase weight="0.0335195530726257" count="6">count length read tag equals</phrase>
+	<phrase weight="0.0335195530726257" count="6">tag idobjects</phrase>
+	<phrase weight="0.0335195530726257" count="6">node xml</phrase>
+	<phrase weight="0.027932960893854747" count="5">children list size xml</phrase>
+	<phrase weight="0.0223463687150838" count="4">elements list</phrase>
+	<phrase weight="0.0223463687150838" count="4">child elements tag</phrase>
+	<phrase weight="0.0223463687150838" count="4">dom input</phrase>
+	<phrase weight="0.01675977653631285" count="3">nano xml dom input</phrase>
+  </topic>
+  <topic id="17" alpha="0.005233569170452851" totalTokens="683" titles="text, layout, tab, font, draw, rect, pos, editable, attribute, margin">
+	<word weight="0.24743777452415813" count="169">text</word>
+	<word weight="0.10395314787701318" count="71">layout</word>
+	<word weight="0.055636896046852125" count="38">tab</word>
+	<word weight="0.03806734992679356" count="26">font</word>
+	<word weight="0.027818448023426062" count="19">draw</word>
+	<word weight="0.02635431918008785" count="18">rect</word>
+	<word weight="0.024890190336749635" count="17">pos</word>
+	<word weight="0.024890190336749635" count="17">editable</word>
+	<word weight="0.024890190336749635" count="17">attribute</word>
+	<word weight="0.02342606149341142" count="16">margin</word>
+	<phrase weight="0.04065040650406504" count="5">text area</phrase>
+	<phrase weight="0.024390243902439025" count="3">text text</phrase>
+	<phrase weight="0.024390243902439025" count="3">draw text</phrase>
+	<phrase weight="0.024390243902439025" count="3">text layout</phrase>
+	<phrase weight="0.016260162601626018" count="2">text text area</phrase>
+	<phrase weight="0.016260162601626018" count="2">layout layout text layout</phrase>
+	<phrase weight="0.016260162601626018" count="2">text rect text rect</phrase>
+	<phrase weight="0.016260162601626018" count="2">text attribute</phrase>
+	<phrase weight="0.016260162601626018" count="2">tab locations</phrase>
+	<phrase weight="0.016260162601626018" count="2">tab measurer position styled text</phrase>
+  </topic>
+  <topic id="18" alpha="0.005937404700926787" totalTokens="847" titles="element, child, children, enm, iterator, str, equals, found, add, list">
+	<word weight="0.30342384887839435" count="257">element</word>
+	<word weight="0.21133412042502953" count="179">child</word>
+	<word weight="0.089728453364817" count="76">children</word>
+	<word weight="0.053128689492325853" count="45">enm</word>
+	<word weight="0.05194805194805195" count="44">iterator</word>
+	<word weight="0.025974025974025976" count="22">str</word>
+	<word weight="0.025974025974025976" count="22">equals</word>
+	<word weight="0.024793388429752067" count="21">found</word>
+	<word weight="0.02243211334120425" count="19">add</word>
+	<word weight="0.02243211334120425" count="19">list</word>
+	<phrase weight="0.09655172413793103" count="14">element child</phrase>
+	<phrase weight="0.06206896551724138" count="9">iterator enm</phrase>
+	<phrase weight="0.05517241379310345" count="8">child child</phrase>
+	<phrase weight="0.034482758620689655" count="5">child iterator</phrase>
+	<phrase weight="0.034482758620689655" count="5">child element</phrase>
+	<phrase weight="0.027586206896551724" count="4">iterator enm children iterator enm</phrase>
+	<phrase weight="0.027586206896551724" count="4">element child found</phrase>
+	<phrase weight="0.027586206896551724" count="4">element children</phrase>
+	<phrase weight="0.020689655172413793" count="3">element started</phrase>
+	<phrase weight="0.020689655172413793" count="3">add child</phrase>
+  </topic>
+  <topic id="19" alpha="0.007292970953433093" totalTokens="673" titles="action, editor, put, toggle, button, zoom, grid, scale, factor, label">
+	<word weight="0.14413075780089152" count="97">action</word>
+	<word weight="0.12927191679049035" count="87">editor</word>
+	<word weight="0.12035661218424963" count="81">put</word>
+	<word weight="0.0950965824665676" count="64">toggle</word>
+	<word weight="0.07280832095096583" count="49">button</word>
+	<word weight="0.0638930163447251" count="43">zoom</word>
+	<word weight="0.05943536404160475" count="40">grid</word>
+	<word weight="0.05052005943536404" count="34">scale</word>
+	<word weight="0.04309063893016345" count="29">factor</word>
+	<word weight="0.04011887072808321" count="27">label</word>
+	<phrase weight="0.07692307692307693" count="7">editor editor</phrase>
+	<phrase weight="0.07692307692307693" count="7">toggle grid</phrase>
+	<phrase weight="0.04395604395604396" count="4">zoom action</phrase>
+	<phrase weight="0.03296703296703297" count="3">toggle grid action</phrase>
+	<phrase weight="0.02197802197802198" count="2">scale factors</phrase>
+	<phrase weight="0.02197802197802198" count="2">put action</phrase>
+	<phrase weight="0.02197802197802198" count="2">zoom editor action</phrase>
+	<phrase weight="0.02197802197802198" count="2">scale factor factors factors</phrase>
+	<phrase weight="0.02197802197802198" count="2">grid toggle</phrase>
+	<phrase weight="0.02197802197802198" count="2">grid action</phrase>
+  </topic>
+  <topic id="20" alpha="0.005898730944194514" totalTokens="456" titles="property, properties, index, code, return, events, automatic, sets, background, returned">
+	<word weight="0.19517543859649122" count="89">property</word>
+	<word weight="0.08552631578947369" count="39">properties</word>
+	<word weight="0.07675438596491228" count="35">index</word>
+	<word weight="0.07017543859649122" count="32">code</word>
+	<word weight="0.06359649122807018" count="29">return</word>
+	<word weight="0.041666666666666664" count="19">events</word>
+	<word weight="0.03508771929824561" count="16">automatic</word>
+	<word weight="0.03289473684210526" count="15">sets</word>
+	<word weight="0.017543859649122806" count="8">background</word>
+	<word weight="0.017543859649122806" count="8">returned</word>
+	<phrase weight="0.06451612903225806" count="4">property property commonly initially</phrase>
+	<phrase weight="0.06451612903225806" count="4">sets events</phrase>
+	<phrase weight="0.06451612903225806" count="4">properties property</phrase>
+	<phrase weight="0.06451612903225806" count="4">support single</phrase>
+	<phrase weight="0.06451612903225806" count="4">index property property</phrase>
+	<phrase weight="0.06451612903225806" count="4">editable properties supported</phrase>
+	<phrase weight="0.06451612903225806" count="4">subclass property</phrase>
+	<phrase weight="0.06451612903225806" count="4">returned property</phrase>
+	<phrase weight="0.06451612903225806" count="4">properties properties</phrase>
+	<phrase weight="0.06451612903225806" count="4">property property index property index</phrase>
+  </topic>
+  <topic id="21" alpha="0.015470012186129646" totalTokens="698" titles="insets, top, left, bottom, layout, size, rectangle, attribute, vertical, ">
+	<word weight="0.335243553008596" count="234">insets</word>
+	<word weight="0.15902578796561603" count="111">top</word>
+	<word weight="0.1504297994269341" count="105">left</word>
+	<word weight="0.10744985673352435" count="75">bottom</word>
+	<word weight="0.044412607449856735" count="31">layout</word>
+	<word weight="0.03008595988538682" count="21">size</word>
+	<word weight="0.01862464183381089" count="13">rectangle</word>
+	<word weight="0.015759312320916905" count="11">attribute</word>
+	<word weight="0.014326647564469915" count="10">ins</word>
+	<word weight="0.011461318051575931" count="8">vertical</word>
+	<phrase weight="0.10569105691056911" count="13">insets top</phrase>
+	<phrase weight="0.0975609756097561" count="12">insets insets</phrase>
+	<phrase weight="0.08130081300813008" count="10">insets left</phrase>
+	<phrase weight="0.04065040650406504" count="5">top bottom</phrase>
+	<phrase weight="0.04065040650406504" count="5">top left</phrase>
+	<phrase weight="0.04065040650406504" count="5">insets bottom</phrase>
+	<phrase weight="0.032520325203252036" count="4">insets top insets bottom</phrase>
+	<phrase weight="0.032520325203252036" count="4">insets insets insets</phrase>
+	<phrase weight="0.024390243902439025" count="3">top insets bottom</phrase>
+	<phrase weight="0.016260162601626018" count="2">vertical direction</phrase>
+  </topic>
+  <topic id="22" alpha="0.1027997266425523" totalTokens="1303" titles="support, geom, public, draw, coordinates, package, author, accordance, version, reserved">
+	<word weight="0.07367613200306984" count="96">support</word>
+	<word weight="0.07060629316960859" count="92">geom</word>
+	<word weight="0.06600153491941672" count="86">public</word>
+	<word weight="0.060629316960859554" count="79">draw</word>
+	<word weight="0.05755947812739831" count="75">coordinates</word>
+	<word weight="0.05372217958557176" count="70">package</word>
+	<word weight="0.05065234075211052" count="66">author</word>
+	<word weight="0.04911742133537989" count="64">accordance</word>
+	<word weight="0.04911742133537989" count="64">version</word>
+	<word weight="0.04834996162701458" count="63">reserved</word>
+	<phrase weight="0.0673076923076923" count="14">reserved disclose accordance package</phrase>
+	<phrase weight="0.052884615384615384" count="11">creates instance</phrase>
+	<phrase weight="0.04807692307692308" count="10">author version</phrase>
+	<phrase weight="0.04326923076923077" count="9">author version support</phrase>
+	<phrase weight="0.04326923076923077" count="9">created public</phrase>
+	<phrase weight="0.03365384615384615" count="7">reserved disclose accordance package draw geom</phrase>
+	<phrase weight="0.028846153846153848" count="6">support coordinates derived</phrase>
+	<phrase weight="0.02403846153846154" count="5">support precision coordinates derived public</phrase>
+	<phrase weight="0.02403846153846154" count="5">reserved disclose accordance package draw</phrase>
+	<phrase weight="0.02403846153846154" count="5">draw graphics</phrase>
+  </topic>
+  <topic id="23" alpha="0.007304797448273445" totalTokens="1493" titles="connection, figure, target, connector, set, start, drawing, find, point, ">
+	<word weight="0.17615539182853315" count="263">connection</word>
+	<word weight="0.13529805760214333" count="202">figure</word>
+	<word weight="0.1332886805090422" count="199">target</word>
+	<word weight="0.11185532484929672" count="167">connector</word>
+	<word weight="0.06296048225050234" count="94">set</word>
+	<word weight="0.05023442732752847" count="75">start</word>
+	<word weight="0.04554588077695914" count="68">drawing</word>
+	<word weight="0.038178164768921635" count="57">find</word>
+	<word weight="0.036838580040187544" count="55">point</word>
+	<word weight="0.02277294038847957" count="34">connect</word>
+	<phrase weight="0.026905829596412557" count="6">connection figure</phrase>
+	<phrase weight="0.02242152466367713" count="5">figure figure</phrase>
+	<phrase weight="0.017937219730941704" count="4">bidirectional connection</phrase>
+	<phrase weight="0.017937219730941704" count="4">connection connection</phrase>
+	<phrase weight="0.013452914798206279" count="3">target figure</phrase>
+	<phrase weight="0.013452914798206279" count="3">drawing drawing</phrase>
+	<phrase weight="0.013452914798206279" count="3">figure connection</phrase>
+	<phrase weight="0.013452914798206279" count="3">connection set</phrase>
+	<phrase weight="0.013452914798206279" count="3">figure target</phrase>
+	<phrase weight="0.013452914798206279" count="3">connector find</phrase>
+  </topic>
+  <topic id="24" alpha="0.037991676959847454" totalTokens="1765" titles="property change, listener, action, evt, actions, fire, listeners, selected, update, ">
+	<word weight="0.2804532577903683" count="495">property</word>
+	<word weight="0.16203966005665724" count="286">change</word>
+	<word weight="0.12237960339943343" count="216">listener</word>
+	<word weight="0.08158640226628895" count="144">action</word>
+	<word weight="0.04872521246458923" count="86">evt</word>
+	<word weight="0.03286118980169972" count="58">actions</word>
+	<word weight="0.026062322946175637" count="46">listeners</word>
+	<word weight="0.026062322946175637" count="46">fire</word>
+	<word weight="0.025495750708215296" count="45">selected</word>
+	<word weight="0.02209631728045326" count="39">update</word>
+	<phrase weight="0.1520912547528517" count="40">property change</phrase>
+	<phrase weight="0.07224334600760456" count="19">fire property change</phrase>
+	<phrase weight="0.057034220532319393" count="15">property change listener</phrase>
+	<phrase weight="0.026615969581749048" count="7">change listener</phrase>
+	<phrase weight="0.019011406844106463" count="5">property action</phrase>
+	<phrase weight="0.019011406844106463" count="5">add property change listener</phrase>
+	<phrase weight="0.019011406844106463" count="5">installs listeners</phrase>
+	<phrase weight="0.019011406844106463" count="5">property change listener property</phrase>
+	<phrase weight="0.019011406844106463" count="5">action beans</phrase>
+	<phrase weight="0.015209125475285171" count="4">property change property</phrase>
+  </topic>
+  <topic id="25" alpha="0.01599398720359288" totalTokens="681" titles="point point, tolerance, chop, return, relative, move, segments, edge, shape, param">
+	<word weight="0.6549192364170338" count="446">point</word>
+	<word weight="0.049926578560939794" count="34">tolerance</word>
+	<word weight="0.04698972099853157" count="32">chop</word>
+	<word weight="0.032305433186490456" count="22">return</word>
+	<word weight="0.02643171806167401" count="18">relative</word>
+	<word weight="0.024963289280469897" count="17">move</word>
+	<word weight="0.020558002936857563" count="14">segments</word>
+	<word weight="0.01908957415565345" count="13">edge</word>
+	<word weight="0.016152716593245228" count="11">shape</word>
+	<word weight="0.010279001468428781" count="7">param</word>
+	<phrase weight="0.44" count="33">point point</phrase>
+	<phrase weight="0.05333333333333334" count="4">point point point</phrase>
+	<phrase weight="0.05333333333333334" count="4">chop chop</phrase>
+	<phrase weight="0.04" count="3">point intersection</phrase>
+	<phrase weight="0.02666666666666667" count="2">point edge crosses</phrase>
+	<phrase weight="0.02666666666666667" count="2">point chop</phrase>
+	<phrase weight="0.02666666666666667" count="2">return segments</phrase>
+	<phrase weight="0.02666666666666667" count="2">joins segments point</phrase>
+	<phrase weight="0.02666666666666667" count="2">point relative</phrase>
+	<phrase weight="0.013333333333333334" count="1">point point chop shape shape point</phrase>
+  </topic>
+  <topic id="26" alpha="0.011432991978316608" totalTokens="1035" titles="child, children, layouter, basic, composite, index, handler, notify, count, ">
+	<word weight="0.242512077294686" count="251">child</word>
+	<word weight="0.11884057971014493" count="123">children</word>
+	<word weight="0.08115942028985507" count="84">layouter</word>
+	<word weight="0.07922705314009662" count="82">layout</word>
+	<word weight="0.06086956521739131" count="63">basic</word>
+	<word weight="0.05893719806763285" count="61">composite</word>
+	<word weight="0.04154589371980676" count="43">index</word>
+	<word weight="0.028019323671497585" count="29">handler</word>
+	<word weight="0.025120772946859903" count="26">notify</word>
+	<word weight="0.017391304347826087" count="18">count</word>
+	<phrase weight="0.10215053763440861" count="19">child children</phrase>
+	<phrase weight="0.05913978494623656" count="11">child index</phrase>
+	<phrase weight="0.04838709677419355" count="9">children child</phrase>
+	<phrase weight="0.03225806451612903" count="6">arranges graphical</phrase>
+	<phrase weight="0.03225806451612903" count="6">child child</phrase>
+	<phrase weight="0.026881720430107527" count="5">child count</phrase>
+	<phrase weight="0.026881720430107527" count="5">typically layouter accesses child components</phrase>
+	<phrase weight="0.021505376344086023" count="4">child composite</phrase>
+	<phrase weight="0.021505376344086023" count="4">child children child</phrase>
+	<phrase weight="0.021505376344086023" count="4">child handler</phrase>
+  </topic>
+  <topic id="27" alpha="0.04787065316478011" totalTokens="1793" titles="dom output, dom input, add, close, xml, write, read, open, element, ">
+	<word weight="0.19910764082543222" count="357">add</word>
+	<word weight="0.1701059676519799" count="305">dom</word>
+	<word weight="0.08421639709983268" count="151">close</word>
+	<word weight="0.07975460122699386" count="143">xml</word>
+	<word weight="0.0780814277746793" count="140">write</word>
+	<word weight="0.07640825432236475" count="137">output</word>
+	<word weight="0.07083100948131622" count="127">read</word>
+	<word weight="0.05911879531511433" count="106">open</word>
+	<word weight="0.053541550474065815" count="96">input</word>
+	<word weight="0.03513664249860569" count="63">element</word>
+	<phrase weight="0.1326530612244898" count="26">dom output</phrase>
+	<phrase weight="0.11224489795918367" count="22">dom input</phrase>
+	<phrase weight="0.04591836734693878" count="9">dom output write</phrase>
+	<phrase weight="0.04081632653061224" count="8">write close</phrase>
+	<phrase weight="0.04081632653061224" count="8">dom input read</phrase>
+	<phrase weight="0.030612244897959183" count="6">xml dom input xml dom output</phrase>
+	<phrase weight="0.025510204081632654" count="5">close element</phrase>
+	<phrase weight="0.025510204081632654" count="5">write dom output</phrase>
+	<phrase weight="0.025510204081632654" count="5">read dom input read</phrase>
+	<phrase weight="0.02040816326530612" count="4">write dom output add</phrase>
+  </topic>
+  <topic id="28" alpha="0.02959741743834258" totalTokens="576" titles="labels, bundle, resource, configure, evt, locale, container, memory, lucida, styled">
+	<word weight="0.3229166666666667" count="186">labels</word>
+	<word weight="0.2881944444444444" count="166">bundle</word>
+	<word weight="0.2048611111111111" count="118">resource</word>
+	<word weight="0.06597222222222222" count="38">configure</word>
+	<word weight="0.041666666666666664" count="24">evt</word>
+	<word weight="0.024305555555555556" count="14">locale</word>
+	<word weight="0.019097222222222224" count="11">container</word>
+	<word weight="0.005208333333333333" count="3">memory</word>
+	<word weight="0.003472222222222222" count="2">lucida</word>
+	<word weight="0.001736111111111111" count="1">styled</word>
+	<phrase weight="0.16" count="16">resource bundle labels resource bundle bundle</phrase>
+	<phrase weight="0.15" count="15">bundle labels resource bundle bundle</phrase>
+	<phrase weight="0.12" count="12">labels configure</phrase>
+	<phrase weight="0.11" count="11">resource bundle</phrase>
+	<phrase weight="0.05" count="5">resource bundle labels</phrase>
+	<phrase weight="0.05" count="5">labels labels configure</phrase>
+	<phrase weight="0.04" count="4">labels locale labels</phrase>
+	<phrase weight="0.04" count="4">labels locale</phrase>
+	<phrase weight="0.04" count="4">resource bundle bundle</phrase>
+	<phrase weight="0.04" count="4">labels resource bundle bundle</phrase>
+  </topic>
+  <topic id="29" alpha="0.005209680212655628" totalTokens="316" titles="presentation, composite, graphical, compound, handler, edit#get, tasks, delegated, notify, ">
+	<word weight="0.4430379746835443" count="140">presentation</word>
+	<word weight="0.12974683544303797" count="41">composite</word>
+	<word weight="0.06962025316455696" count="22">graphical</word>
+	<word weight="0.04746835443037975" count="15">compound</word>
+	<word weight="0.03164556962025317" count="10">handler</word>
+	<word weight="0.022151898734177215" count="7">edit#get</word>
+	<word weight="0.022151898734177215" count="7">tasks</word>
+	<word weight="0.022151898734177215" count="7">delegated</word>
+	<word weight="0.022151898734177215" count="7">notify</word>
+	<word weight="0.015822784810126583" count="5">presentatio</word>
+	<phrase weight="0.1509433962264151" count="8">graphical composite</phrase>
+	<phrase weight="0.09433962264150944" count="5">handler presentation</phrase>
+	<phrase weight="0.07547169811320754" count="4">compound edit#get presentation composite</phrase>
+	<phrase weight="0.07547169811320754" count="4">presentation presentation compound</phrase>
+	<phrase weight="0.05660377358490566" count="3">presentation presentation</phrase>
+	<phrase weight="0.05660377358490566" count="3">presentation tasks</phrase>
+	<phrase weight="0.03773584905660377" count="2">presentation tasks composite</phrase>
+	<phrase weight="0.03773584905660377" count="2">renders composite</phrase>
+	<phrase weight="0.03773584905660377" count="2">compound edit#get</phrase>
+	<phrase weight="0.03773584905660377" count="2">delegated presentation</phrase>
+  </topic>
+  <topic id="30" alpha="0.006685847800509409" totalTokens="905" titles="entity, reader, xml, param, external, literal, resolver, parse, put, entities">
+	<word weight="0.30497237569060776" count="276">entity</word>
+	<word weight="0.1558011049723757" count="141">reader</word>
+	<word weight="0.13922651933701657" count="126">xml</word>
+	<word weight="0.08287292817679558" count="75">param</word>
+	<word weight="0.030939226519337018" count="28">external</word>
+	<word weight="0.030939226519337018" count="28">literal</word>
+	<word weight="0.02983425414364641" count="27">resolver</word>
+	<word weight="0.028729281767955802" count="26">parse</word>
+	<word weight="0.02541436464088398" count="23">put</word>
+	<word weight="0.02430939226519337" count="22">entities</word>
+	<phrase weight="0.059322033898305086" count="7">reader reader</phrase>
+	<phrase weight="0.05084745762711865" count="6">entity resolver</phrase>
+	<phrase weight="0.0423728813559322" count="5">xml entity</phrase>
+	<phrase weight="0.0423728813559322" count="5">xml reader</phrase>
+	<phrase weight="0.0423728813559322" count="5">check literal</phrase>
+	<phrase weight="0.0423728813559322" count="5">entity entity</phrase>
+	<phrase weight="0.025423728813559324" count="3">return entity</phrase>
+	<phrase weight="0.025423728813559324" count="3">param entity</phrase>
+	<phrase weight="0.025423728813559324" count="3">entity xml</phrase>
+	<phrase weight="0.025423728813559324" count="3">entity resolver entity</phrase>
+  </topic>
+  <topic id="31" alpha="0.00724670030138419" totalTokens="350" titles="decorator, visible, point, layer, connectors, location, comparator, informs, state, ">
+	<word weight="0.16857142857142857" count="59">decorator</word>
+	<word weight="0.10571428571428572" count="37">visible</word>
+	<word weight="0.08571428571428572" count="30">point</word>
+	<word weight="0.054285714285714284" count="19">layer</word>
+	<word weight="0.045714285714285714" count="16">connectors</word>
+	<word weight="0.04" count="14">location</word>
+	<word weight="0.025714285714285714" count="9">comparator</word>
+	<word weight="0.025714285714285714" count="9">informs</word>
+	<word weight="0.025714285714285714" count="9">connect</word>
+	<word weight="0.022857142857142857" count="8">state</word>
+	<phrase weight="0.12727272727272726" count="7">layer comparator</phrase>
+	<phrase weight="0.03636363636363636" count="2">decorator connect decorator</phrase>
+	<phrase weight="0.03636363636363636" count="2">decorator visible</phrase>
+	<phrase weight="0.03636363636363636" count="2">entries entries</phrase>
+	<phrase weight="0.03636363636363636" count="2">decorator decorator</phrase>
+	<phrase weight="0.03636363636363636" count="2">visible visible</phrase>
+	<phrase weight="0.03636363636363636" count="2">connectors visible visible</phrase>
+	<phrase weight="0.01818181818181818" count="1">visible visible state</phrase>
+	<phrase weight="0.01818181818181818" count="1">operation providing</phrase>
+	<phrase weight="0.01818181818181818" count="1">decrease invocation</phrase>
+  </topic>
+  <topic id="32" alpha="0.020702108440934838" totalTokens="1678" titles="path, node, bezier, mask, set, closed, size, add, control, segment">
+	<word weight="0.33075089392133494" count="555">path</word>
+	<word weight="0.08283671036948749" count="139">node</word>
+	<word weight="0.08224076281287247" count="138">bezier</word>
+	<word weight="0.03814064362336114" count="64">mask</word>
+	<word weight="0.035160905840286055" count="59">set</word>
+	<word weight="0.03396901072705602" count="57">closed</word>
+	<word weight="0.03396901072705602" count="57">size</word>
+	<word weight="0.029797377830750895" count="50">add</word>
+	<word weight="0.028605482717520857" count="48">control</word>
+	<word weight="0.026221692491060787" count="44">segment</word>
+	<phrase weight="0.06040268456375839" count="18">path path</phrase>
+	<phrase weight="0.053691275167785234" count="16">bezier path</phrase>
+	<phrase weight="0.020134228187919462" count="6">add node</phrase>
+	<phrase weight="0.020134228187919462" count="6">path node</phrase>
+	<phrase weight="0.016778523489932886" count="5">general path</phrase>
+	<phrase weight="0.016778523489932886" count="5">bezier path node</phrase>
+	<phrase weight="0.013422818791946308" count="4">path bezier path</phrase>
+	<phrase weight="0.013422818791946308" count="4">split segment</phrase>
+	<phrase weight="0.010067114093959731" count="3">validate path general path</phrase>
+	<phrase weight="0.010067114093959731" count="3">bezier path closed</phrase>
+  </topic>
+  <topic id="33" alpha="0.006592883001498446" totalTokens="368" titles="str, length, stream, stack, encapsulated, output, message, nano, substring, ends">
+	<word weight="0.22010869565217392" count="81">str</word>
+	<word weight="0.09782608695652174" count="36">length</word>
+	<word weight="0.08423913043478261" count="31">stream</word>
+	<word weight="0.07065217391304347" count="26">stack</word>
+	<word weight="0.0625" count="23">encapsulated</word>
+	<word weight="0.057065217391304345" count="21">output</word>
+	<word weight="0.04076086956521739" count="15">message</word>
+	<word weight="0.04076086956521739" count="15">nano</word>
+	<word weight="0.03260869565217391" count="12">substring</word>
+	<word weight="0.029891304347826088" count="11">ends</word>
+	<phrase weight="0.2727272727272727" count="9">str str ends str str substring str length</phrase>
+	<phrase weight="0.09090909090909091" count="3">report params</phrase>
+	<phrase weight="0.06060606060606061" count="2">stack stack</phrase>
+	<phrase weight="0.06060606060606061" count="2">str length str</phrase>
+	<phrase weight="0.06060606060606061" count="2">length str</phrase>
+	<phrase weight="0.030303030303030304" count="1">stack trace stack trace encapsulated nested encapsulated stack trace dumps stack output stream</phrase>
+	<phrase weight="0.030303030303030304" count="1">params appended</phrase>
+	<phrase weight="0.030303030303030304" count="1">stream output stream stack trace stream stream stack trace stream encapsulated stream nested encapsulated stack trace stream dumps stack err stack trace stack trace encapsulated err nested encapsulated stack trace representation</phrase>
+	<phrase weight="0.030303030303030304" count="1">output stream</phrase>
+	<phrase weight="0.030303030303030304" count="1">build message</phrase>
+  </topic>
+  <topic id="34" alpha="0.011983846087787808" totalTokens="1133" titles="icon, descriptor, bean, color, set, image, mono, descriptors, obtained, icons">
+	<word weight="0.22153574580759047" count="251">icon</word>
+	<word weight="0.12797881729920565" count="145">descriptor</word>
+	<word weight="0.1235657546337158" count="140">bean</word>
+	<word weight="0.04060017652250662" count="46">color</word>
+	<word weight="0.03971756398940865" count="45">set</word>
+	<word weight="0.038834951456310676" count="44">image</word>
+	<word weight="0.0353045013239188" count="40">mono</word>
+	<word weight="0.03177405119152692" count="36">descriptors</word>
+	<word weight="0.02824360105913504" count="32">obtained</word>
+	<word weight="0.02471315092674316" count="28">icons</word>
+	<phrase weight="0.10062893081761007" count="16">set descriptor</phrase>
+	<phrase weight="0.050314465408805034" count="8">add customizing</phrase>
+	<phrase weight="0.050314465408805034" count="8">obtained introspection</phrase>
+	<phrase weight="0.03773584905660377" count="6">icon icon</phrase>
+	<phrase weight="0.031446540880503145" count="5">bean descriptor</phrase>
+	<phrase weight="0.025157232704402517" count="4">human's bean</phrase>
+	<phrase weight="0.025157232704402517" count="4">set descriptors describing</phrase>
+	<phrase weight="0.025157232704402517" count="4">bean descriptor describing</phrase>
+	<phrase weight="0.025157232704402517" count="4">introspection descriptor descriptor</phrase>
+	<phrase weight="0.025157232704402517" count="4">analysis bean descriptor bean descriptor</phrase>
+  </topic>
+  <topic id="35" alpha="0.008616348023336403" totalTokens="863" titles="figure, created, prototype, attributes, creation, drawing, entry, pressed, ">
+	<word weight="0.2514484356894554" count="217">figure</word>
+	<word weight="0.18192352259559674" count="157">created</word>
+	<word weight="0.08342989571263036" count="72">prototype</word>
+	<word weight="0.06141367323290846" count="53">attributes</word>
+	<word weight="0.04866743916570104" count="42">creation</word>
+	<word weight="0.04055619930475087" count="35">drawing</word>
+	<word weight="0.028968713789107765" count="25">entry</word>
+	<word weight="0.028968713789107765" count="25">create</word>
+	<word weight="0.026651216685979143" count="23">pressed</word>
+	<word weight="0.02433371958285052" count="21">attribute</word>
+	<phrase weight="0.15037593984962405" count="20">created figure</phrase>
+	<phrase weight="0.045112781954887216" count="6">created figure basic</phrase>
+	<phrase weight="0.03759398496240601" count="5">object entry attributes entry</phrase>
+	<phrase weight="0.03007518796992481" count="4">attribute entry</phrase>
+	<phrase weight="0.03007518796992481" count="4">object attributes</phrase>
+	<phrase weight="0.03007518796992481" count="4">apply attributes attributes map entry attribute</phrase>
+	<phrase weight="0.03007518796992481" count="4">apply attributes</phrase>
+	<phrase weight="0.03007518796992481" count="4">figure prototype</phrase>
+	<phrase weight="0.03007518796992481" count="4">created figure created</phrase>
+	<phrase weight="0.022556390977443608" count="3">instance creation</phrase>
+  </topic>
+  <topic id="36" alpha="0.001303119983419513" totalTokens="713" titles="buf, append, tokenizer, str, current, styles, command, text, inherited, ">
+	<word weight="0.12061711079943899" count="86">buf</word>
+	<word weight="0.11360448807854137" count="81">append</word>
+	<word weight="0.10659186535764376" count="76">tokenizer</word>
+	<word weight="0.10518934081346423" count="75">token</word>
+	<word weight="0.08134642356241234" count="58">str</word>
+	<word weight="0.03927068723702665" count="28">current</word>
+	<word weight="0.03506311360448808" count="25">styles</word>
+	<word weight="0.033660589060308554" count="24">command</word>
+	<word weight="0.02244039270687237" count="16">text</word>
+	<word weight="0.019635343618513323" count="14">inherited</word>
+	<phrase weight="0.08791208791208792" count="8">command token</phrase>
+	<phrase weight="0.08791208791208792" count="8">str ends str str substring str</phrase>
+	<phrase weight="0.07692307692307693" count="7">stream tokenizer</phrase>
+	<phrase weight="0.03296703296703297" count="3">control highlight</phrase>
+	<phrase weight="0.03296703296703297" count="3">buf append buf append</phrase>
+	<phrase weight="0.02197802197802198" count="2">buf append buf append current buf append buf append current buf append buf append</phrase>
+	<phrase weight="0.02197802197802198" count="2">previous current</phrase>
+	<phrase weight="0.02197802197802198" count="2">values inherited</phrase>
+	<phrase weight="0.02197802197802198" count="2">caption text</phrase>
+	<phrase weight="0.02197802197802198" count="2">tokenizer tokenizer</phrase>
+  </topic>
+  <topic id="37" alpha="0.0072346214477799825" totalTokens="434" titles="height, width, insets, length, bounds, left, check, preferred, math, dimension">
+	<word weight="0.18663594470046083" count="81">height</word>
+	<word weight="0.17050691244239632" count="74">width</word>
+	<word weight="0.10138248847926268" count="44">insets</word>
+	<word weight="0.08525345622119816" count="37">length</word>
+	<word weight="0.08294930875576037" count="36">bounds</word>
+	<word weight="0.03686635944700461" count="16">left</word>
+	<word weight="0.029953917050691243" count="13">check</word>
+	<word weight="0.02534562211981567" count="11">preferred</word>
+	<word weight="0.02534562211981567" count="11">math</word>
+	<word weight="0.02304147465437788" count="10">dimension</word>
+	<phrase weight="0.0851063829787234" count="4">bounds width</phrase>
+	<phrase weight="0.06382978723404255" count="3">bounds height</phrase>
+	<phrase weight="0.06382978723404255" count="3">height check</phrase>
+	<phrase weight="0.06382978723404255" count="3">insets left</phrase>
+	<phrase weight="0.0425531914893617" count="2">width check</phrase>
+	<phrase weight="0.0425531914893617" count="2">ceil math</phrase>
+	<phrase weight="0.0425531914893617" count="2">width width height height</phrase>
+	<phrase weight="0.0425531914893617" count="2">width bounds width</phrase>
+	<phrase weight="0.0425531914893617" count="2">insets top</phrase>
+	<phrase weight="0.0425531914893617" count="2">insets height</phrase>
+  </topic>
+  <topic id="38" alpha="0.0012990808331105979" totalTokens="445" titles="prefs, toolbar, window, put, prefix, floating, constraint, handler, ">
+	<word weight="0.18876404494382024" count="84">prefs</word>
+	<word weight="0.0853932584269663" count="38">toolbar</word>
+	<word weight="0.0651685393258427" count="29">bar</word>
+	<word weight="0.0651685393258427" count="29">tool</word>
+	<word weight="0.04943820224719101" count="22">window</word>
+	<word weight="0.04269662921348315" count="19">put</word>
+	<word weight="0.04044943820224719" count="18">prefix</word>
+	<word weight="0.035955056179775284" count="16">floating</word>
+	<word weight="0.033707865168539325" count="15">constraint</word>
+	<word weight="0.033707865168539325" count="15">handler</word>
+	<phrase weight="0.19230769230769232" count="5">prefs put</phrase>
+	<phrase weight="0.038461538461538464" count="1">work tool bar i's don't extend basic tool bar</phrase>
+	<phrase weight="0.038461538461538464" count="1">frame prefs handler</phrase>
+	<phrase weight="0.038461538461538464" count="1">prefs prefs prefix floating prefs prefs prefix floating window utilities window ancestor toolbar window</phrase>
+	<phrase weight="0.038461538461538464" count="1">moved component</phrase>
+	<phrase weight="0.038461538461538464" count="1">listener component</phrase>
+	<phrase weight="0.038461538461538464" count="1">toolbar orientation tool bar border layout border layout constraint toolbar orientation tool bar border layout border layout prefs put prefs prefix constraint constraint toolbar parent toolbar toolbar insets insets toolbar parent insets constraint insets</phrase>
+	<phrase weight="0.038461538461538464" count="1">prefs plaf basic tool bar prefs handler</phrase>
+	<phrase weight="0.038461538461538464" count="1">visible prefs prefs prefix visible prefs prefs prefix floating make tool bar toolbar add component listener toolbar add ancestor listener work make tool bar basic tool bar basic tool bar toolbar window window utilities window ancestor toolbar window ancestor window frame window frame</phrase>
+	<phrase weight="0.038461538461538464" count="1">prefs internal frame</phrase>
+  </topic>
+  <topic id="39" alpha="0.009284767265399764" totalTokens="363" titles="buf, append, result, length, empty, tag, substring, state, builder, construction">
+	<word weight="0.2396694214876033" count="87">buf</word>
+	<word weight="0.16804407713498623" count="61">append</word>
+	<word weight="0.15977961432506887" count="58">result</word>
+	<word weight="0.11294765840220386" count="41">length</word>
+	<word weight="0.05785123966942149" count="21">empty</word>
+	<word weight="0.04132231404958678" count="15">tag</word>
+	<word weight="0.03581267217630854" count="13">substring</word>
+	<word weight="0.03581267217630854" count="13">state</word>
+	<word weight="0.030303030303030304" count="11">builder</word>
+	<word weight="0.013774104683195593" count="5">construction</word>
+	<phrase weight="0.21052631578947367" count="8">buf append</phrase>
+	<phrase weight="0.13157894736842105" count="5">result append</phrase>
+	<phrase weight="0.10526315789473684" count="4">buf append buf append</phrase>
+	<phrase weight="0.07894736842105263" count="3">buf buf</phrase>
+	<phrase weight="0.05263157894736842" count="2">result result</phrase>
+	<phrase weight="0.02631578947368421" count="1">square brackets</phrase>
+	<phrase weight="0.02631578947368421" count="1">builder buf</phrase>
+	<phrase weight="0.02631578947368421" count="1">buf length</phrase>
+	<phrase weight="0.02631578947368421" count="1">title title title</phrase>
+	<phrase weight="0.02631578947368421" count="1">buf builder</phrase>
+  </topic>
+  <topic id="40" alpha="0.01123808397267481" totalTokens="492" titles="line, path, radius, decoration, stroked, filled, attribute, general, solid, outer">
+	<word weight="0.16869918699186992" count="83">line</word>
+	<word weight="0.1565040650406504" count="77">path</word>
+	<word weight="0.10365853658536585" count="51">radius</word>
+	<word weight="0.08943089430894309" count="44">decoration</word>
+	<word weight="0.06097560975609756" count="30">stroked</word>
+	<word weight="0.046747967479674794" count="23">filled</word>
+	<word weight="0.04065040650406504" count="20">attribute</word>
+	<word weight="0.036585365853658534" count="18">general</word>
+	<word weight="0.034552845528455285" count="17">solid</word>
+	<word weight="0.032520325203252036" count="16">outer</word>
+	<phrase weight="0.08955223880597014" count="6">line decoration</phrase>
+	<phrase weight="0.029850746268656716" count="2">radius line</phrase>
+	<phrase weight="0.029850746268656716" count="2">outer radius</phrase>
+	<phrase weight="0.029850746268656716" count="2">radius decoration radius line</phrase>
+	<phrase weight="0.014925373134328358" count="1">poly line decoration</phrase>
+	<phrase weight="0.014925373134328358" count="1">solid solid hook calculates path decorator general path decorator path</phrase>
+	<phrase weight="0.014925373134328358" count="1">arrow tip arrow tip angle outer radius radius filled stroked solid filled stroked solid angle angle outer radius outer radius radius radius general path decorator path</phrase>
+	<phrase weight="0.014925373134328358" count="1">arrow tip</phrase>
+	<phrase weight="0.014925373134328358" count="1">decoration radius</phrase>
+	<phrase weight="0.014925373134328358" count="1">attribute stroked stroked</phrase>
+  </topic>
+  <topic id="41" alpha="0.001956736106610488" totalTokens="546" titles="math, rectangle, line, code, coords, direction, width, abs, outcode, ">
+	<word weight="0.10622710622710622" count="58">math</word>
+	<word weight="0.08974358974358974" count="49">rectangle</word>
+	<word weight="0.08608058608058608" count="47">line</word>
+	<word weight="0.0695970695970696" count="38">code</word>
+	<word weight="0.0641025641025641" count="35">angle</word>
+	<word weight="0.029304029304029304" count="16">coords</word>
+	<word weight="0.029304029304029304" count="16">direction</word>
+	<word weight="0.029304029304029304" count="16">width</word>
+	<word weight="0.029304029304029304" count="16">abs</word>
+	<word weight="0.023809523809523808" count="13">outcode</word>
+	<phrase weight="0.04597701149425287" count="4">math atan</phrase>
+	<phrase weight="0.034482758620689655" count="3">denom snum snum denom</phrase>
+	<phrase weight="0.034482758620689655" count="3">http vision dai uk/andrewfg/c faq html lines eqn eqn denom rnum denom parallel rnum</phrase>
+	<phrase weight="0.034482758620689655" count="3">math abs</phrase>
+	<phrase weight="0.022988505747126436" count="2">rectangle angle math sin angle math cos angle math abs math abs width range</phrase>
+	<phrase weight="0.022988505747126436" count="2">converts polar</phrase>
+	<phrase weight="0.022988505747126436" count="2">math math abs math abs</phrase>
+	<phrase weight="0.022988505747126436" count="2">rectangle angle</phrase>
+	<phrase weight="0.022988505747126436" count="2">math sqrt</phrase>
+	<phrase weight="0.022988505747126436" count="2">rectangle rectangle</phrase>
+  </topic>
+  <topic id="42" alpha="0.004651450934531333" totalTokens="386" titles="group, view, add, drawing, ungroup, composite, linked, list, remove, children">
+	<word weight="0.21243523316062177" count="82">group</word>
+	<word weight="0.17357512953367876" count="67">view</word>
+	<word weight="0.07512953367875648" count="29">add</word>
+	<word weight="0.06217616580310881" count="24">drawing</word>
+	<word weight="0.054404145077720206" count="21">ungroup</word>
+	<word weight="0.05181347150259067" count="20">composite</word>
+	<word weight="0.04145077720207254" count="16">linked</word>
+	<word weight="0.04145077720207254" count="16">list</word>
+	<word weight="0.03626943005181347" count="14">remove</word>
+	<word weight="0.03626943005181347" count="14">children</word>
+	<phrase weight="0.0975609756097561" count="8">linked list</phrase>
+	<phrase weight="0.06097560975609756" count="5">drawing view view composite</phrase>
+	<phrase weight="0.04878048780487805" count="4">group children view clear</phrase>
+	<phrase weight="0.04878048780487805" count="4">view clear</phrase>
+	<phrase weight="0.036585365853658534" count="3">view group ungrouped</phrase>
+	<phrase weight="0.024390243902439025" count="2">paths add</phrase>
+	<phrase weight="0.024390243902439025" count="2">figure ungroup</phrase>
+	<phrase weight="0.024390243902439025" count="2">view drawing add group group</phrase>
+	<phrase weight="0.024390243902439025" count="2">paths linked list</phrase>
+	<phrase weight="0.024390243902439025" count="2">children group</phrase>
+  </topic>
+  <topic id="43" alpha="0.015028926405000833" totalTokens="1287" titles="add, labels, attributes, draw, bundle, drawing, resource, keys, samples, ">
+	<word weight="0.11888111888111888" count="153">add</word>
+	<word weight="0.10101010101010101" count="130">labels</word>
+	<word weight="0.09168609168609168" count="118">attributes</word>
+	<word weight="0.08391608391608392" count="108">draw</word>
+	<word weight="0.06837606837606838" count="88">bundle</word>
+	<word weight="0.0644910644910645" count="83">attribute</word>
+	<word weight="0.052059052059052056" count="67">drawing</word>
+	<word weight="0.045066045066045064" count="58">resource</word>
+	<word weight="0.042735042735042736" count="55">keys</word>
+	<word weight="0.03341103341103341" count="43">samples</word>
+	<phrase weight="0.07446808510638298" count="14">object attributes</phrase>
+	<phrase weight="0.05319148936170213" count="10">attribute keys color</phrase>
+	<phrase weight="0.03723404255319149" count="7">hash map attribute</phrase>
+	<phrase weight="0.031914893617021274" count="6">attribute keys</phrase>
+	<phrase weight="0.031914893617021274" count="6">attribute keys color black</phrase>
+	<phrase weight="0.031914893617021274" count="6">attribute keys color black attributes</phrase>
+	<phrase weight="0.026595744680851064" count="5">figure attributes</phrase>
+	<phrase weight="0.02127659574468085" count="4">labels attributes</phrase>
+	<phrase weight="0.02127659574468085" count="4">keys entitie</phrase>
+	<phrase weight="0.015957446808510637" count="3">arrow tip arrow tip</phrase>
+  </topic>
+  <topic id="44" alpha="0.038689105039214286" totalTokens="1399" titles="rectangle bounds, set, point, width, height, anchor, size, math, dimension, ">
+	<word weight="0.3988563259471051" count="558">bounds</word>
+	<word weight="0.12866333095067906" count="180">rectangle</word>
+	<word weight="0.0814867762687634" count="114">point</word>
+	<word weight="0.0814867762687634" count="114">set</word>
+	<word weight="0.0736240171551108" count="103">width</word>
+	<word weight="0.0636168691922802" count="89">height</word>
+	<word weight="0.04932094353109364" count="69">anchor</word>
+	<word weight="0.031451036454610434" count="44">size</word>
+	<word weight="0.021443888491779844" count="30">dimension</word>
+	<word weight="0.021443888491779844" count="30">math</word>
+	<phrase weight="0.11214953271028037" count="24">rectangle bounds</phrase>
+	<phrase weight="0.06542056074766354" count="14">bounds bounds</phrase>
+	<phrase weight="0.04672897196261682" count="10">bounds width</phrase>
+	<phrase weight="0.04205607476635514" count="9">bounds bounds bounds</phrase>
+	<phrase weight="0.037383177570093455" count="8">set bounds</phrase>
+	<phrase weight="0.03271028037383177" count="7">bounds height</phrase>
+	<phrase weight="0.028037383177570093" count="6">width height</phrase>
+	<phrase weight="0.028037383177570093" count="6">anchor anchor</phrase>
+	<phrase weight="0.028037383177570093" count="6">bounds set bounds</phrase>
+	<phrase weight="0.02336448598130841" count="5">preferred size</phrase>
+  </topic>
+  <topic id="45" alpha="0.04532763065330633" totalTokens="1177" titles="undoable edit, happened, fire, composite, change, add, support, geom, ">
+	<word weight="0.45029736618521665" count="530">edit</word>
+	<word weight="0.13848768054375532" count="163">undoable</word>
+	<word weight="0.08156329651656755" count="96">happened</word>
+	<word weight="0.07561597281223449" count="89">fire</word>
+	<word weight="0.06542056074766354" count="77">composite</word>
+	<word weight="0.05437553101104503" count="64">undo</word>
+	<word weight="0.048428207306711976" count="57">change</word>
+	<word weight="0.02463891248937978" count="29">add</word>
+	<word weight="0.01784197111299915" count="21">support</word>
+	<word weight="0.010195412064570943" count="12">geom</word>
+	<phrase weight="0.1256544502617801" count="24">undoable edit</phrase>
+	<phrase weight="0.10471204188481675" count="20">undoable edit happened</phrase>
+	<phrase weight="0.08900523560209424" count="17">fire undoable edit happened</phrase>
+	<phrase weight="0.05759162303664921" count="11">edit edit</phrase>
+	<phrase weight="0.04712041884816754" count="9">edit happened</phrase>
+	<phrase weight="0.041884816753926704" count="8">fire undoable edit happened edit</phrase>
+	<phrase weight="0.041884816753926704" count="8">undoable edit happened edit</phrase>
+	<phrase weight="0.03664921465968586" count="7">composite edit edit</phrase>
+	<phrase weight="0.031413612565445025" count="6">edit edit composite edit</phrase>
+	<phrase weight="0.031413612565445025" count="6">edit undoable edit</phrase>
+  </topic>
+  <topic id="46" alpha="0.004574938624764926" totalTokens="478" titles="selection, figure, drawing, figures, selected, point, coordinates, rectangle, find, clear">
+	<word weight="0.20502092050209206" count="98">selection</word>
+	<word weight="0.200836820083682" count="96">figure</word>
+	<word weight="0.1401673640167364" count="67">drawing</word>
+	<word weight="0.08577405857740586" count="41">figures</word>
+	<word weight="0.06485355648535565" count="31">selected</word>
+	<word weight="0.04184100418410042" count="20">point</word>
+	<word weight="0.0397489539748954" count="19">coordinates</word>
+	<word weight="0.029288702928870293" count="14">rectangle</word>
+	<word weight="0.029288702928870293" count="14">find</word>
+	<word weight="0.027196652719665274" count="13">clear</word>
+	<phrase weight="0.12643678160919541" count="11">figure selection</phrase>
+	<phrase weight="0.05747126436781609" count="5">selected figures</phrase>
+	<phrase weight="0.04597701149425287" count="4">clear selection</phrase>
+	<phrase weight="0.04597701149425287" count="4">figure figure</phrase>
+	<phrase weight="0.034482758620689655" count="3">figure selected figures</phrase>
+	<phrase weight="0.034482758620689655" count="3">coordinates return</phrase>
+	<phrase weight="0.022988505747126436" count="2">figure count</phrase>
+	<phrase weight="0.022988505747126436" count="2">figure find figures rectangle</phrase>
+	<phrase weight="0.022988505747126436" count="2">drawing drawing</phrase>
+	<phrase weight="0.022988505747126436" count="2">factor drawing</phrase>
+  </topic>
+  <topic id="47" alpha="0.007215188123850591" totalTokens="675" titles="recent, project, files, model, prefs, clear, init, count, projects, configure">
+	<word weight="0.17629629629629628" count="119">recent</word>
+	<word weight="0.1348148148148148" count="91">project</word>
+	<word weight="0.0962962962962963" count="65">files</word>
+	<word weight="0.09481481481481481" count="64">model</word>
+	<word weight="0.05333333333333334" count="36">prefs</word>
+	<word weight="0.05037037037037037" count="34">clear</word>
+	<word weight="0.04888888888888889" count="33">init</word>
+	<word weight="0.035555555555555556" count="24">count</word>
+	<word weight="0.03259259259259259" count="22">projects</word>
+	<word weight="0.03111111111111111" count="21">configure</word>
+	<phrase weight="0.16129032258064516" count="15">recent files</phrase>
+	<phrase weight="0.0967741935483871" count="9">clear recent files</phrase>
+	<phrase weight="0.043010752688172046" count="4">prefs project</phrase>
+	<phrase weight="0.03225806451612903" count="3">file recent files</phrase>
+	<phrase weight="0.03225806451612903" count="3">hide project</phrase>
+	<phrase weight="0.03225806451612903" count="3">remove recent files</phrase>
+	<phrase weight="0.021505376344086023" count="2">size dimension</phrase>
+	<phrase weight="0.021505376344086023" count="2">list recent files</phrase>
+	<phrase weight="0.021505376344086023" count="2">recent files size</phrase>
+	<phrase weight="0.021505376344086023" count="2">project project</phrase>
+  </topic>
+  <topic id="48" alpha="0.0402355743428784" totalTokens="650" titles="linked list, add, unmodifiable, size, hash, reversed, clone, don't, apply, ">
+	<word weight="0.46923076923076923" count="305">list</word>
+	<word weight="0.18923076923076923" count="123">linked</word>
+	<word weight="0.13692307692307693" count="89">add</word>
+	<word weight="0.036923076923076927" count="24">unmodifiable</word>
+	<word weight="0.03230769230769231" count="21">size</word>
+	<word weight="0.02923076923076923" count="19">hash</word>
+	<word weight="0.018461538461538463" count="12">reversed</word>
+	<word weight="0.016923076923076923" count="11">clone</word>
+	<word weight="0.009230769230769232" count="6">don't</word>
+	<word weight="0.007692307692307693" count="5">apply</word>
+	<phrase weight="0.6219512195121951" count="51">linked list</phrase>
+	<phrase weight="0.07317073170731707" count="6">list linked list</phrase>
+	<phrase weight="0.06097560975609756" count="5">reversed list</phrase>
+	<phrase weight="0.036585365853658534" count="3">arrays list</phrase>
+	<phrase weight="0.036585365853658534" count="3">unmodifiable list</phrase>
+	<phrase weight="0.024390243902439025" count="2">list list</phrase>
+	<phrase weight="0.024390243902439025" count="2">list add</phrase>
+	<phrase weight="0.012195121951219513" count="1">unmodifiable list unmodifiable list</phrase>
+	<phrase weight="0.012195121951219513" count="1">list add list list</phrase>
+	<phrase weight="0.012195121951219513" count="1">reversed list list list</phrase>
+  </topic>
+  <topic id="49" alpha="0.007862431659673924" totalTokens="560" titles="figure, pert, task, set, dependency, text, duration, start, time, compartment">
+	<word weight="0.2732142857142857" count="153">figure</word>
+	<word weight="0.11071428571428571" count="62">pert</word>
+	<word weight="0.10178571428571428" count="57">task</word>
+	<word weight="0.07142857142857142" count="40">set</word>
+	<word weight="0.05714285714285714" count="32">dependency</word>
+	<word weight="0.05178571428571429" count="29">text</word>
+	<word weight="0.044642857142857144" count="25">duration</word>
+	<word weight="0.04107142857142857" count="23">start</word>
+	<word weight="0.0375" count="21">time</word>
+	<word weight="0.026785714285714284" count="15">compartment</word>
+	<phrase weight="0.10344827586206896" count="9">task figure</phrase>
+	<phrase weight="0.034482758620689655" count="3">task figure task figure</phrase>
+	<phrase weight="0.034482758620689655" count="3">figure compartment</phrase>
+	<phrase weight="0.022988505747126436" count="2">set dependency figure figure</phrase>
+	<phrase weight="0.022988505747126436" count="2">pert diagram</phrase>
+	<phrase weight="0.022988505747126436" count="2">directly connected pert dependency task figure</phrase>
+	<phrase weight="0.022988505747126436" count="2">pert figures</phrase>
+	<phrase weight="0.022988505747126436" count="2">dependency dependency figure dependencies</phrase>
+	<phrase weight="0.011494252873563218" count="1">dependency figure juni</phrase>
+	<phrase weight="0.011494252873563218" count="1">time adapter</phrase>
+  </topic>
+  <topic id="50" alpha="0.003284143394182181" totalTokens="793" titles="corners, current, prev, coords, line, intersect, size, iterator, left, outline">
+	<word weight="0.13997477931904162" count="111">corners</word>
+	<word weight="0.13493064312736444" count="107">current</word>
+	<word weight="0.10970996216897856" count="87">prev</word>
+	<word weight="0.09962168978562422" count="79">coords</word>
+	<word weight="0.0605296343001261" count="48">line</word>
+	<word weight="0.05296343001261034" count="42">intersect</word>
+	<word weight="0.03909205548549811" count="31">size</word>
+	<word weight="0.03656998738965952" count="29">iterator</word>
+	<word weight="0.031525851197982346" count="25">left</word>
+	<word weight="0.025220680958385876" count="20">outline</word>
+	<phrase weight="0.04938271604938271" count="4">coords prev coords prev coords current</phrase>
+	<phrase weight="0.024691358024691357" count="2">pos seg</phrase>
+	<phrase weight="0.024691358024691357" count="2">coords pos seg</phrase>
+	<phrase weight="0.024691358024691357" count="2">prev coords prev coords</phrase>
+	<phrase weight="0.024691358024691357" count="2">iterator curve coords coords coords coords coords coords</phrase>
+	<phrase weight="0.024691358024691357" count="2">iterator coords size coords size line coords coords</phrase>
+	<phrase weight="0.024691358024691357" count="2">iterator quad coords coords coords coords</phrase>
+	<phrase weight="0.024691358024691357" count="2">coords flattened</phrase>
+	<phrase weight="0.024691358024691357" count="2">tmp intersect</phrase>
+	<phrase weight="0.024691358024691357" count="2">left general</phrase>
+  </topic>
+  <topic id="51" alpha="0.021020502245449556" totalTokens="376" titles="enabled state, update, handler, override, disabled, acts, updates, ">
+	<word weight="0.4787234042553192" count="180">enabled</word>
+	<word weight="0.14361702127659576" count="54">state</word>
+	<word weight="0.0797872340425532" count="30">update</word>
+	<word weight="0.07712765957446809" count="29">handler</word>
+	<word weight="0.0425531914893617" count="16">override</word>
+	<word weight="0.018617021276595744" count="7">disabled</word>
+	<word weight="0.015957446808510637" count="6">disable</word>
+	<word weight="0.015957446808510637" count="6">acts</word>
+	<word weight="0.013297872340425532" count="5">act</word>
+	<word weight="0.013297872340425532" count="5">updates</word>
+	<phrase weight="0.34375" count="22">enabled state</phrase>
+	<phrase weight="0.109375" count="7">update enabled state</phrase>
+	<phrase weight="0.078125" count="5">enabled enabled state</phrase>
+	<phrase weight="0.0625" count="4">enabled enabled</phrase>
+	<phrase weight="0.03125" count="2">enabled enabled enabled</phrase>
+	<phrase weight="0.03125" count="2">disable action#set enabled override</phrase>
+	<phrase weight="0.03125" count="2">depends state</phrase>
+	<phrase weight="0.03125" count="2">enabled disable</phrase>
+	<phrase weight="0.03125" count="2">depending enabled state</phrase>
+	<phrase weight="0.03125" count="2">enabled override enabled</phrase>
+  </topic>
+  <topic id="52" alpha="0.013944233134643748" totalTokens="362" titles="attributes, svg, samples, july, equals, dimension, ignore, elements, figure, group">
+	<word weight="0.10220994475138122" count="37">attributes</word>
+	<word weight="0.09116022099447514" count="33">svg</word>
+	<word weight="0.08011049723756906" count="29">samples</word>
+	<word weight="0.06077348066298342" count="22">july</word>
+	<word weight="0.06077348066298342" count="22">equals</word>
+	<word weight="0.04419889502762431" count="16">dimension</word>
+	<word weight="0.04419889502762431" count="16">ignore</word>
+	<word weight="0.04419889502762431" count="16">elements</word>
+	<word weight="0.04143646408839779" count="15">figure</word>
+	<word weight="0.04143646408839779" count="15">group</word>
+	<phrase weight="0.09836065573770492" count="6">samples svg</phrase>
+	<phrase weight="0.09836065573770492" count="6">svg figures</phrase>
+	<phrase weight="0.04918032786885246" count="3">samples svg figures</phrase>
+	<phrase weight="0.04918032786885246" count="3">dimension dimension</phrase>
+	<phrase weight="0.03278688524590164" count="2">figures basic</phrase>
+	<phrase weight="0.03278688524590164" count="2">title title</phrase>
+	<phrase weight="0.03278688524590164" count="2">equals ignore elements</phrase>
+	<phrase weight="0.01639344262295082" count="1">gradient elements</phrase>
+	<phrase weight="0.01639344262295082" count="1">title title title</phrase>
+	<phrase weight="0.01639344262295082" count="1">equals filter ignore filter elements</phrase>
+  </topic>
+  <topic id="53" alpha="0.01282796290233121" totalTokens="704" titles="current, document, open, stack, parent, close, values, push, style, opens">
+	<word weight="0.4431818181818182" count="312">current</word>
+	<word weight="0.19460227272727273" count="137">document</word>
+	<word weight="0.061079545454545456" count="43">open</word>
+	<word weight="0.03835227272727273" count="27">stack</word>
+	<word weight="0.03125" count="22">parent</word>
+	<word weight="0.028409090909090908" count="20">close</word>
+	<word weight="0.02556818181818182" count="18">values</word>
+	<word weight="0.024147727272727272" count="17">push</word>
+	<word weight="0.02130681818181818" count="15">style</word>
+	<word weight="0.02130681818181818" count="15">opens</word>
+	<phrase weight="0.12903225806451613" count="8">document current</phrase>
+	<phrase weight="0.12903225806451613" count="8">document parent current</phrase>
+	<phrase weight="0.08064516129032258" count="5">marshalled reference</phrase>
+	<phrase weight="0.06451612903225806" count="4">push current current</phrase>
+	<phrase weight="0.06451612903225806" count="4">document parent</phrase>
+	<phrase weight="0.04838709677419355" count="3">stack pop</phrase>
+	<phrase weight="0.04838709677419355" count="3">style style</phrase>
+	<phrase weight="0.04838709677419355" count="3">document document</phrase>
+	<phrase weight="0.04838709677419355" count="3">stack stack</phrase>
+	<phrase weight="0.04838709677419355" count="3">stack push current</phrase>
+  </topic>
+  <topic id="54" alpha="0.02549220489778346" totalTokens="480" titles="transform, affine, translate, version, identity, precision, concatenate, rotate, display, received">
+	<word weight="0.5729166666666666" count="275">transform</word>
+	<word weight="0.21875" count="105">affine</word>
+	<word weight="0.07708333333333334" count="37">translate</word>
+	<word weight="0.01875" count="9">version</word>
+	<word weight="0.016666666666666666" count="8">identity</word>
+	<word weight="0.016666666666666666" count="8">precision</word>
+	<word weight="0.0125" count="6">concatenate</word>
+	<word weight="0.010416666666666666" count="5">rotate</word>
+	<word weight="0.010416666666666666" count="5">display</word>
+	<word weight="0.00625" count="3">received</word>
+	<phrase weight="0.19480519480519481" count="15">affine transform</phrase>
+	<phrase weight="0.16883116883116883" count="13">transform affine transform translate</phrase>
+	<phrase weight="0.16883116883116883" count="13">transform affine transform</phrase>
+	<phrase weight="0.07792207792207792" count="6">affine transform affine transform translate</phrase>
+	<phrase weight="0.06493506493506493" count="5">affine transform transform transform</phrase>
+	<phrase weight="0.05194805194805195" count="4">transform affine transform translate transform</phrase>
+	<phrase weight="0.05194805194805195" count="4">transform transform</phrase>
+	<phrase weight="0.03896103896103896" count="3">affine transform transform</phrase>
+	<phrase weight="0.025974025974025976" count="2">identity translate</phrase>
+	<phrase weight="0.025974025974025976" count="2">identity transform translate</phrase>
+  </topic>
+  <topic id="55" alpha="0.007280358373691284" totalTokens="346" titles="evt, tracker, handle, pressed, released, band, rubber, multicaster, select, typed">
+	<word weight="0.23410404624277456" count="81">evt</word>
+	<word weight="0.21098265895953758" count="73">tracker</word>
+	<word weight="0.09248554913294797" count="32">handle</word>
+	<word weight="0.08959537572254335" count="31">pressed</word>
+	<word weight="0.05491329479768786" count="19">released</word>
+	<word weight="0.049132947976878616" count="17">band</word>
+	<word weight="0.049132947976878616" count="17">rubber</word>
+	<word weight="0.049132947976878616" count="17">multicaster</word>
+	<word weight="0.028901734104046242" count="10">select</word>
+	<word weight="0.023121387283236993" count="8">typed</word>
+	<phrase weight="0.06666666666666667" count="4">evt tracker</phrase>
+	<phrase weight="0.06666666666666667" count="4">evt multicaster</phrase>
+	<phrase weight="0.06666666666666667" count="4">evt evt</phrase>
+	<phrase weight="0.06666666666666667" count="4">rubber band</phrase>
+	<phrase weight="0.05" count="3">pressed evt</phrase>
+	<phrase weight="0.05" count="3">tracker tracker tracker</phrase>
+	<phrase weight="0.05" count="3">released evt</phrase>
+	<phrase weight="0.03333333333333333" count="2">tracker select</phrase>
+	<phrase weight="0.03333333333333333" count="2">typed evt</phrase>
+	<phrase weight="0.03333333333333333" count="2">handle tracker</phrase>
+  </topic>
+  <topic id="56" alpha="0.010089371371359752" totalTokens="1469" titles="tool bar, editor, button, factory, create, buttons, creation, shared, actions, ">
+	<word weight="0.2586793737236215" count="380">tool</word>
+	<word weight="0.18584070796460178" count="273">editor</word>
+	<word weight="0.14023144996596323" count="206">bar</word>
+	<word weight="0.06126616746085772" count="90">button</word>
+	<word weight="0.059904697072838665" count="88">factory</word>
+	<word weight="0.04288631722260041" count="63">create</word>
+	<word weight="0.035398230088495575" count="52">buttons</word>
+	<word weight="0.02654867256637168" count="39">creation</word>
+	<word weight="0.021783526208304968" count="32">shared</word>
+	<word weight="0.01906058543226685" count="28">actions</word>
+	<phrase weight="0.1296928327645051" count="38">tool bar</phrase>
+	<phrase weight="0.06825938566552901" count="20">bar button factory</phrase>
+	<phrase weight="0.06143344709897611" count="18">tool bar button factory</phrase>
+	<phrase weight="0.051194539249146756" count="15">tool editor</phrase>
+	<phrase weight="0.040955631399317405" count="12">editor editor</phrase>
+	<phrase weight="0.034129692832764506" count="10">editor shared editor</phrase>
+	<phrase weight="0.023890784982935155" count="7">tool editor creation tool</phrase>
+	<phrase weight="0.017064846416382253" count="5">bar title</phrase>
+	<phrase weight="0.017064846416382253" count="5">creation buttons tool bar</phrase>
+	<phrase weight="0.017064846416382253" count="5">create text</phrase>
+  </topic>
+  <topic id="57" alpha="0.023578167933351553" totalTokens="1337" titles="point, handle, view, anchor, track, modifiers, rectangle, location, drawing, ">
+	<word weight="0.18997756170531038" count="254">point</word>
+	<word weight="0.1323859386686612" count="177">handle</word>
+	<word weight="0.09199700822737472" count="123">view</word>
+	<word weight="0.07255048616305161" count="97">anchor</word>
+	<word weight="0.053103964098728494" count="71">track</word>
+	<word weight="0.04786836200448766" count="64">modifiers</word>
+	<word weight="0.04038893044128646" count="54">rectangle</word>
+	<word weight="0.04038893044128646" count="54">location</word>
+	<word weight="0.03590127150336574" count="48">drawing</word>
+	<word weight="0.033657442034405384" count="45">draw</word>
+	<phrase weight="0.03488372093023256" count="6">handle handle</phrase>
+	<phrase weight="0.01744186046511628" count="3">view constrainer constrain</phrase>
+	<phrase weight="0.01744186046511628" count="3">view view</phrase>
+	<phrase weight="0.01744186046511628" count="3">location point</phrase>
+	<phrase weight="0.01744186046511628" count="3">point anchor</phrase>
+	<phrase weight="0.01744186046511628" count="3">drawing view</phrase>
+	<phrase weight="0.01744186046511628" count="3">point location</phrase>
+	<phrase weight="0.01744186046511628" count="3">point anchor point</phrase>
+	<phrase weight="0.011627906976744186" count="2">point anchor modifiers</phrase>
+	<phrase weight="0.011627906976744186" count="2">view drawing view point</phrase>
+  </topic>
+  <topic id="58" alpha="0.0019425383160546106" totalTokens="409" titles="point, relative, segment, label, position, distance, points, length, angle, ">
+	<word weight="0.2200488997555012" count="90">point</word>
+	<word weight="0.097799511002445" count="40">relative</word>
+	<word weight="0.06601466992665037" count="27">segment</word>
+	<word weight="0.061124694376528114" count="25">seg</word>
+	<word weight="0.061124694376528114" count="25">label</word>
+	<word weight="0.061124694376528114" count="25">position</word>
+	<word weight="0.0488997555012225" count="20">distance</word>
+	<word weight="0.044009779951100246" count="18">points</word>
+	<word weight="0.039119804400977995" count="16">length</word>
+	<word weight="0.034229828850855744" count="14">angle</word>
+	<phrase weight="0.16981132075471697" count="9">label dim</phrase>
+	<phrase weight="0.03773584905660377" count="2">point label dim</phrase>
+	<phrase weight="0.03773584905660377" count="2">relative point</phrase>
+	<phrase weight="0.03773584905660377" count="2">label dim label preferred</phrase>
+	<phrase weight="0.018867924528301886" count="1">label determine</phrase>
+	<phrase weight="0.018867924528301886" count="1">point count point points</phrase>
+	<phrase weight="0.018867924528301886" count="1">segment dir math atan points segment</phrase>
+	<phrase weight="0.018867924528301886" count="1">relative positions polyline</phrase>
+	<phrase weight="0.018867924528301886" count="1">polyline position chosen suitable labeling polyline preferred</phrase>
+	<phrase weight="0.018867924528301886" count="1">point point owner point</phrase>
+  </topic>
+  <topic id="59" alpha="0.008768656630018216" totalTokens="1133" titles="undo, scroll, layout, init, panel, border, put, action, variables, components">
+	<word weight="0.10503089143865843" count="119">undo</word>
+	<word weight="0.07149161518093557" count="81">scroll</word>
+	<word weight="0.05736981465136805" count="65">layout</word>
+	<word weight="0.05472197705207414" count="62">init</word>
+	<word weight="0.04854368932038835" count="55">panel</word>
+	<word weight="0.0441306266548985" count="50">border</word>
+	<word weight="0.03971756398940865" count="45">put</word>
+	<word weight="0.037069726390114736" count="42">action</word>
+	<word weight="0.03618711385701677" count="41">variables</word>
+	<word weight="0.03618711385701677" count="41">components</word>
+	<phrase weight="0.08441558441558442" count="13">border layout</phrase>
+	<phrase weight="0.05194805194805195" count="8">undo redo manager</phrase>
+	<phrase weight="0.045454545454545456" count="7">discard edits</phrase>
+	<phrase weight="0.045454545454545456" count="7">manager font</phrase>
+	<phrase weight="0.03896103896103896" count="6">called constructor initialize form modify content regenerated form</phrase>
+	<phrase weight="0.03896103896103896" count="6">border layout scroll</phrase>
+	<phrase weight="0.032467532467532464" count="5">panel panel border layout</phrase>
+	<phrase weight="0.032467532467532464" count="5">undo manager</phrase>
+	<phrase weight="0.025974025974025976" count="4">listener undo</phrase>
+	<phrase weight="0.025974025974025976" count="4">panel scroll</phrase>
+  </topic>
+  <topic id="60" alpha="0.0032597577820834174" totalTokens="344" titles="quad, rectangle, bounds, find, result, tree, intersects, double, node, root">
+	<word weight="0.1308139534883721" count="45">quad</word>
+	<word weight="0.11918604651162791" count="41">rectangle</word>
+	<word weight="0.11918604651162791" count="41">bounds</word>
+	<word weight="0.10174418604651163" count="35">find</word>
+	<word weight="0.09883720930232558" count="34">result</word>
+	<word weight="0.0872093023255814" count="30">tree</word>
+	<word weight="0.06686046511627906" count="23">intersects</word>
+	<word weight="0.05232558139534884" count="18">double</word>
+	<word weight="0.0436046511627907" count="15">node</word>
+	<word weight="0.0436046511627907" count="15">root</word>
+	<phrase weight="0.16455696202531644" count="13">quad tree</phrase>
+	<phrase weight="0.10126582278481013" count="8">rectangle double</phrase>
+	<phrase weight="0.05063291139240506" count="4">intersects bounds</phrase>
+	<phrase weight="0.05063291139240506" count="4">quad node</phrase>
+	<phrase weight="0.0379746835443038" count="3">find intersects result</phrase>
+	<phrase weight="0.0379746835443038" count="3">intersects result</phrase>
+	<phrase weight="0.02531645569620253" count="2">node rectangle bounds</phrase>
+	<phrase weight="0.02531645569620253" count="2">find inside result</phrase>
+	<phrase weight="0.02531645569620253" count="2">quad tree double</phrase>
+	<phrase weight="0.02531645569620253" count="2">tree bounds</phrase>
+  </topic>
+  <topic id="61" alpha="0.006003195280273888" totalTokens="2076" titles="drawing, set, applet, data, result, text, parameter, nano, domi, ">
+	<word weight="0.06599229287090559" count="137">drawing</word>
+	<word weight="0.055876685934489405" count="116">set</word>
+	<word weight="0.04865125240847784" count="101">applet</word>
+	<word weight="0.04383429672447013" count="91">data</word>
+	<word weight="0.041425818882466284" count="86">result</word>
+	<word weight="0.03901734104046243" count="81">text</word>
+	<word weight="0.029865125240847785" count="62">parameter</word>
+	<word weight="0.02697495183044316" count="56">draw</word>
+	<word weight="0.026493256262042388" count="55">nano</word>
+	<word weight="0.025048169556840076" count="52">domi</word>
+	<phrase weight="0.051587301587301584" count="13">stack trace</phrase>
+	<phrase weight="0.03571428571428571" count="9">factory domi</phrase>
+	<phrase weight="0.031746031746031744" count="8">set text message set bounds point point drawing</phrase>
+	<phrase weight="0.023809523809523808" count="6">factory domo</phrase>
+	<phrase weight="0.023809523809523808" count="6">input domi nano</phrase>
+	<phrase weight="0.01984126984126984" count="5">domo nano</phrase>
+	<phrase weight="0.01984126984126984" count="5">drawing domo</phrase>
+	<phrase weight="0.01984126984126984" count="5">input domi nano xml lite</phrase>
+	<phrase weight="0.01984126984126984" count="5">parameter datafile input stream url document base parameter datafile url</phrase>
+	<phrase weight="0.01984126984126984" count="5">throwable drawing clear text</phrase>
+  </topic>
+  <topic id="62" alpha="0.0019539684401361085" totalTokens="815" titles="xml, write, key, line, whitespace, content, identifier, offset, iterate, leading">
+	<word weight="0.2196319018404908" count="179">xml</word>
+	<word weight="0.13865030674846626" count="113">write</word>
+	<word weight="0.06134969325153374" count="50">key</word>
+	<word weight="0.05521472392638037" count="45">line</word>
+	<word weight="0.05030674846625767" count="41">whitespace</word>
+	<word weight="0.04171779141104295" count="34">content</word>
+	<word weight="0.03558282208588957" count="29">identifier</word>
+	<word weight="0.03190184049079755" count="26">offset</word>
+	<word weight="0.029447852760736196" count="24">iterate</word>
+	<word weight="0.026993865030674847" count="22">leading</word>
+	<phrase weight="0.05102040816326531" count="5">content content</phrase>
+	<phrase weight="0.04081632653061224" count="4">xml xml</phrase>
+	<phrase weight="0.04081632653061224" count="4">whitespace content</phrase>
+	<phrase weight="0.04081632653061224" count="4">write xml</phrase>
+	<phrase weight="0.04081632653061224" count="4">leading whitespace</phrase>
+	<phrase weight="0.04081632653061224" count="4">write write encoded</phrase>
+	<phrase weight="0.04081632653061224" count="4">vector content line xml</phrase>
+	<phrase weight="0.030612244897959183" count="3">write write write write</phrase>
+	<phrase weight="0.030612244897959183" count="3">writes xml</phrase>
+	<phrase weight="0.030612244897959183" count="3">whitespace fill</phrase>
+  </topic>
+  <topic id="63" alpha="0.0039053244202009204" totalTokens="470" titles="rendering, repaint, scale, factor, hints, set, translate, label, dimension, fire">
+	<word weight="0.07659574468085106" count="36">rendering</word>
+	<word weight="0.07446808510638298" count="35">repaint</word>
+	<word weight="0.07021276595744681" count="33">scale</word>
+	<word weight="0.0574468085106383" count="27">factor</word>
+	<word weight="0.05531914893617021" count="26">hints</word>
+	<word weight="0.05319148936170213" count="25">set</word>
+	<word weight="0.04680851063829787" count="22">translate</word>
+	<word weight="0.03404255319148936" count="16">label</word>
+	<word weight="0.031914893617021274" count="15">dimension</word>
+	<word weight="0.029787234042553193" count="14">fire</word>
+	<phrase weight="0.041666666666666664" count="3">translate scale factor</phrase>
+	<phrase weight="0.041666666666666664" count="3">scale factor</phrase>
+	<phrase weight="0.041666666666666664" count="3">label empty</phrase>
+	<phrase weight="0.027777777777777776" count="2">factory toolkit beep</phrase>
+	<phrase weight="0.027777777777777776" count="2">fire property</phrase>
+	<phrase weight="0.027777777777777776" count="2">rendering hint rendering hints rendering hints</phrase>
+	<phrase weight="0.027777777777777776" count="2">toolkit beep</phrase>
+	<phrase weight="0.027777777777777776" count="2">transferable transfer</phrase>
+	<phrase weight="0.013888888888888888" count="1">repaint fire</phrase>
+	<phrase weight="0.013888888888888888" count="1">label paint graphics graphics</phrase>
+  </topic>
+  <topic id="64" alpha="0.00455724837714659" totalTokens="307" titles="window, palette, handler, focus, palettes, app, windows, visible, timer, mrjapp">
+	<word weight="0.24104234527687296" count="74">window</word>
+	<word weight="0.22149837133550487" count="68">palette</word>
+	<word weight="0.08469055374592833" count="26">handler</word>
+	<word weight="0.0749185667752443" count="23">focus</word>
+	<word weight="0.06514657980456026" count="20">palettes</word>
+	<word weight="0.05863192182410423" count="18">app</word>
+	<word weight="0.05537459283387622" count="17">windows</word>
+	<word weight="0.035830618892508145" count="11">visible</word>
+	<word weight="0.02280130293159609" count="7">timer</word>
+	<word weight="0.016286644951140065" count="5">mrjapp</word>
+	<phrase weight="0.06779661016949153" count="4">window window</phrase>
+	<phrase weight="0.06779661016949153" count="4">palette palette palette</phrase>
+	<phrase weight="0.05084745762711865" count="3">window focus</phrase>
+	<phrase weight="0.03389830508474576" count="2">palette window palette palette</phrase>
+	<phrase weight="0.03389830508474576" count="2">focus handler</phrase>
+	<phrase weight="0.03389830508474576" count="2">palette handler</phrase>
+	<phrase weight="0.03389830508474576" count="2">visible app</phrase>
+	<phrase weight="0.03389830508474576" count="2">window handler</phrase>
+	<phrase weight="0.03389830508474576" count="2">window palettes</phrase>
+	<phrase weight="0.03389830508474576" count="2">palette palette</phrase>
+  </topic>
+  <topic id="65" alpha="0.009914123931153278" totalTokens="599" titles="remove, front, add, back, edit, undoable, listener, find, invalidate, fire">
+	<word weight="0.1318864774624374" count="79">remove</word>
+	<word weight="0.09515859766277128" count="57">front</word>
+	<word weight="0.09348914858096828" count="56">add</word>
+	<word weight="0.09348914858096828" count="56">back</word>
+	<word weight="0.08514190317195326" count="51">edit</word>
+	<word weight="0.07011686143572621" count="42">undoable</word>
+	<word weight="0.05175292153589316" count="31">listener</word>
+	<word weight="0.045075125208681135" count="27">find</word>
+	<word weight="0.04340567612687813" count="26">invalidate</word>
+	<word weight="0.04340567612687813" count="26">fire</word>
+	<phrase weight="0.11702127659574468" count="11">front back</phrase>
+	<phrase weight="0.0851063829787234" count="8">send back</phrase>
+	<phrase weight="0.0851063829787234" count="8">bring front</phrase>
+	<phrase weight="0.0425531914893617" count="4">listener undoable edit listener</phrase>
+	<phrase weight="0.0425531914893617" count="4">add index</phrase>
+	<phrase weight="0.031914893617021274" count="3">undoable edit listener</phrase>
+	<phrase weight="0.031914893617021274" count="3">order fire</phrase>
+	<phrase weight="0.031914893617021274" count="3">sorting fire</phrase>
+	<phrase weight="0.031914893617021274" count="3">order back front</phrase>
+	<phrase weight="0.031914893617021274" count="3">back front</phrase>
+  </topic>
+  <topic id="66" alpha="0.002614182737066105" totalTokens="187" titles="roundrect, outer, outcode, slant, archeight, arcwidth, point, rectangle, slanted, ">
+	<word weight="0.1711229946524064" count="32">roundrect</word>
+	<word weight="0.1443850267379679" count="27">round</word>
+	<word weight="0.11229946524064172" count="21">outer</word>
+	<word weight="0.10695187165775401" count="20">outcode</word>
+	<word weight="0.0855614973262032" count="16">slant</word>
+	<word weight="0.0481283422459893" count="9">archeight</word>
+	<word weight="0.0481283422459893" count="9">arcwidth</word>
+	<word weight="0.0481283422459893" count="9">point</word>
+	<word weight="0.0427807486631016" count="8">rectangle</word>
+	<word weight="0.026737967914438502" count="5">slanted</word>
+	<phrase weight="0.09523809523809523" count="2">roundrect arcwidth</phrase>
+	<phrase weight="0.09523809523809523" count="2">outcode outcode outcode outcode</phrase>
+	<phrase weight="0.09523809523809523" count="2">roundrect archeight</phrase>
+	<phrase weight="0.09523809523809523" count="2">outcode outcode</phrase>
+	<phrase weight="0.047619047619047616" count="1">outcode soutcode</phrase>
+	<phrase weight="0.047619047619047616" count="1">round rectangle roundrect</phrase>
+	<phrase weight="0.047619047619047616" count="1">outer outer outer outer</phrase>
+	<phrase weight="0.047619047619047616" count="1">roundrect roundrect</phrase>
+	<phrase weight="0.047619047619047616" count="1">slant slant</phrase>
+	<phrase weight="0.047619047619047616" count="1">outcode eoutcode outcode eoutcode eoutcode</phrase>
+  </topic>
+  <topic id="67" alpha="0.01404977892611132" totalTokens="491" titles="width, height, triangle, arc, geom, rect, round, orientation, offset, bezier">
+	<word weight="0.2668024439918534" count="131">width</word>
+	<word weight="0.23014256619144602" count="113">height</word>
+	<word weight="0.15478615071283094" count="76">triangle</word>
+	<word weight="0.06720977596741344" count="33">arc</word>
+	<word weight="0.054989816700611" count="27">geom</word>
+	<word weight="0.04480651731160896" count="22">rect</word>
+	<word weight="0.03665987780040733" count="18">round</word>
+	<word weight="0.034623217922606926" count="17">orientation</word>
+	<word weight="0.026476578411405296" count="13">offset</word>
+	<word weight="0.018329938900203666" count="9">bezier</word>
+	<phrase weight="0.09523809523809523" count="8">width height</phrase>
+	<phrase weight="0.08333333333333333" count="7">height triangle</phrase>
+	<phrase weight="0.08333333333333333" count="7">arc height</phrase>
+	<phrase weight="0.07142857142857142" count="6">arc width</phrase>
+	<phrase weight="0.05952380952380952" count="5">height height</phrase>
+	<phrase weight="0.05952380952380952" count="5">width height triangle</phrase>
+	<phrase weight="0.047619047619047616" count="4">width triangle</phrase>
+	<phrase weight="0.03571428571428571" count="3">geom geom</phrase>
+	<phrase weight="0.03571428571428571" count="3">round rect radius</phrase>
+	<phrase weight="0.03571428571428571" count="3">width width</phrase>
+  </topic>
+  <topic id="68" alpha="0.004577670393499252" totalTokens="764" titles="frames, pane, scroll, set, desktop, size, arrange, arrangement, internal, ">
+	<word weight="0.11387434554973822" count="87">frames</word>
+	<word weight="0.10732984293193717" count="82">frame</word>
+	<word weight="0.09293193717277487" count="71">pane</word>
+	<word weight="0.07198952879581152" count="55">scroll</word>
+	<word weight="0.0549738219895288" count="42">set</word>
+	<word weight="0.049738219895287955" count="38">desktop</word>
+	<word weight="0.04581151832460733" count="35">size</word>
+	<word weight="0.03534031413612566" count="27">arrange</word>
+	<word weight="0.034031413612565446" count="26">arrangement</word>
+	<word weight="0.032722513089005235" count="25">internal</word>
+	<phrase weight="0.09482758620689655" count="11">scroll pane</phrase>
+	<phrase weight="0.034482758620689655" count="4">component frames frames frames work frames</phrase>
+	<phrase weight="0.034482758620689655" count="4">frames frames</phrase>
+	<phrase weight="0.02586206896551724" count="3">veto stack trace frames frame idx set</phrase>
+	<phrase weight="0.02586206896551724" count="3">veto stack trace frames set</phrase>
+	<phrase weight="0.02586206896551724" count="3">manager set normal size frame</phrase>
+	<phrase weight="0.02586206896551724" count="3">parent frame</phrase>
+	<phrase weight="0.017241379310344827" count="2">internal frame frames set maximum</phrase>
+	<phrase weight="0.017241379310344827" count="2">tiled column equal</phrase>
+	<phrase weight="0.017241379310344827" count="2">arrange windows equal size frame</phrase>
+  </topic>
+  <topic id="69" alpha="0.02499396545560429" totalTokens="1042" titles="project, action, app, application, multiple, current, state, empty, internal, extended">
+	<word weight="0.4126679462571977" count="430">project</word>
+	<word weight="0.13051823416506717" count="136">action</word>
+	<word weight="0.12859884836852206" count="134">app</word>
+	<word weight="0.0892514395393474" count="93">application</word>
+	<word weight="0.025911708253358926" count="27">multiple</word>
+	<word weight="0.025911708253358926" count="27">current</word>
+	<word weight="0.023032629558541268" count="24">state</word>
+	<word weight="0.022072936660268713" count="23">empty</word>
+	<word weight="0.019193857965451054" count="20">internal</word>
+	<word weight="0.01727447216890595" count="18">extended</word>
+	<phrase weight="0.11242603550295859" count="19">project project</phrase>
+	<phrase weight="0.047337278106508875" count="8">project project project</phrase>
+	<phrase weight="0.047337278106508875" count="8">extended state</phrase>
+	<phrase weight="0.03550295857988166" count="6">project action</phrase>
+	<phrase weight="0.03550295857988166" count="6">project app</phrase>
+	<phrase weight="0.029585798816568046" count="5">action application app</phrase>
+	<phrase weight="0.023668639053254437" count="4">project current project</phrase>
+	<phrase weight="0.023668639053254437" count="4">application project</phrase>
+	<phrase weight="0.023668639053254437" count="4">throwable internal internal</phrase>
+	<phrase weight="0.01775147928994083" count="3">action action</phrase>
+  </topic>
+  <topic id="70" alpha="0.02818394710472252" totalTokens="1990" titles="attribute key, key key, attributes, figure, set, draw, map, forbidden, object, keys">
+	<word weight="0.25678391959798996" count="511">attribute</word>
+	<word weight="0.23618090452261306" count="470">key</word>
+	<word weight="0.0814070351758794" count="162">attributes</word>
+	<word weight="0.06984924623115578" count="139">figure</word>
+	<word weight="0.06080402010050251" count="121">set</word>
+	<word weight="0.035175879396984924" count="70">draw</word>
+	<word weight="0.02814070351758794" count="56">map</word>
+	<word weight="0.02562814070351759" count="51">forbidden</word>
+	<word weight="0.022110552763819097" count="44">object</word>
+	<word weight="0.020603015075376884" count="41">keys</word>
+	<phrase weight="0.20846905537459284" count="64">attribute key</phrase>
+	<phrase weight="0.0781758957654723" count="24">key key</phrase>
+	<phrase weight="0.05211726384364821" count="16">attribute keys</phrase>
+	<phrase weight="0.048859934853420196" count="15">attribute key object</phrase>
+	<phrase weight="0.026058631921824105" count="8">key attribute</phrase>
+	<phrase weight="0.019543973941368076" count="6">set attribute</phrase>
+	<phrase weight="0.016286644951140065" count="5">attribute key key</phrase>
+	<phrase weight="0.013029315960912053" count="4">set enabled</phrase>
+	<phrase weight="0.013029315960912053" count="4">attribute attribute</phrase>
+	<phrase weight="0.009771986970684038" count="3">set attribute key</phrase>
+  </topic>
+  <topic id="71" alpha="0.012132472785706512" totalTokens="706" titles="open, frame, component, window, title, multiple, recent, showing, utilities, root">
+	<word weight="0.2507082152974504" count="177">open</word>
+	<word weight="0.13314447592067988" count="94">frame</word>
+	<word weight="0.07932011331444759" count="56">component</word>
+	<word weight="0.060906515580736544" count="43">window</word>
+	<word weight="0.046742209631728045" count="33">title</word>
+	<word weight="0.0453257790368272" count="32">multiple</word>
+	<word weight="0.039660056657223795" count="28">recent</word>
+	<word weight="0.0339943342776204" count="24">showing</word>
+	<word weight="0.024079320113314446" count="17">utilities</word>
+	<word weight="0.024079320113314446" count="17">root</word>
+	<phrase weight="0.10638297872340426" count="10">multiple open</phrase>
+	<phrase weight="0.07446808510638298" count="7">open recent</phrase>
+	<phrase weight="0.0425531914893617" count="4">component component</phrase>
+	<phrase weight="0.0425531914893617" count="4">component request</phrase>
+	<phrase weight="0.0425531914893617" count="4">load recent</phrase>
+	<phrase weight="0.031914893617021274" count="3">utilities root</phrase>
+	<phrase weight="0.031914893617021274" count="3">frame frame frame frame</phrase>
+	<phrase weight="0.031914893617021274" count="3">open open</phrase>
+	<phrase weight="0.031914893617021274" count="3">unnamed title</phrase>
+	<phrase weight="0.02127659574468085" count="2">executor executor</phrase>
+  </topic>
+  <topic id="72" alpha="0.009839986447919164" totalTokens="440" titles="param, obj, clazz, getter, result, parameter, return, accessible, invocation, setter">
+	<word weight="0.15454545454545454" count="68">param</word>
+	<word weight="0.1431818181818182" count="63">obj</word>
+	<word weight="0.05909090909090909" count="26">clazz</word>
+	<word weight="0.056818181818181816" count="25">getter</word>
+	<word weight="0.05" count="22">result</word>
+	<word weight="0.04772727272727273" count="21">parameter</word>
+	<word weight="0.04772727272727273" count="21">return</word>
+	<word weight="0.045454545454545456" count="20">accessible</word>
+	<word weight="0.045454545454545456" count="20">invocation</word>
+	<word weight="0.03636363636363636" count="16">setter</word>
+	<phrase weight="0.2222222222222222" count="2">obj obj</phrase>
+	<phrase weight="0.1111111111111111" count="1">result result</phrase>
+	<phrase weight="0.1111111111111111" count="1">convenience invocations reflect</phrase>
+	<phrase weight="0.1111111111111111" count="1">getter setter</phrase>
+	<phrase weight="0.1111111111111111" count="1">parameter return</phrase>
+	<phrase weight="0.1111111111111111" count="1">accessible parameterless param obj param return return accessible obj obj result obj result illegal access accessible invocation target supposed exceptions internal message accessible parameter param obj param param parameter parameter return return accessible obj parameter obj result obj parameter result illegal access accessible invocation target supposed exceptions internal message accessible parameterless param clazz param return return accessible clazz clazz result result illegal access accessible invocation target supposed exceptions internal message accessible parameterless param clazz param return return accessible clazz clazz found clazz found parameterless param clazz param param types parameter types param values parameter values return return accessible clazz types values clazz types result values result illegal access accessible invocation target supposed exceptions internal message parameterless param clazz param param types parameter types param values parameter values return return accessible clazz types values clazz types values found clazz found parameterless param clazz param param types parameter types param values parameter values param return accessible clazz types values clazz types values found getter param obj param param return getter getter obj obj result obj result illegal access invocation target getter param obj param param return getter getter obj obj result obj result illegal access invocation target getter param obj param param return getter getter obj obj result obj result illegal access invocation target getter param obj param param return getter getter obj obj result obj result illegal access invocation target getter param clazz param param return getter getter clazz clazz result result illegal access invocation target setter param obj param obj obj obj illegal access accessible invocation target supposed exceptions internal message param obj param obj obj obj illegal access accessible invocation target supposed exceptions internal message setter param obj param obj obj obj illegal access accessible invocation target supposed exceptions internal message setter param obj param obj clazz obj clazz obj illegal access accessible invocation target supposed exceptions internal message setter param obj param obj clazz obj clazz obj illegal access accessible invocation target supposed exceptions internal internal message</phrase>
+	<phrase weight="0.1111111111111111" count="1">internal invocation</phrase>
+	<phrase weight="0.1111111111111111" count="1">setter getter</phrase>
+  </topic>
+  <topic id="73" alpha="0.020774911519460725" totalTokens="1880" titles="rectangle, grow, point, figure, attribute, bounds, draw, keys, width, stroke">
+	<word weight="0.0898936170212766" count="169">rectangle</word>
+	<word weight="0.08723404255319149" count="164">grow</word>
+	<word weight="0.0627659574468085" count="118">point</word>
+	<word weight="0.05319148936170213" count="100">figure</word>
+	<word weight="0.04627659574468085" count="87">attribute</word>
+	<word weight="0.0425531914893617" count="80">bounds</word>
+	<word weight="0.03723404255319149" count="70">draw</word>
+	<word weight="0.036170212765957444" count="68">keys</word>
+	<word weight="0.03563829787234043" count="67">width</word>
+	<word weight="0.034574468085106384" count="65">stroke</word>
+	<phrase weight="0.03571428571428571" count="9">attribute keys</phrase>
+	<phrase weight="0.015873015873015872" count="4">rectangle figure</phrase>
+	<phrase weight="0.011904761904761904" count="3">math math</phrase>
+	<phrase weight="0.011904761904761904" count="3">math anchor</phrase>
+	<phrase weight="0.011904761904761904" count="3">connector connector find</phrase>
+	<phrase weight="0.011904761904761904" count="3">grow stroke grow stroke grow</phrase>
+	<phrase weight="0.011904761904761904" count="3">total stroke</phrase>
+	<phrase weight="0.007936507936507936" count="2">keys stroke total</phrase>
+	<phrase weight="0.007936507936507936" count="2">fill graphics</phrase>
+	<phrase weight="0.007936507936507936" count="2">draw attribute keys geom</phrase>
+  </topic>
+  <topic id="74" alpha="0.0013084887654778925" totalTokens="277" titles="edit, widget, view, overlay, container, scroll, set, request, focus, create">
+	<word weight="0.18411552346570398" count="51">edit</word>
+	<word weight="0.1371841155234657" count="38">widget</word>
+	<word weight="0.10830324909747292" count="30">view</word>
+	<word weight="0.07942238267148015" count="22">overlay</word>
+	<word weight="0.07581227436823104" count="21">container</word>
+	<word weight="0.061371841155234655" count="17">scroll</word>
+	<word weight="0.05415162454873646" count="15">set</word>
+	<word weight="0.02527075812274368" count="7">request</word>
+	<word weight="0.02527075812274368" count="7">focus</word>
+	<word weight="0.02527075812274368" count="7">create</word>
+	<phrase weight="0.20967741935483872" count="13">edit widget</phrase>
+	<phrase weight="0.06451612903225806" count="4">edit scroll container</phrase>
+	<phrase weight="0.04838709677419355" count="3">create overlay</phrase>
+	<phrase weight="0.04838709677419355" count="3">overlay container</phrase>
+	<phrase weight="0.04838709677419355" count="3">view view</phrase>
+	<phrase weight="0.03225806451612903" count="2">view scale factor edit widget set</phrase>
+	<phrase weight="0.03225806451612903" count="2">view container repaint</phrase>
+	<phrase weight="0.03225806451612903" count="2">fractional derive</phrase>
+	<phrase weight="0.016129032258064516" count="1">overlay view container request focus edit scroll container edit scroll container set visible view container</phrase>
+	<phrase weight="0.016129032258064516" count="1">wrap edit scroll container scroll pane edit widget scroll pane scroll pane edit scroll container set cursor cursor</phrase>
+  </topic>
+  <topic id="75" alpha="0.005301004925742669" totalTokens="1344" titles="reader, xml, resolver, str, skip, validator, line, process, whitespace, attributes">
+	<word weight="0.17113095238095238" count="230">reader</word>
+	<word weight="0.12425595238095238" count="167">xml</word>
+	<word weight="0.10193452380952381" count="137">resolver</word>
+	<word weight="0.0662202380952381" count="89">str</word>
+	<word weight="0.041666666666666664" count="56">skip</word>
+	<word weight="0.03720238095238095" count="50">validator</word>
+	<word weight="0.03273809523809524" count="44">line</word>
+	<word weight="0.03125" count="42">process</word>
+	<word weight="0.03125" count="42">whitespace</word>
+	<word weight="0.026785714285714284" count="36">attributes</word>
+	<phrase weight="0.04230769230769231" count="11">extra attributes</phrase>
+	<phrase weight="0.03461538461538462" count="9">reader reader</phrase>
+	<phrase weight="0.03076923076923077" count="8">resolver xml</phrase>
+	<phrase weight="0.03076923076923077" count="8">skip whitespace</phrase>
+	<phrase weight="0.026923076923076925" count="7">xml data</phrase>
+	<phrase weight="0.023076923076923078" count="6">str reader parameter</phrase>
+	<phrase weight="0.023076923076923078" count="6">wrong process</phrase>
+	<phrase weight="0.019230769230769232" count="5">resolver resolver</phrase>
+	<phrase weight="0.015384615384615385" count="4">validator validator</phrase>
+	<phrase weight="0.015384615384615385" count="4">resolver resolver parameter</phrase>
+  </topic>
+  <topic id="76" alpha="0.003917344888954959" totalTokens="359" titles="center, ctr, len, geom, length, bezier, outer, polygon, restore, data">
+	<word weight="0.16991643454038996" count="61">center</word>
+	<word weight="0.10306406685236769" count="37">ctr</word>
+	<word weight="0.0947075208913649" count="34">len</word>
+	<word weight="0.07799442896935933" count="28">geom</word>
+	<word weight="0.06963788300835655" count="25">length</word>
+	<word weight="0.04735376044568245" count="17">bezier</word>
+	<word weight="0.04178272980501393" count="15">outer</word>
+	<word weight="0.04178272980501393" count="15">polygon</word>
+	<word weight="0.03899721448467967" count="14">restore</word>
+	<word weight="0.03064066852367688" count="11">data</word>
+	<phrase weight="0.07246376811594203" count="5">restore data</phrase>
+	<phrase weight="0.057971014492753624" count="4">ctr ctr</phrase>
+	<phrase weight="0.057971014492753624" count="4">center center</phrase>
+	<phrase weight="0.043478260869565216" count="3">geom angle center center</phrase>
+	<phrase weight="0.028985507246376812" count="2">theta start theta</phrase>
+	<phrase weight="0.028985507246376812" count="2">polygon polygon</phrase>
+	<phrase weight="0.028985507246376812" count="2">geom length center center</phrase>
+	<phrase weight="0.028985507246376812" count="2">bezier scale</phrase>
+	<phrase weight="0.028985507246376812" count="2">length geom length center center</phrase>
+	<phrase weight="0.028985507246376812" count="2">len len</phrase>
+  </topic>
+  <topic id="77" alpha="0.014730889652270028" totalTokens="1324" titles="project, chooser, save, set, unsaved, enabled, option, sheet, pane, application">
+	<word weight="0.08383685800604229" count="111">project</word>
+	<word weight="0.08308157099697885" count="110">chooser</word>
+	<word weight="0.06797583081570997" count="90">save</word>
+	<word weight="0.0513595166163142" count="68">set</word>
+	<word weight="0.05060422960725076" count="67">unsaved</word>
+	<word weight="0.04758308157099698" count="63">enabled</word>
+	<word weight="0.0445619335347432" count="59">option</word>
+	<word weight="0.03851963746223565" count="51">sheet</word>
+	<word weight="0.03474320241691843" count="46">pane</word>
+	<word weight="0.033987915407854986" count="45">application</word>
+	<phrase weight="0.041666666666666664" count="7">set enabled</phrase>
+	<phrase weight="0.023809523809523808" count="4">sheet show message sheet</phrase>
+	<phrase weight="0.023809523809523808" count="4">execute worker construct</phrase>
+	<phrase weight="0.023809523809523808" count="4">html manager option pane css couldn't</phrase>
+	<phrase weight="0.023809523809523808" count="4">chooser chooser</phrase>
+	<phrase weight="0.017857142857142856" count="3">gui gui</phrase>
+	<phrase weight="0.017857142857142856" count="3">file option pane sheet listener option selected sheet evt</phrase>
+	<phrase weight="0.011904761904761904" count="2">owner utilities</phrase>
+	<phrase weight="0.011904761904761904" count="2">dialog app</phrase>
+	<phrase weight="0.011904761904761904" count="2">sheet show message sheet project</phrase>
+  </topic>
+  <topic id="78" alpha="0.024857257430256078" totalTokens="1453" titles="attribute attribute, element element, number, comment, tag, current, match, type, wrong, called">
+	<word weight="0.5602202339986235" count="814">element</word>
+	<word weight="0.3097040605643496" count="450">attribute</word>
+	<word weight="0.029593943565037854" count="43">number</word>
+	<word weight="0.017205781142463867" count="25">comment</word>
+	<word weight="0.013764624913971095" count="20">tag</word>
+	<word weight="0.013764624913971095" count="20">current</word>
+	<word weight="0.008947006194081212" count="13">match</word>
+	<word weight="0.006882312456985547" count="10">type</word>
+	<word weight="0.004817618719889883" count="7">wrong</word>
+	<word weight="0.004817618719889883" count="7">called</word>
+	<phrase weight="0.24545454545454545" count="27">attribute attribute</phrase>
+	<phrase weight="0.2" count="22">element element</phrase>
+	<phrase weight="0.09090909090909091" count="10">element attribute</phrase>
+	<phrase weight="0.07272727272727272" count="8">attribute element</phrase>
+	<phrase weight="0.05454545454545454" count="6">attribute type</phrase>
+	<phrase weight="0.045454545454545456" count="5">element tag</phrase>
+	<phrase weight="0.045454545454545456" count="5">comment comment</phrase>
+	<phrase weight="0.03636363636363636" count="4">element attribute attribute</phrase>
+	<phrase weight="0.03636363636363636" count="4">current element</phrase>
+	<phrase weight="0.02727272727272727" count="3">attribute current element</phrase>
+  </topic>
+  <topic id="79" alpha="0.00261316146389506" totalTokens="633" titles="layout, rows, cols, vertical, number, parent, grid, nrows, container, ncols">
+	<word weight="0.09162717219589257" count="58">layout</word>
+	<word weight="0.08530805687203792" count="54">rows</word>
+	<word weight="0.052132701421800945" count="33">cols</word>
+	<word weight="0.052132701421800945" count="33">vertical</word>
+	<word weight="0.04739336492890995" count="30">number</word>
+	<word weight="0.04265402843601896" count="27">parent</word>
+	<word weight="0.04107424960505529" count="26">grid</word>
+	<word weight="0.03949447077409163" count="25">nrows</word>
+	<word weight="0.03949447077409163" count="25">container</word>
+	<word weight="0.03475513428120063" count="22">ncols</word>
+	<phrase weight="0.0425531914893617" count="4">ncols hgap</phrase>
+	<phrase weight="0.02127659574468085" count="2">vertical grid layout</phrase>
+	<phrase weight="0.02127659574468085" count="2">ncomponents parent component count nrows rows ncols cols nrows ncols ncomponents nrows nrows nrows ncomponents ncols ncols ncomponents component comp parent component</phrase>
+	<phrase weight="0.02127659574468085" count="2">components container times number columns horizontal padding times number columns</phrase>
+	<phrase weight="0.02127659574468085" count="2">components container times number rows vertical padding times number rows</phrase>
+	<phrase weight="0.02127659574468085" count="2">subcomponents container</phrase>
+	<phrase weight="0.02127659574468085" count="2">nrows vgap vertical nrows ncols ncomponents parent component set</phrase>
+	<phrase weight="0.02127659574468085" count="2">grid layout number rows columns components layout</phrase>
+	<phrase weight="0.02127659574468085" count="2">layout container</phrase>
+	<phrase weight="0.02127659574468085" count="2">container parent parent tree lock</phrase>
+  </topic>
+  <topic id="80" alpha="0.0059559577114670255" totalTokens="582" titles="image, border, height, width, img, paint, fill, graphics, draw, component">
+	<word weight="0.14948453608247422" count="87">image</word>
+	<word weight="0.11683848797250859" count="68">border</word>
+	<word weight="0.09621993127147767" count="56">height</word>
+	<word weight="0.09621993127147767" count="56">width</word>
+	<word weight="0.09450171821305842" count="55">img</word>
+	<word weight="0.058419243986254296" count="34">paint</word>
+	<word weight="0.0429553264604811" count="25">fill</word>
+	<word weight="0.03608247422680412" count="21">graphics</word>
+	<word weight="0.03436426116838488" count="20">draw</word>
+	<word weight="0.02577319587628866" count="15">component</word>
+	<phrase weight="0.08080808080808081" count="8">img height</phrase>
+	<phrase weight="0.06060606060606061" count="6">img width</phrase>
+	<phrase weight="0.04040404040404041" count="4">img image subimage</phrase>
+	<phrase weight="0.030303030303030304" count="3">border image bevel border image img</phrase>
+	<phrase weight="0.030303030303030304" count="3">image image</phrase>
+	<phrase weight="0.020202020202020204" count="2">set paint paint fill rect</phrase>
+	<phrase weight="0.020202020202020204" count="2">paint paint fill rect</phrase>
+	<phrase weight="0.020202020202020204" count="2">paint texture paint img</phrase>
+	<phrase weight="0.020202020202020204" count="2">bevel fill area</phrase>
+	<phrase weight="0.020202020202020204" count="2">width paint</phrase>
+  </topic>
+  <topic id="81" alpha="0.012752207235317437" totalTokens="641" titles="relative, locator, east, north, south, west, add, decorator, geom, center">
+	<word weight="0.1669266770670827" count="107">relative</word>
+	<word weight="0.14664586583463338" count="94">locator</word>
+	<word weight="0.1357254290171607" count="87">east</word>
+	<word weight="0.1357254290171607" count="87">north</word>
+	<word weight="0.13260530421216848" count="85">south</word>
+	<word weight="0.1310452418096724" count="84">west</word>
+	<word weight="0.06396255850234009" count="41">add</word>
+	<word weight="0.0327613104524181" count="21">decorator</word>
+	<word weight="0.0187207488299532" count="12">geom</word>
+	<word weight="0.0093603744149766" count="6">center</word>
+	<phrase weight="0.10948905109489052" count="15">north east</phrase>
+	<phrase weight="0.10218978102189781" count="14">north west</phrase>
+	<phrase weight="0.08029197080291971" count="11">south west</phrase>
+	<phrase weight="0.08029197080291971" count="11">south east</phrase>
+	<phrase weight="0.058394160583941604" count="8">relative locator</phrase>
+	<phrase weight="0.0364963503649635" count="5">relative relative</phrase>
+	<phrase weight="0.029197080291970802" count="4">relative locator south east</phrase>
+	<phrase weight="0.029197080291970802" count="4">relative locator north east</phrase>
+	<phrase weight="0.029197080291970802" count="4">relative locator north west</phrase>
+	<phrase weight="0.021897810218978103" count="3">relative locator south west</phrase>
+  </topic>
+  <topic id="82" alpha="0.007283862813563277" totalTokens="1571" titles="add, action, button, rbmi, drawing, grid, group, bag, editor, constraints">
+	<word weight="0.12985359643539146" count="204">add</word>
+	<word weight="0.07129217059197963" count="112">action</word>
+	<word weight="0.05856142584341184" count="92">button</word>
+	<word weight="0.05728835136855506" count="90">rbmi</word>
+	<word weight="0.04964990451941439" count="78">drawing</word>
+	<word weight="0.0483768300445576" count="76">grid</word>
+	<word weight="0.0483768300445576" count="76">group</word>
+	<word weight="0.04328453214513049" count="68">bag</word>
+	<word weight="0.042011457670273714" count="66">editor</word>
+	<word weight="0.04073838319541693" count="64">constraints</word>
+	<phrase weight="0.024154589371980676" count="5">menu item zoom action</phrase>
+	<phrase weight="0.01932367149758454" count="4">menu item</phrase>
+	<phrase weight="0.01932367149758454" count="4">pane view</phrase>
+	<phrase weight="0.01932367149758454" count="4">grid bag</phrase>
+	<phrase weight="0.01932367149758454" count="4">menu menu</phrase>
+	<phrase weight="0.01932367149758454" count="4">group add rbmi</phrase>
+	<phrase weight="0.01932367149758454" count="4">drawing remove undoable edit</phrase>
+	<phrase weight="0.01932367149758454" count="4">bag constraints grid bag constraints</phrase>
+	<phrase weight="0.014492753623188406" count="3">panel panel</phrase>
+	<phrase weight="0.014492753623188406" count="3">action editor</phrase>
+  </topic>
+  <topic id="83" alpha="0.0032729638555347596" totalTokens="351" titles="diamond, width, height, side, growy, line, growx, scale, length, rectangle">
+	<word weight="0.13675213675213677" count="48">diamond</word>
+	<word weight="0.1225071225071225" count="43">width</word>
+	<word weight="0.11965811965811966" count="42">height</word>
+	<word weight="0.06837606837606838" count="24">side</word>
+	<word weight="0.06552706552706553" count="23">growy</word>
+	<word weight="0.06552706552706553" count="23">line</word>
+	<word weight="0.06267806267806268" count="22">growx</word>
+	<word weight="0.05982905982905983" count="21">scale</word>
+	<word weight="0.045584045584045586" count="16">length</word>
+	<word weight="0.042735042735042736" count="15">rectangle</word>
+	<phrase weight="0.0784313725490196" count="4">ang ang</phrase>
+	<phrase weight="0.0784313725490196" count="4">line length scale scale growx growy</phrase>
+	<phrase weight="0.058823529411764705" count="3">growx growy</phrase>
+	<phrase weight="0.058823529411764705" count="3">width height</phrase>
+	<phrase weight="0.058823529411764705" count="3">growx growy general path diamond general path diamond</phrase>
+	<phrase weight="0.0392156862745098" count="2">growx growy width</phrase>
+	<phrase weight="0.0392156862745098" count="2">width diamond line width height diamond line</phrase>
+	<phrase weight="0.0392156862745098" count="2">side math</phrase>
+	<phrase weight="0.0392156862745098" count="2">line length math sqrt scale</phrase>
+	<phrase weight="0.0196078431372549" count="1">height line length math sqrt scale</phrase>
+  </topic>
+  <topic id="84" alpha="0.012710148646050799" totalTokens="748" titles="factory, dom, text, tag, storable, adds, xml, doctype, illegal, create">
+	<word weight="0.11898395721925134" count="89">factory</word>
+	<word weight="0.09893048128342247" count="74">dom</word>
+	<word weight="0.07887700534759358" count="59">text</word>
+	<word weight="0.06149732620320856" count="46">tag</word>
+	<word weight="0.053475935828877004" count="40">storable</word>
+	<word weight="0.05080213903743316" count="38">adds</word>
+	<word weight="0.045454545454545456" count="34">xml</word>
+	<word weight="0.04411764705882353" count="33">doctype</word>
+	<word weight="0.03609625668449198" count="27">illegal</word>
+	<word weight="0.034759358288770054" count="26">create</word>
+	<phrase weight="0.049586776859504134" count="6">dom factory</phrase>
+	<phrase weight="0.04132231404958678" count="5">factory create</phrase>
+	<phrase weight="0.04132231404958678" count="5">illegal argument tag</phrase>
+	<phrase weight="0.03305785123966942" count="4">note multiple consecutives texts merged</phrase>
+	<phrase weight="0.03305785123966942" count="4">factory dom factory tag</phrase>
+	<phrase weight="0.024793388429752067" count="3">marshall references</phrase>
+	<phrase weight="0.024793388429752067" count="3">color color color</phrase>
+	<phrase weight="0.024793388429752067" count="3">prototype prototypes prototypes</phrase>
+	<phrase weight="0.024793388429752067" count="3">illegal argument</phrase>
+	<phrase weight="0.024793388429752067" count="3">factory tag</phrase>
+  </topic>
+  <topic id="85" alpha="0.019431052057673155" totalTokens="1053" titles="application, model, project, set, create, projects, init, june, net, ">
+	<word weight="0.2706552706552707" count="285">application</word>
+	<word weight="0.13865147198480532" count="146">app</word>
+	<word weight="0.11585944919278253" count="122">model</word>
+	<word weight="0.10161443494776828" count="107">project</word>
+	<word weight="0.06362773029439696" count="67">set</word>
+	<word weight="0.03798670465337132" count="40">create</word>
+	<word weight="0.019943019943019943" count="21">projects</word>
+	<word weight="0.018043684710351376" count="19">init</word>
+	<word weight="0.017094017094017096" count="18">june</word>
+	<word weight="0.015194681861348529" count="16">net</word>
+	<phrase weight="0.07482993197278912" count="11">application model</phrase>
+	<phrase weight="0.04081632653061224" count="6">application model model</phrase>
+	<phrase weight="0.04081632653061224" count="6">application project</phrase>
+	<phrase weight="0.04081632653061224" count="6">drop dock</phrase>
+	<phrase weight="0.034013605442176874" count="5">toolbars application</phrase>
+	<phrase weight="0.02040816326530612" count="3">app app</phrase>
+	<phrase weight="0.02040816326530612" count="3">application app app</phrase>
+	<phrase weight="0.02040816326530612" count="3">app application</phrase>
+	<phrase weight="0.02040816326530612" count="3">application model application model</phrase>
+	<phrase weight="0.02040816326530612" count="3">application application</phrase>
+  </topic>
+  <topic id="86" alpha="0.005902921584613618" totalTokens="376" titles="thread, worker, code, runnable, construct, finished, public, start, var, set">
+	<word weight="0.1702127659574468" count="64">thread</word>
+	<word weight="0.09308510638297872" count="35">worker</word>
+	<word weight="0.05851063829787234" count="22">code</word>
+	<word weight="0.047872340425531915" count="18">runnable</word>
+	<word weight="0.04521276595744681" count="17">construct</word>
+	<word weight="0.0398936170212766" count="15">finished</word>
+	<word weight="0.034574468085106384" count="13">public</word>
+	<word weight="0.031914893617021274" count="12">start</word>
+	<word weight="0.02925531914893617" count="11">var</word>
+	<word weight="0.02925531914893617" count="11">set</word>
+	<phrase weight="0.08333333333333333" count="3">runnable worker</phrase>
+	<phrase weight="0.08333333333333333" count="3">dispatcher thread</phrase>
+	<phrase weight="0.027777777777777776" count="1">public worker</phrase>
+	<phrase weight="0.027777777777777776" count="1">code construct code method public thread thread var</phrase>
+	<phrase weight="0.027777777777777776" count="1">utilities subclass perform related work dedicated dispatcher</phrase>
+	<phrase weight="0.027777777777777776" count="1">slightly start worker creating</phrase>
+	<phrase weight="0.027777777777777776" count="1">construct finished produced worker thread hasn't constructed set produced worker thread set starts worker</phrase>
+	<phrase weight="0.027777777777777776" count="1">active event's</phrase>
+	<phrase weight="0.027777777777777776" count="1">private thread var private thread thread thread var thread thread synchronized thread thread synchronized clear thread private thread var thread var start thread call code construct code method</phrase>
+	<phrase weight="0.027777777777777776" count="1">start dispatcher thread</phrase>
+  </topic>
+  <topic id="87" alpha="0.022632362384564977" totalTokens="1113" titles="editor, action, drawing, selection, view, selected, iterator, figures, align, ">
+	<word weight="0.22371967654986524" count="249">editor</word>
+	<word weight="0.20215633423180593" count="225">action</word>
+	<word weight="0.12488769092542677" count="139">drawing</word>
+	<word weight="0.07996406109613657" count="89">selection</word>
+	<word weight="0.07726864330637916" count="86">view</word>
+	<word weight="0.050314465408805034" count="56">selected</word>
+	<word weight="0.04132973944294699" count="46">draw</word>
+	<word weight="0.029649595687331536" count="33">iterator</word>
+	<word weight="0.025157232704402517" count="28">figures</word>
+	<word weight="0.02425876010781671" count="27">align</word>
+	<phrase weight="0.07784431137724551" count="13">action drawing editor editor</phrase>
+	<phrase weight="0.0658682634730539" count="11">drawing editor editor</phrase>
+	<phrase weight="0.05389221556886228" count="9">editor editor</phrase>
+	<phrase weight="0.04790419161676647" count="8">view selected</phrase>
+	<phrase weight="0.04790419161676647" count="8">action selected action</phrase>
+	<phrase weight="0.041916167664670656" count="7">action performed action</phrase>
+	<phrase weight="0.03592814371257485" count="6">action drawing editor editor editor</phrase>
+	<phrase weight="0.029940119760479042" count="5">drawing editor editor editor labels configure action align</phrase>
+	<phrase weight="0.029940119760479042" count="5">drawing editor editor editor labels configure action</phrase>
+	<phrase weight="0.029940119760479042" count="5">align action</phrase>
+  </topic>
+  <topic id="88" alpha="0.014938681310966886" totalTokens="2529" titles="action, menu, add, bar, set, put, item, tool, actions, labels">
+	<word weight="0.265717674970344" count="672">action</word>
+	<word weight="0.1051799130090945" count="266">menu</word>
+	<word weight="0.08580466587584025" count="217">add</word>
+	<word weight="0.04586793198892843" count="116">bar</word>
+	<word weight="0.04586793198892843" count="116">set</word>
+	<word weight="0.03756425464610518" count="95">put</word>
+	<word weight="0.03519177540529854" count="89">item</word>
+	<word weight="0.02965599051008304" count="75">tool</word>
+	<word weight="0.02649268485567418" count="67">actions</word>
+	<word weight="0.017002767892447607" count="43">labels</word>
+	<phrase weight="0.04337899543378995" count="19">menu item</phrase>
+	<phrase weight="0.0410958904109589" count="18">action action</phrase>
+	<phrase weight="0.0410958904109589" count="18">menu bar</phrase>
+	<phrase weight="0.03424657534246575" count="15">action put action</phrase>
+	<phrase weight="0.02968036529680365" count="13">tool bar</phrase>
+	<phrase weight="0.02054794520547945" count="9">menu add</phrase>
+	<phrase weight="0.01598173515981735" count="7">action add action</phrase>
+	<phrase weight="0.0136986301369863" count="6">menu menu</phrase>
+	<phrase weight="0.0136986301369863" count="6">put action</phrase>
+	<phrase weight="0.01141552511415525" count="5">set current</phrase>
+  </topic>
+  <topic id="89" alpha="0.029798568984719928" totalTokens="1187" titles="action, focus, component, owner, app, labels, bundle, performed, resource, evt">
+	<word weight="0.18112889637742208" count="215">action</word>
+	<word weight="0.09772535804549284" count="116">focus</word>
+	<word weight="0.06655433866891322" count="79">component</word>
+	<word weight="0.05307497893850042" count="63">owner</word>
+	<word weight="0.04886267902274642" count="58">app</word>
+	<word weight="0.04717775905644482" count="56">labels</word>
+	<word weight="0.04717775905644482" count="56">bundle</word>
+	<word weight="0.03201347935973041" count="38">performed</word>
+	<word weight="0.031171019376579612" count="37">resource</word>
+	<word weight="0.030328559393428812" count="36">evt</word>
+	<phrase weight="0.04878048780487805" count="6">creates instance</phrase>
+	<phrase weight="0.04878048780487805" count="6">focus owner</phrase>
+	<phrase weight="0.04065040650406504" count="5">staldenmattweg immensee switzerland</phrase>
+	<phrase weight="0.04065040650406504" count="5">editable component</phrase>
+	<phrase weight="0.032520325203252036" count="4">bundle labels resource bundle bundle</phrase>
+	<phrase weight="0.024390243902439025" count="3">action october reserved disclose accordance package app action</phrase>
+	<phrase weight="0.024390243902439025" count="3">version reworked</phrase>
+	<phrase weight="0.024390243902439025" count="3">performed action</phrase>
+	<phrase weight="0.016260162601626018" count="2">action resource bundle labels resource bundle bundle app labels labels configure action override action performed action evt component focus owner keyboard focus manager current keyboard focus manager permanent focus owner focus owner focus owner editable component editable component focus owner</phrase>
+	<phrase weight="0.016260162601626018" count="2">resource bundle labels resource bundle bundle</phrase>
+  </topic>
+  <topic id="90" alpha="0.00795514472643638" totalTokens="972" titles="point, bezier, node, index, basic, count, control, view, change, drawing">
+	<word weight="0.1779835390946502" count="173">point</word>
+	<word weight="0.1646090534979424" count="160">bezier</word>
+	<word weight="0.15329218106995884" count="149">node</word>
+	<word weight="0.15123456790123457" count="147">index</word>
+	<word weight="0.07613168724279835" count="74">basic</word>
+	<word weight="0.060699588477366256" count="59">count</word>
+	<word weight="0.03292181069958848" count="32">control</word>
+	<word weight="0.030864197530864196" count="30">view</word>
+	<word weight="0.0205761316872428" count="20">change</word>
+	<word weight="0.018518518518518517" count="18">drawing</word>
+	<phrase weight="0.06282722513089005" count="12">node count</phrase>
+	<phrase weight="0.05759162303664921" count="11">bezier node</phrase>
+	<phrase weight="0.05235602094240838" count="10">node index</phrase>
+	<phrase weight="0.03664921465968586" count="7">point index</phrase>
+	<phrase weight="0.031413612565445025" count="6">index index</phrase>
+	<phrase weight="0.02617801047120419" count="5">node bezier</phrase>
+	<phrase weight="0.020942408376963352" count="4">change basic</phrase>
+	<phrase weight="0.020942408376963352" count="4">bezier control</phrase>
+	<phrase weight="0.020942408376963352" count="4">node node</phrase>
+	<phrase weight="0.020942408376963352" count="4">count bezier</phrase>
+  </topic>
+  <topic id="91" alpha="0.06045897568460136" totalTokens="1988" titles="figure figure, draw, bounds, drawing, attribute, point, graphics, figures, change, changing">
+	<word weight="0.6493963782696177" count="1291">figure</word>
+	<word weight="0.07595573440643863" count="151">draw</word>
+	<word weight="0.05432595573440644" count="108">bounds</word>
+	<word weight="0.045774647887323945" count="91">drawing</word>
+	<word weight="0.025653923541247486" count="51">attribute</word>
+	<word weight="0.025150905432595575" count="50">point</word>
+	<word weight="0.014587525150905433" count="29">figures</word>
+	<word weight="0.014587525150905433" count="29">graphics</word>
+	<word weight="0.014084507042253521" count="28">change</word>
+	<word weight="0.011066398390342052" count="22">changing</word>
+	<phrase weight="0.2777777777777778" count="60">figure figure</phrase>
+	<phrase weight="0.037037037037037035" count="8">figure figure figure</phrase>
+	<phrase weight="0.032407407407407406" count="7">figure draw</phrase>
+	<phrase weight="0.032407407407407406" count="7">draw bounds</phrase>
+	<phrase weight="0.027777777777777776" count="6">figure inside</phrase>
+	<phrase weight="0.023148148148148147" count="5">figure clone</phrase>
+	<phrase weight="0.023148148148148147" count="5">drawing figure</phrase>
+	<phrase weight="0.023148148148148147" count="5">bounds point</phrase>
+	<phrase weight="0.023148148148148147" count="5">bounds figure</phrase>
+	<phrase weight="0.018518518518518517" count="4">draw figure</phrase>
+  </topic>
+  <topic id="92" alpha="0.014874150372990516" totalTokens="1345" titles="line, xml, param, data, validation, parse, occurred, throws, unexpected, parent">
+	<word weight="0.15018587360594796" count="202">line</word>
+	<word weight="0.15018587360594796" count="202">xml</word>
+	<word weight="0.13977695167286244" count="188">param</word>
+	<word weight="0.08252788104089219" count="111">data</word>
+	<word weight="0.04981412639405204" count="67">validation</word>
+	<word weight="0.02973977695167286" count="40">parse</word>
+	<word weight="0.0275092936802974" count="37">occurred</word>
+	<word weight="0.0275092936802974" count="37">throws</word>
+	<word weight="0.026765799256505577" count="36">unexpected</word>
+	<word weight="0.025278810408921933" count="34">parent</word>
+	<phrase weight="0.04" count="9">warranty purpose restrictions required distribution</phrase>
+	<phrase weight="0.035555555555555556" count="8">xml validation</phrase>
+	<phrase weight="0.03111111111111111" count="7">line parent</phrase>
+	<phrase weight="0.03111111111111111" count="7">param line line number xml data</phrase>
+	<phrase weight="0.02666666666666667" count="6">param line line</phrase>
+	<phrase weight="0.022222222222222223" count="5">param parent</phrase>
+	<phrase weight="0.022222222222222223" count="5">throws occurred</phrase>
+	<phrase weight="0.017777777777777778" count="4">xml data</phrase>
+	<phrase weight="0.017777777777777778" count="4">xml parse</phrase>
+	<phrase weight="0.017777777777777778" count="4">param xml data</phrase>
+  </topic>
+  <topic id="93" alpha="0.03218965555271236" totalTokens="996" titles="handle handles, collection, level, detail, create, evt, compatible, invalidate, secondary, ">
+	<word weight="0.35240963855421686" count="351">handle</word>
+	<word weight="0.2710843373493976" count="270">handles</word>
+	<word weight="0.06124497991967871" count="61">collection</word>
+	<word weight="0.060240963855421686" count="60">level</word>
+	<word weight="0.0572289156626506" count="57">detail</word>
+	<word weight="0.04718875502008032" count="47">create</word>
+	<word weight="0.03112449799196787" count="31">evt</word>
+	<word weight="0.023092369477911646" count="23">compatible</word>
+	<word weight="0.02108433734939759" count="21">invalidate</word>
+	<word weight="0.01706827309236948" count="17">secondary</word>
+	<phrase weight="0.15862068965517243" count="23">handle handles</phrase>
+	<phrase weight="0.09655172413793103" count="14">handle handle</phrase>
+	<phrase weight="0.06206896551724138" count="9">detail level</phrase>
+	<phrase weight="0.041379310344827586" count="6">secondary handles</phrase>
+	<phrase weight="0.034482758620689655" count="5">handle detail level</phrase>
+	<phrase weight="0.034482758620689655" count="5">handles handles</phrase>
+	<phrase weight="0.034482758620689655" count="5">handle create handles detail level</phrase>
+	<phrase weight="0.034482758620689655" count="5">compatible handles</phrase>
+	<phrase weight="0.027586206896551724" count="4">handles handle</phrase>
+	<phrase weight="0.020689655172413793" count="3">handles handles handles</phrase>
+  </topic>
+  <topic id="94" alpha="0.003906797975231318" totalTokens="472" titles="element, prefix, builder, processing, stack, called, namespaces, parameter, add, key">
+	<word weight="0.1673728813559322" count="79">element</word>
+	<word weight="0.1228813559322034" count="58">prefix</word>
+	<word weight="0.06991525423728813" count="33">builder</word>
+	<word weight="0.0423728813559322" count="20">processing</word>
+	<word weight="0.03389830508474576" count="16">stack</word>
+	<word weight="0.03389830508474576" count="16">called</word>
+	<word weight="0.029661016949152543" count="14">namespaces</word>
+	<word weight="0.029661016949152543" count="14">parameter</word>
+	<word weight="0.029661016949152543" count="14">add</word>
+	<word weight="0.029661016949152543" count="14">key</word>
+	<phrase weight="0.08247422680412371" count="8">prefix prefix identify</phrase>
+	<phrase weight="0.030927835051546393" count="3">element encountered</phrase>
+	<phrase weight="0.030927835051546393" count="3">element prefix</phrase>
+	<phrase weight="0.030927835051546393" count="3">key prefix</phrase>
+	<phrase weight="0.030927835051546393" count="3">add element</phrase>
+	<phrase weight="0.020618556701030927" count="2">element top</phrase>
+	<phrase weight="0.020618556701030927" count="2">element elt prototype</phrase>
+	<phrase weight="0.020618556701030927" count="2">builder add</phrase>
+	<phrase weight="0.020618556701030927" count="2">skipped don't care entities resolved parser</phrase>
+	<phrase weight="0.020618556701030927" count="2">element prefix namespaces</phrase>
+  </topic>
+  <topic id="95" alpha="0.012561490601445003" totalTokens="482" titles="code, dimension, return, size, param, double, sum, equal, values, inset">
+	<word weight="0.31742738589211617" count="153">code</word>
+	<word weight="0.1037344398340249" count="50">dimension</word>
+	<word weight="0.07261410788381743" count="35">return</word>
+	<word weight="0.06639004149377593" count="32">size</word>
+	<word weight="0.06431535269709543" count="31">param</word>
+	<word weight="0.04564315352697095" count="22">double</word>
+	<word weight="0.024896265560165973" count="12">sum</word>
+	<word weight="0.02074688796680498" count="10">equal</word>
+	<word weight="0.01867219917012448" count="9">values</word>
+	<word weight="0.016597510373443983" count="8">inset</word>
+	<phrase weight="0.18571428571428572" count="13">code code</phrase>
+	<phrase weight="0.04285714285714286" count="3">double code</phrase>
+	<phrase weight="0.04285714285714286" count="3">code dimension double code</phrase>
+	<phrase weight="0.02857142857142857" count="2">precision return</phrase>
+	<phrase weight="0.02857142857142857" count="2">initializes code</phrase>
+	<phrase weight="0.02857142857142857" count="2">val sum sum</phrase>
+	<phrase weight="0.02857142857142857" count="2">dimension double code</phrase>
+	<phrase weight="0.02857142857142857" count="2">dimension precision</phrase>
+	<phrase weight="0.014285714285714285" count="1">values return representation</phrase>
+	<phrase weight="0.014285714285714285" count="1">code dimension double code initializes</phrase>
+  </topic>
+  <topic id="96" alpha="0.005252692018464056" totalTokens="401" titles="button, figure, load, save, action, live, connect, tool, bar, listener">
+	<word weight="0.14463840399002495" count="58">button</word>
+	<word weight="0.0773067331670823" count="31">figure</word>
+	<word weight="0.06733167082294264" count="27">load</word>
+	<word weight="0.06733167082294264" count="27">save</word>
+	<word weight="0.057356608478802994" count="23">action</word>
+	<word weight="0.05486284289276808" count="22">live</word>
+	<word weight="0.05486284289276808" count="22">connect</word>
+	<word weight="0.04987531172069826" count="20">tool</word>
+	<word weight="0.0399002493765586" count="16">bar</word>
+	<word weight="0.034912718204488775" count="14">listener</word>
+	<phrase weight="0.10526315789473684" count="8">live connect</phrase>
+	<phrase weight="0.07894736842105263" count="6">win call</phrase>
+	<phrase weight="0.05263157894736842" count="4">enabled live connect</phrase>
+	<phrase weight="0.05263157894736842" count="4">figure fehler</phrase>
+	<phrase weight="0.039473684210526314" count="3">tool button</phrase>
+	<phrase weight="0.039473684210526314" count="3">dataread index substring index win window</phrase>
+	<phrase weight="0.02631578947368421" count="2">dataread save button</phrase>
+	<phrase weight="0.02631578947368421" count="2">action listener</phrase>
+	<phrase weight="0.02631578947368421" count="2">datawrite live connect</phrase>
+	<phrase weight="0.02631578947368421" count="2">bar tool bar load button button save button button</phrase>
+  </topic>
+  <topic id="97" alpha="0.02939999878423209" totalTokens="634" titles="area invalidated, invalidated area, drawing, rectangle, request, derived, listeners, options, empty, ">
+	<word weight="0.32334384858044163" count="205">area</word>
+	<word weight="0.22555205047318613" count="143">invalidated</word>
+	<word weight="0.11987381703470032" count="76">drawing</word>
+	<word weight="0.09779179810725552" count="62">draw</word>
+	<word weight="0.0804416403785489" count="51">rectangle</word>
+	<word weight="0.04258675078864353" count="27">request</word>
+	<word weight="0.017350157728706624" count="11">derived</word>
+	<word weight="0.014195583596214511" count="9">listeners</word>
+	<word weight="0.012618296529968454" count="8">options</word>
+	<word weight="0.011041009463722398" count="7">empty</word>
+	<phrase weight="0.2871287128712871" count="29">area invalidated</phrase>
+	<phrase weight="0.21782178217821782" count="22">invalidated area</phrase>
+	<phrase weight="0.07920792079207921" count="8">rectangle invalidated area</phrase>
+	<phrase weight="0.0594059405940594" count="6">area invalidated invalidated area</phrase>
+	<phrase weight="0.039603960396039604" count="4">invalidated area invalidated area</phrase>
+	<phrase weight="0.0297029702970297" count="3">invalidated area drawing</phrase>
+	<phrase weight="0.0297029702970297" count="3">repainted area invalidated</phrase>
+	<phrase weight="0.019801980198019802" count="2">invalidated invalidated area</phrase>
+	<phrase weight="0.019801980198019802" count="2">area invalidated draw</phrase>
+	<phrase weight="0.019801980198019802" count="2">fractional metrics</phrase>
+  </topic>
+  <topic id="98" alpha="0.012744499664341217" totalTokens="601" titles="connector, chop, connection, point, target, angle, geom, owner, box, display">
+	<word weight="0.18635607321131448" count="112">connector</word>
+	<word weight="0.10981697171381032" count="66">chop</word>
+	<word weight="0.08985024958402663" count="54">connection</word>
+	<word weight="0.08319467554076539" count="50">point</word>
+	<word weight="0.07820299500831947" count="47">target</word>
+	<word weight="0.05823627287853577" count="35">angle</word>
+	<word weight="0.05823627287853577" count="35">geom</word>
+	<word weight="0.05324459234608985" count="32">owner</word>
+	<word weight="0.04658901830282862" count="28">box</word>
+	<word weight="0.018302828618968387" count="11">display</word>
+	<phrase weight="0.06060606060606061" count="6">connector chop</phrase>
+	<phrase weight="0.04040404040404041" count="4">connection point</phrase>
+	<phrase weight="0.030303030303030304" count="3">display box</phrase>
+	<phrase weight="0.030303030303030304" count="3">connector connector</phrase>
+	<phrase weight="0.030303030303030304" count="3">chop box connector</phrase>
+	<phrase weight="0.020202020202020204" count="2">point chop</phrase>
+	<phrase weight="0.020202020202020204" count="2">connector chop box connector</phrase>
+	<phrase weight="0.020202020202020204" count="2">connector connection</phrase>
+	<phrase weight="0.020202020202020204" count="2">owner owner point chop</phrase>
+	<phrase weight="0.020202020202020204" count="2">target point target connector target target</phrase>
+  </topic>
+  <topic id="99" alpha="0.018211045506981396" totalTokens="734" titles="color, fill, line, math, string, number, shadow, colors, black, dimension">
+	<word weight="0.6743869209809265" count="495">color</word>
+	<word weight="0.02861035422343324" count="21">fill</word>
+	<word weight="0.025885558583106268" count="19">line</word>
+	<word weight="0.021798365122615803" count="16">math</word>
+	<word weight="0.01907356948228883" count="14">string</word>
+	<word weight="0.01907356948228883" count="14">number</word>
+	<word weight="0.013623978201634877" count="10">shadow</word>
+	<word weight="0.013623978201634877" count="10">colors</word>
+	<word weight="0.013623978201634877" count="10">black</word>
+	<word weight="0.01226158038147139" count="9">dimension</word>
+	<phrase weight="0.22784810126582278" count="18">color color</phrase>
+	<phrase weight="0.05063291139240506" count="4">color black</phrase>
+	<phrase weight="0.0379746835443038" count="3">color color fill</phrase>
+	<phrase weight="0.0379746835443038" count="3">color color red</phrase>
+	<phrase weight="0.0379746835443038" count="3">color color black</phrase>
+	<phrase weight="0.02531645569620253" count="2">lime color</phrase>
+	<phrase weight="0.02531645569620253" count="2">aqua color</phrase>
+	<phrase weight="0.02531645569620253" count="2">silver color</phrase>
+	<phrase weight="0.02531645569620253" count="2">orchid color</phrase>
+	<phrase weight="0.02531645569620253" count="2">green color</phrase>
+  </topic>
+  <topic id="100" alpha="0.0019499964637305224" totalTokens="622" titles="reader, stream, current, index, line, malformed, readers, url, stacked, ">
+	<word weight="0.23311897106109325" count="145">reader</word>
+	<word weight="0.11093247588424437" count="69">stream</word>
+	<word weight="0.0819935691318328" count="51">current</word>
+	<word weight="0.04501607717041801" count="28">index</word>
+	<word weight="0.04501607717041801" count="28">str</word>
+	<word weight="0.04019292604501608" count="25">line</word>
+	<word weight="0.02572347266881029" count="16">malformed</word>
+	<word weight="0.024115755627009645" count="15">readers</word>
+	<word weight="0.022508038585209004" count="14">url</word>
+	<word weight="0.022508038585209004" count="14">stacked</word>
+	<phrase weight="0.045871559633027525" count="5">reader reader</phrase>
+	<phrase weight="0.027522935779816515" count="3">current reader</phrase>
+	<phrase weight="0.027522935779816515" count="3">stream exhausted control</phrase>
+	<phrase weight="0.01834862385321101" count="2">back stream</phrase>
+	<phrase weight="0.01834862385321101" count="2">stacked reader readers</phrase>
+	<phrase weight="0.01834862385321101" count="2">reader pushback</phrase>
+	<phrase weight="0.01834862385321101" count="2">input stream</phrase>
+	<phrase weight="0.01834862385321101" count="2">found refers local</phrase>
+	<phrase weight="0.01834862385321101" count="2">stream reader pbstream</phrase>
+	<phrase weight="0.01834862385321101" count="2">entity reader produced resolving internal entity start stream</phrase>
+  </topic>
+  <topic id="101" alpha="0.0052355136019271945" totalTokens="303" titles="drawing, font, render, context, code, param, sends, message, lock, notify">
+	<word weight="0.28052805280528054" count="85">drawing</word>
+	<word weight="0.07260726072607261" count="22">font</word>
+	<word weight="0.066006600660066" count="20">render</word>
+	<word weight="0.066006600660066" count="20">context</word>
+	<word weight="0.0594059405940594" count="18">code</word>
+	<word weight="0.039603960396039604" count="12">param</word>
+	<word weight="0.036303630363036306" count="11">sends</word>
+	<word weight="0.036303630363036306" count="11">message</word>
+	<word weight="0.0297029702970297" count="9">lock</word>
+	<word weight="0.0297029702970297" count="9">notify</word>
+	<phrase weight="0.14893617021276595" count="7">notify code message</phrase>
+	<phrase weight="0.06382978723404255" count="3">drawing sends code</phrase>
+	<phrase weight="0.06382978723404255" count="3">drawing drawing sends code</phrase>
+	<phrase weight="0.0425531914893617" count="2">temporarily drawing drawing sends code</phrase>
+	<phrase weight="0.0425531914893617" count="2">call hit detection descend figure's children</phrase>
+	<phrase weight="0.0425531914893617" count="2">font render context font render context font render context</phrase>
+	<phrase weight="0.0425531914893617" count="2">render context</phrase>
+	<phrase weight="0.0425531914893617" count="2">font render context font render context</phrase>
+	<phrase weight="0.0425531914893617" count="2">render context font render context</phrase>
+	<phrase weight="0.0425531914893617" count="2">font render context</phrase>
+  </topic>
+  <topic id="102" alpha="0.003917083988448673" totalTokens="235" titles="attr, result, equals, size, toggler, put, substring, illegal, separator, gautami">
+	<word weight="0.6" count="141">attr</word>
+	<word weight="0.10638297872340426" count="25">result</word>
+	<word weight="0.06382978723404255" count="15">equals</word>
+	<word weight="0.06382978723404255" count="15">size</word>
+	<word weight="0.03829787234042553" count="9">toggler</word>
+	<word weight="0.03404255319148936" count="8">put</word>
+	<word weight="0.029787234042553193" count="7">substring</word>
+	<word weight="0.01276595744680851" count="3">illegal</word>
+	<word weight="0.00851063829787234" count="2">separator</word>
+	<word weight="0.00425531914893617" count="1">gautami</word>
+	<phrase weight="0.5714285714285714" count="8">attr attr</phrase>
+	<phrase weight="0.07142857142857142" count="1">result put attr attr</phrase>
+	<phrase weight="0.07142857142857142" count="1">attr result</phrase>
+	<phrase weight="0.07142857142857142" count="1">result put attr attr result</phrase>
+	<phrase weight="0.07142857142857142" count="1">attr equals</phrase>
+	<phrase weight="0.07142857142857142" count="1">attr put</phrase>
+	<phrase weight="0.07142857142857142" count="1">result put attr</phrase>
+  </topic>
+  <topic id="103" alpha="0.005992491640065022" totalTokens="1602" titles="attribute, namespace, xml, param, full, return, index, line, type, content">
+	<word weight="0.13607990012484394" count="218">attribute</word>
+	<word weight="0.12671660424469414" count="203">namespace</word>
+	<word weight="0.1198501872659176" count="192">xml</word>
+	<word weight="0.1104868913857678" count="177">param</word>
+	<word weight="0.08052434456928839" count="129">full</word>
+	<word weight="0.04057428214731586" count="65">return</word>
+	<word weight="0.03745318352059925" count="60">index</word>
+	<word weight="0.03058676654182272" count="49">line</word>
+	<word weight="0.028089887640449437" count="45">type</word>
+	<word weight="0.02372034956304619" count="38">content</word>
+	<phrase weight="0.03982300884955752" count="9">param full</phrase>
+	<phrase weight="0.035398230088495575" count="8">xml attribute</phrase>
+	<phrase weight="0.030973451327433628" count="7">param namespace namespace</phrase>
+	<phrase weight="0.02654867256637168" count="6">starts xml</phrase>
+	<phrase weight="0.02654867256637168" count="6">starts param line line xml data</phrase>
+	<phrase weight="0.02654867256637168" count="6">param full full</phrase>
+	<phrase weight="0.022123893805309734" count="5">attribute namespace</phrase>
+	<phrase weight="0.022123893805309734" count="5">content xml</phrase>
+	<phrase weight="0.017699115044247787" count="4">warranty purpose restrictions required distribution</phrase>
+	<phrase weight="0.017699115044247787" count="4">param xml</phrase>
+  </topic>
+  <topic id="104" alpha="0.2766670322683798" totalTokens="2519" titles="creates instance, author version, reserved disclose accordance package, created public, set, ">
+	<word weight="0.10758237395791981" count="271">set</word>
+	<word weight="0.09249702262802699" count="233">creates</word>
+	<word weight="0.08813021040095276" count="222">author</word>
+	<word weight="0.08733624454148471" count="220">reserved</word>
+	<word weight="0.08574831282254863" count="216">package</word>
+	<word weight="0.08376339817387853" count="211">disclose</word>
+	<word weight="0.08177848352520842" count="206">public</word>
+	<word weight="0.07979356887653831" count="201">accordance</word>
+	<word weight="0.07820563715760222" count="197">version</word>
+	<word weight="0.07741167129813419" count="195">instance</word>
+	<phrase weight="0.16046966731898238" count="82">creates instance</phrase>
+	<phrase weight="0.16046966731898238" count="82">author version</phrase>
+	<phrase weight="0.1487279843444227" count="76">reserved disclose accordance package</phrase>
+	<phrase weight="0.14285714285714285" count="73">created public</phrase>
+	<phrase weight="0.11545988258317025" count="59">disclose accordance package</phrase>
+	<phrase weight="0.021526418786692758" count="11">accordance package</phrase>
+	<phrase weight="0.021526418786692758" count="11">author version created public</phrase>
+	<phrase weight="0.01761252446183953" count="9">reserved disclose</phrase>
+	<phrase weight="0.01761252446183953" count="9">reserved disclose accordance package draw</phrase>
+	<phrase weight="0.015655577299412915" count="8">disclose accordance</phrase>
+  </topic>
+  <topic id="105" alpha="0.018313717144816187" totalTokens="789" titles="figure, figures, collection, basic, sorted, ignore, events, snap, orphaned, ">
+	<word weight="0.385297845373891" count="304">figure</word>
+	<word weight="0.311787072243346" count="246">figures</word>
+	<word weight="0.11280101394169835" count="89">collection</word>
+	<word weight="0.08491761723700887" count="67">basic</word>
+	<word weight="0.035487959442332066" count="28">sorted</word>
+	<word weight="0.025348542458808618" count="20">sort</word>
+	<word weight="0.016476552598225603" count="13">ignore</word>
+	<word weight="0.010139416983523447" count="8">events</word>
+	<word weight="0.0038022813688212928" count="3">snap</word>
+	<word weight="0.0038022813688212928" count="3">orphaned</word>
+	<phrase weight="0.1509433962264151" count="16">figure figure</phrase>
+	<phrase weight="0.11320754716981132" count="12">collection figure figures</phrase>
+	<phrase weight="0.11320754716981132" count="12">figure figures</phrase>
+	<phrase weight="0.09433962264150944" count="10">collection figure</phrase>
+	<phrase weight="0.04716981132075472" count="5">sort figures</phrase>
+	<phrase weight="0.04716981132075472" count="5">figures collection</phrase>
+	<phrase weight="0.03773584905660377" count="4">collection figures</phrase>
+	<phrase weight="0.03773584905660377" count="4">figures figures</phrase>
+	<phrase weight="0.03773584905660377" count="4">figure sorted</phrase>
+	<phrase weight="0.02830188679245283" count="3">figures collection figures</phrase>
+  </topic>
+  <topic id="106" alpha="0.003267549999237065" totalTokens="172" titles="filter, extension, extensions, export, description, pathname, lower, filechooser, filename, acceptable">
+	<word weight="0.12790697674418605" count="22">filter</word>
+	<word weight="0.12209302325581395" count="21">extension</word>
+	<word weight="0.11046511627906977" count="19">extensions</word>
+	<word weight="0.0872093023255814" count="15">export</word>
+	<word weight="0.0755813953488372" count="13">description</word>
+	<word weight="0.040697674418604654" count="7">pathname</word>
+	<word weight="0.040697674418604654" count="7">lower</word>
+	<word weight="0.03488372093023256" count="6">filechooser</word>
+	<word weight="0.03488372093023256" count="6">filename</word>
+	<word weight="0.029069767441860465" count="5">acceptable</word>
+	<phrase weight="0.07142857142857142" count="2">extension filter extension filter</phrase>
+	<phrase weight="0.07142857142857142" count="2">filter make acceptable</phrase>
+	<phrase weight="0.07142857142857142" count="2">string extensions</phrase>
+	<phrase weight="0.03571428571428571" count="1">extension extensions</phrase>
+	<phrase weight="0.03571428571428571" count="1">filechooser filter filter</phrase>
+	<phrase weight="0.03571428571428571" count="1">filechooser filter</phrase>
+	<phrase weight="0.03571428571428571" count="1">filter filter</phrase>
+	<phrase weight="0.03571428571428571" count="1">extensions accept pathname pathname directory pathname</phrase>
+	<phrase weight="0.03571428571428571" count="1">extlc extensions lower extensions</phrase>
+	<phrase weight="0.03571428571428571" count="1">filechooser export</phrase>
+  </topic>
+  <topic id="107" alpha="0.008583528525028543" totalTokens="201" titles="entry, remove, collection, pick, split, count, iterator, reorganize, coallesce, fail">
+	<word weight="0.6716417910447762" count="135">entry</word>
+	<word weight="0.09950248756218906" count="20">remove</word>
+	<word weight="0.05970149253731343" count="12">collection</word>
+	<word weight="0.03980099502487562" count="8">pick</word>
+	<word weight="0.03482587064676617" count="7">split</word>
+	<word weight="0.03482587064676617" count="7">count</word>
+	<word weight="0.024875621890547265" count="5">iterator</word>
+	<word weight="0.009950248756218905" count="2">reorganize</word>
+	<word weight="0.004975124378109453" count="1">coallesce</word>
+	<word weight="0.004975124378109453" count="1">fail</word>
+	<phrase weight="0.2857142857142857" count="2">remove remove</phrase>
+	<phrase weight="0.14285714285714285" count="1">remove collection</phrase>
+	<phrase weight="0.14285714285714285" count="1">fail coallesce</phrase>
+	<phrase weight="0.14285714285714285" count="1">entry entry</phrase>
+	<phrase weight="0.14285714285714285" count="1">iterator entry</phrase>
+	<phrase weight="0.14285714285714285" count="1">reorganize reorganize</phrase>
+  </topic>
+  <topic id="108" alpha="0.016359893078786512" totalTokens="563" titles="owner, figure, cursor, geometry, box, change, math, step, basic, normalized">
+	<word weight="0.4103019538188277" count="231">owner</word>
+	<word weight="0.12788632326820604" count="72">figure</word>
+	<word weight="0.11900532859680284" count="67">cursor</word>
+	<word weight="0.04440497335701599" count="25">geometry</word>
+	<word weight="0.03907637655417407" count="22">box</word>
+	<word weight="0.03907637655417407" count="22">change</word>
+	<word weight="0.03374777975133215" count="19">math</word>
+	<word weight="0.02486678507992895" count="14">step</word>
+	<word weight="0.02486678507992895" count="14">basic</word>
+	<word weight="0.017761989342806393" count="10">normalized</word>
+	<phrase weight="0.17857142857142858" count="15">figure owner</phrase>
+	<phrase weight="0.15476190476190477" count="13">figure owner owner</phrase>
+	<phrase weight="0.09523809523809523" count="8">step normalized</phrase>
+	<phrase weight="0.05952380952380952" count="5">owner owner</phrase>
+	<phrase weight="0.047619047619047616" count="4">cursor cursor predefined cursor cursor</phrase>
+	<phrase weight="0.047619047619047616" count="4">cursor cursor cursor predefined cursor cursor</phrase>
+	<phrase weight="0.03571428571428571" count="3">change owner</phrase>
+	<phrase weight="0.03571428571428571" count="3">owner change owner</phrase>
+	<phrase weight="0.023809523809523808" count="2">cursor cursor cursor cursor</phrase>
+	<phrase weight="0.023809523809523808" count="2">owner owner owner</phrase>
+  </topic>
+  <topic id="109" alpha="0.00930804997808328" totalTokens="257" titles="locator, figure, owner, locate, attribute, point, coord, position, locates, dependent">
+	<word weight="0.4085603112840467" count="105">locator</word>
+	<word weight="0.15953307392996108" count="41">figure</word>
+	<word weight="0.14007782101167315" count="36">owner</word>
+	<word weight="0.08560311284046693" count="22">locate</word>
+	<word weight="0.04669260700389105" count="12">attribute</word>
+	<word weight="0.038910505836575876" count="10">point</word>
+	<word weight="0.03501945525291829" count="9">coord</word>
+	<word weight="0.019455252918287938" count="5">position</word>
+	<word weight="0.01556420233463035" count="4">locates</word>
+	<word weight="0.01556420233463035" count="4">dependent</word>
+	<phrase weight="0.23529411764705882" count="8">locator locator</phrase>
+	<phrase weight="0.08823529411764706" count="3">locator locate owner</phrase>
+	<phrase weight="0.058823529411764705" count="2">locate figure owner</phrase>
+	<phrase weight="0.058823529411764705" count="2">figure owner locator owner locator</phrase>
+	<phrase weight="0.058823529411764705" count="2">locator locator locator</phrase>
+	<phrase weight="0.058823529411764705" count="2">figure owner</phrase>
+	<phrase weight="0.029411764705882353" count="1">locate position</phrase>
+	<phrase weight="0.029411764705882353" count="1">locate figure owner point owner</phrase>
+	<phrase weight="0.029411764705882353" count="1">locates position figure</phrase>
+	<phrase weight="0.029411764705882353" count="1">locator locates position</phrase>
+  </topic>
+  <topic id="110" alpha="6.477424996240153E-4" totalTokens="996" titles="map put, path, stream, nval, expected, number, manager, attribute, node, ">
+	<word weight="0.18775100401606426" count="187">put</word>
+	<word weight="0.1706827309236948" count="170">map</word>
+	<word weight="0.07730923694779117" count="77">path</word>
+	<word weight="0.05823293172690763" count="58">stream</word>
+	<word weight="0.0572289156626506" count="57">nval</word>
+	<word weight="0.04718875502008032" count="47">expected</word>
+	<word weight="0.03815261044176707" count="38">number</word>
+	<word weight="0.028112449799196786" count="28">manager</word>
+	<word weight="0.02710843373493976" count="27">attribute</word>
+	<word weight="0.024096385542168676" count="24">node</word>
+	<phrase weight="0.33587786259541985" count="88">map put</phrase>
+	<phrase weight="0.0648854961832061" count="17">number expected nval</phrase>
+	<phrase weight="0.04198473282442748" count="11">number expected nval path</phrase>
+	<phrase weight="0.04198473282442748" count="11">expected nval</phrase>
+	<phrase weight="0.022900763358778626" count="6">attribute stroke</phrase>
+	<phrase weight="0.015267175572519083" count="4">type equals</phrase>
+	<phrase weight="0.015267175572519083" count="4">mask bezier path</phrase>
+	<phrase weight="0.011450381679389313" count="3">bezier path path</phrase>
+	<phrase weight="0.011450381679389313" count="3">angle nval</phrase>
+	<phrase weight="0.011450381679389313" count="3">expected nval path</phrase>
+  </topic>
+  <topic id="111" alpha="0.018752381170597847" totalTokens="579" titles="hash map, set, add, key, put, select, enums, unable, ">
+	<word weight="0.30915371329879104" count="179">map</word>
+	<word weight="0.17443868739205526" count="101">hash</word>
+	<word weight="0.12607944732297063" count="73">set</word>
+	<word weight="0.10535405872193437" count="61">add</word>
+	<word weight="0.09671848013816926" count="56">put</word>
+	<word weight="0.09671848013816926" count="56">key</word>
+	<word weight="0.015544041450777202" count="9">select</word>
+	<word weight="0.013816925734024179" count="8">enums</word>
+	<word weight="0.008635578583765112" count="5">enum</word>
+	<word weight="0.008635578583765112" count="5">unable</word>
+	<phrase weight="0.5692307692307692" count="37">hash map</phrase>
+	<phrase weight="0.07692307692307693" count="5">hash set</phrase>
+	<phrase weight="0.06153846153846154" count="4">map hash map</phrase>
+	<phrase weight="0.046153846153846156" count="3">key map map</phrase>
+	<phrase weight="0.03076923076923077" count="2">key map</phrase>
+	<phrase weight="0.03076923076923077" count="2">map put</phrase>
+	<phrase weight="0.015384615384615385" count="1">map put map put</phrase>
+	<phrase weight="0.015384615384615385" count="1">key add</phrase>
+	<phrase weight="0.015384615384615385" count="1">select put</phrase>
+	<phrase weight="0.015384615384615385" count="1">enum enums map enums enums</phrase>
+  </topic>
+  <topic id="112" alpha="0.0012964415909773744" totalTokens="285" titles="screen, component, window, preferences, size, evt, param, preferred, sets, conf">
+	<word weight="0.20701754385964913" count="59">screen</word>
+	<word weight="0.10175438596491228" count="29">component</word>
+	<word weight="0.08421052631578947" count="24">window</word>
+	<word weight="0.08421052631578947" count="24">preferences</word>
+	<word weight="0.07719298245614035" count="22">size</word>
+	<word weight="0.06315789473684211" count="18">evt</word>
+	<word weight="0.042105263157894736" count="12">param</word>
+	<word weight="0.028070175438596492" count="8">preferred</word>
+	<word weight="0.028070175438596492" count="8">sets</word>
+	<word weight="0.021052631578947368" count="6">conf</word>
+	<phrase weight="0.10909090909090909" count="6">evt component</phrase>
+	<phrase weight="0.09090909090909091" count="5">preferred size</phrase>
+	<phrase weight="0.09090909090909091" count="5">component evt</phrase>
+	<phrase weight="0.05454545454545454" count="3">user param</phrase>
+	<phrase weight="0.05454545454545454" count="3">preferences storing/retrieving preferences values param base</phrase>
+	<phrase weight="0.03636363636363636" count="2">component adapter component</phrase>
+	<phrase weight="0.03636363636363636" count="2">component component</phrase>
+	<phrase weight="0.03636363636363636" count="2">size window</phrase>
+	<phrase weight="0.03636363636363636" count="2">run sets</phrase>
+	<phrase weight="0.03636363636363636" count="2">window window graphics configuration conf window graphics configuration</phrase>
+  </topic>
+  <topic id="113" alpha="0.0072244033539860305" totalTokens="474" titles="bezier, points, param, end, compute, alpha, region, values, pts, curves">
+	<word weight="0.1962025316455696" count="93">bezier</word>
+	<word weight="0.14345991561181434" count="68">points</word>
+	<word weight="0.12869198312236288" count="61">param</word>
+	<word weight="0.046413502109704644" count="22">end</word>
+	<word weight="0.04219409282700422" count="20">compute</word>
+	<word weight="0.03164556962025317" count="15">alpha</word>
+	<word weight="0.027426160337552744" count="13">region</word>
+	<word weight="0.02531645569620253" count="12">values</word>
+	<word weight="0.02109704641350211" count="10">pts</word>
+	<word weight="0.016877637130801686" count="8">curves</word>
+	<phrase weight="0.18032786885245902" count="11">points param</phrase>
+	<phrase weight="0.09836065573770492" count="6">region param</phrase>
+	<phrase weight="0.04918032786885246" count="3">distance points</phrase>
+	<phrase weight="0.04918032786885246" count="3">end region</phrase>
+	<phrase weight="0.04918032786885246" count="3">param user defined</phrase>
+	<phrase weight="0.03278688524590164" count="2">max maximum</phrase>
+	<phrase weight="0.03278688524590164" count="2">points param end</phrase>
+	<phrase weight="0.01639344262295082" count="1">barsky heuristic text alpha</phrase>
+	<phrase weight="0.01639344262295082" count="1">tangents endpoint</phrase>
+	<phrase weight="0.01639344262295082" count="1">alpha alpha</phrase>
+  </topic>
+  <topic id="114" alpha="0.009920115300552397" totalTokens="298" titles="selected, text, delete, clipboard, allowed, position, contents, paste, cut, caret">
+	<word weight="0.1644295302013423" count="49">selected</word>
+	<word weight="0.05704697986577181" count="17">text</word>
+	<word weight="0.050335570469798654" count="15">delete</word>
+	<word weight="0.0436241610738255" count="13">clipboard</word>
+	<word weight="0.0436241610738255" count="13">allowed</word>
+	<word weight="0.040268456375838924" count="12">position</word>
+	<word weight="0.040268456375838924" count="12">contents</word>
+	<word weight="0.03691275167785235" count="11">paste</word>
+	<word weight="0.03691275167785235" count="11">cut</word>
+	<word weight="0.03355704697986577" count="10">caret</word>
+	<phrase weight="0.20833333333333334" count="10">selected points selected text</phrase>
+	<phrase weight="0.08333333333333333" count="4">clipboard depending</phrase>
+	<phrase weight="0.041666666666666664" count="2">pointer allowed</phrase>
+	<phrase weight="0.041666666666666664" count="2">copy duplicates</phrase>
+	<phrase weight="0.041666666666666664" count="2">selected region place contents clipboard</phrase>
+	<phrase weight="0.041666666666666664" count="2">cut copies</phrase>
+	<phrase weight="0.041666666666666664" count="2">duplicate pastes contents clipboard depending</phrase>
+	<phrase weight="0.041666666666666664" count="2">works user</phrase>
+	<phrase weight="0.041666666666666664" count="2">user switches</phrase>
+	<phrase weight="0.041666666666666664" count="2">caret position</phrase>
+  </topic>
+  <topic id="115" alpha="0.008519076596242282" totalTokens="130" titles="move, connectors, http, node, text, www, closest, sourceforge, html, org/licenses/lgpl">
+	<word weight="0.3923076923076923" count="51">move</word>
+	<word weight="0.1076923076923077" count="14">connectors</word>
+	<word weight="0.06923076923076923" count="9">http</word>
+	<word weight="0.06923076923076923" count="9">node</word>
+	<word weight="0.06153846153846154" count="8">text</word>
+	<word weight="0.046153846153846156" count="6">www</word>
+	<word weight="0.03076923076923077" count="4">closest</word>
+	<word weight="0.023076923076923078" count="3">sourceforge</word>
+	<word weight="0.023076923076923078" count="3">html</word>
+	<word weight="0.015384615384615385" count="2">org/licenses/lgpl</word>
+	<phrase weight="0.2857142857142857" count="2">lesser http www opensource org/licenses/lgpl html</phrase>
+	<phrase weight="0.2857142857142857" count="2">hotdraw framework technical drawings http www http sourceforge</phrase>
+	<phrase weight="0.2857142857142857" count="2">http www</phrase>
+	<phrase weight="0.14285714285714285" count="1">closest closest</phrase>
+  </topic>
+  <topic id="116" alpha="0.0032654706343803776" totalTokens="361" titles="target, listener, proxy, result, action, mouse, create, label, button, equals">
+	<word weight="0.21606648199445982" count="78">target</word>
+	<word weight="0.1523545706371191" count="55">listener</word>
+	<word weight="0.060941828254847646" count="22">proxy</word>
+	<word weight="0.04709141274238227" count="17">result</word>
+	<word weight="0.04155124653739612" count="15">action</word>
+	<word weight="0.030470914127423823" count="11">mouse</word>
+	<word weight="0.030470914127423823" count="11">create</word>
+	<word weight="0.027700831024930747" count="10">label</word>
+	<word weight="0.024930747922437674" count="9">button</word>
+	<word weight="0.024930747922437674" count="9">equals</word>
+	<phrase weight="0.08333333333333333" count="4">target target</phrase>
+	<phrase weight="0.0625" count="3">target target target</phrase>
+	<phrase weight="0.041666666666666664" count="2">generic listener</phrase>
+	<phrase weight="0.041666666666666664" count="2">listener method</phrase>
+	<phrase weight="0.041666666666666664" count="2">listener target</phrase>
+	<phrase weight="0.020833333333333332" count="1">handler handler invoker proxy throwable send target superclass</phrase>
+	<phrase weight="0.020833333333333332" count="1">search target target target target target target</phrase>
+	<phrase weight="0.020833333333333332" count="1">listener convenient</phrase>
+	<phrase weight="0.020833333333333332" count="1">mouse listener mouse listener pre</phrase>
+	<phrase weight="0.020833333333333332" count="1">cls handler</phrase>
+  </topic>
+  <topic id="117" alpha="0.0032492941894247482" totalTokens="1642" titles="code code, message, parent, listener, owner, param, type, show, dialog, set">
+	<word weight="0.1930572472594397" count="317">code</word>
+	<word weight="0.06577344701583435" count="108">message</word>
+	<word weight="0.06455542021924482" count="106">parent</word>
+	<word weight="0.057247259439707675" count="94">listener</word>
+	<word weight="0.049939098660170524" count="82">owner</word>
+	<word weight="0.0438489646772229" count="72">param</word>
+	<word weight="0.04263093788063337" count="70">type</word>
+	<word weight="0.031668696711327646" count="52">dialog</word>
+	<word weight="0.031668696711327646" count="52">show</word>
+	<word weight="0.02679658952496955" count="44">set</word>
+	<phrase weight="0.10670731707317073" count="35">code code</phrase>
+	<phrase weight="0.027439024390243903" count="9">code code frame code</phrase>
+	<phrase weight="0.027439024390243903" count="9">events show</phrase>
+	<phrase weight="0.021341463414634148" count="7">determines code frame code dialog displayed code null code code parent</phrase>
+	<phrase weight="0.021341463414634148" count="7">param parent</phrase>
+	<phrase weight="0.018292682926829267" count="6">listener listener</phrase>
+	<phrase weight="0.01524390243902439" count="5">message message type</phrase>
+	<phrase weight="0.012195121951219513" count="4">frame parent</phrase>
+	<phrase weight="0.012195121951219513" count="4">type message type</phrase>
+	<phrase weight="0.012195121951219513" count="4">code param</phrase>
+  </topic>
+  <topic id="118" alpha="0.0026068424994744066" totalTokens="507" titles="resource, key, bundle, base, locale, argument, button, property, stroke, missing">
+	<word weight="0.1222879684418146" count="62">resource</word>
+	<word weight="0.11439842209072978" count="58">key</word>
+	<word weight="0.09270216962524655" count="47">bundle</word>
+	<word weight="0.05719921104536489" count="29">base</word>
+	<word weight="0.055226824457593686" count="28">locale</word>
+	<word weight="0.055226824457593686" count="28">argument</word>
+	<word weight="0.04930966469428008" count="25">button</word>
+	<word weight="0.04142011834319527" count="21">property</word>
+	<word weight="0.03550295857988166" count="18">stroke</word>
+	<word weight="0.03550295857988166" count="18">missing</word>
+	<phrase weight="0.05454545454545454" count="3">acc argument</phrase>
+	<phrase weight="0.03636363636363636" count="2">icon image icon argument base button</phrase>
+	<phrase weight="0.01818181818181818" count="1">feel resource bundle resource bundle bundle base</phrase>
+	<phrase weight="0.01818181818181818" count="1">stroke key key stroke resource</phrase>
+	<phrase weight="0.01818181818181818" count="1">casting param key key property return property property missing key resource key missing resource image icon resource bundle convenience param key key property appends icon key return property property missing image icon image icon key base rsrc resource key icon rsrc</phrase>
+	<phrase weight="0.01818181818181818" count="1">tip key resource key tip missing resource key stroke resource bundle convenience param key key property return code javax key stroke key stroke code property missing key stroke</phrase>
+	<phrase weight="0.01818181818181818" count="1">feel missing resource resource bundle resource bundle bundle base</phrase>
+	<phrase weight="0.01818181818181818" count="1">suffixes redirection locale bundle</phrase>
+	<phrase weight="0.01818181818181818" count="1">base configure</phrase>
+	<phrase weight="0.01818181818181818" count="1">formatted key argument</phrase>
+  </topic>
+  <topic id="119" alpha="0.015046347759185532" totalTokens="1148" titles="tool, mouse, view, editor, evt, key, cursor, anchor, selection, fire">
+	<word weight="0.17857142857142858" count="205">tool</word>
+	<word weight="0.14634146341463414" count="168">mouse</word>
+	<word weight="0.11672473867595819" count="134">view</word>
+	<word weight="0.07055749128919861" count="81">editor</word>
+	<word weight="0.06794425087108014" count="78">evt</word>
+	<word weight="0.0627177700348432" count="72">key</word>
+	<word weight="0.04006968641114982" count="46">cursor</word>
+	<word weight="0.03484320557491289" count="40">anchor</word>
+	<word weight="0.03048780487804878" count="35">selection</word>
+	<word weight="0.028745644599303136" count="33">fire</word>
+	<phrase weight="0.05" count="8">mouse evt</phrase>
+	<phrase weight="0.05" count="8">tool tool</phrase>
+	<phrase weight="0.04375" count="7">view view</phrase>
+	<phrase weight="0.0375" count="6">dragged mouse</phrase>
+	<phrase weight="0.025" count="4">tool tool tool</phrase>
+	<phrase weight="0.025" count="4">editor editor activate editor view</phrase>
+	<phrase weight="0.025" count="4">cursor cursor</phrase>
+	<phrase weight="0.025" count="4">selection tool</phrase>
+	<phrase weight="0.01875" count="3">evt evt</phrase>
+	<phrase weight="0.01875" count="3">mouse evt mouse</phrase>
+  </topic>
+</topics>

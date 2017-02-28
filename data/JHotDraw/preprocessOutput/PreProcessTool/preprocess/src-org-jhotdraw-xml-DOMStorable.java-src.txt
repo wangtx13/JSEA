@@ -1,0 +1,1 @@
+dom storable 1 0 february 17 2004 1996 2006 disclose accordance xml io made persistent using <code> dom output write object< code> <code> dom input read object< code> <p> convention every implementing dom storable m u s t provide parameterless constructor author 1 0 february 17 2004 create dom storable write dom output out i o read dom input i o 

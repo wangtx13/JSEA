@@ -1,0 +1,45 @@
+26-Sep-2016 21:15:09.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M4
+26-Sep-2016 21:15:09.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 12 2016 11:39:59 UTC
+26-Sep-2016 21:15:09.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+26-Sep-2016 21:15:09.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+26-Sep-2016 21:15:09.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.11.6
+26-Sep-2016 21:15:09.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+26-Sep-2016 21:15:09.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre
+26-Sep-2016 21:15:09.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_40-b27
+26-Sep-2016 21:15:09.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Sep-2016 21:15:09.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4
+26-Sep-2016 21:15:09.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4
+26-Sep-2016 21:15:09.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/conf/logging.properties
+26-Sep-2016 21:15:09.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Sep-2016 21:15:09.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4
+26-Sep-2016 21:15:09.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4
+26-Sep-2016 21:15:09.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/temp
+26-Sep-2016 21:15:09.713 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/wangtianxia1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+26-Sep-2016 21:15:10.043 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Sep-2016 21:15:10.098 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Sep-2016 21:15:10.105 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Sep-2016 21:15:10.110 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Sep-2016 21:15:10.121 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1178 ms
+26-Sep-2016 21:15:10.191 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+26-Sep-2016 21:15:10.194 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M4
+26-Sep-2016 21:15:10.652 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/docs
+26-Sep-2016 21:15:10.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/docs has finished in 27 ms
+26-Sep-2016 21:15:10.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/examples
+26-Sep-2016 21:15:11.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/examples has finished in 399 ms
+26-Sep-2016 21:15:11.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/host-manager
+26-Sep-2016 21:15:11.118 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/host-manager has finished in 39 ms
+26-Sep-2016 21:15:11.118 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/manager
+26-Sep-2016 21:15:11.183 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/manager has finished in 65 ms
+26-Sep-2016 21:15:11.184 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/ROOT
+26-Sep-2016 21:15:11.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/wangtianxia1/Documents/apache-tomcat-9.0.0.M4/webapps/ROOT has finished in 22 ms
+26-Sep-2016 21:15:11.211 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+26-Sep-2016 21:15:11.220 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+26-Sep-2016 21:15:11.221 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1099 ms
+26-Sep-2016 21:15:13.506 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Sep-2016 21:15:13.507 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Sep-2016 21:15:13.565 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Sep-2016 21:15:13.618 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+26-Sep-2016 21:15:13.665 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Sep-2016 21:15:13.671 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Sep-2016 21:15:13.672 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Sep-2016 21:15:13.673 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -1,0 +1,1 @@
+reversed list 1 0 2006 01 20 1996 2006 disclose accordance reversed list provides unmodifiable view on list reverse order author wrandels reversed list< t> list< t> list< t> target creates instance reversed list reversed list list< t> target target = target t get index target get target size 1 index size target size 

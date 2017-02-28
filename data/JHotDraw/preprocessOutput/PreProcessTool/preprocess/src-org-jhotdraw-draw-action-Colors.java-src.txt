@@ -1,0 +1,1 @@
+colors 1 0 8 april 2004 1996 2006 disclose accordance draw action colors author 1 0 8 april 2004 created colors prevent instance creation colors blackens specified color casting black shadow specified amount on color color shadow color amount color math 0 get red amount math 0 get green amount math 0 get blue amount get alpha 

@@ -1,0 +1,1 @@
+types iterator single instance iterator iterator< instance> instance next instance does have next single instance iterator instance inst next instance = inst does have next = has next does have next instance next does have next = next instance remove illegal state iterator does not support remove 

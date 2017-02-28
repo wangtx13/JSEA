@@ -1,0 +1,1 @@
+save action 1 0 28 september 2005 1996 2006 disclose accordance app action gui gui io app application save action author 1 0 28 september 2005 created save action save action = save creates instance save action application app app resource bundle labels = resource bundle get l f bundle app labels labels configure action 

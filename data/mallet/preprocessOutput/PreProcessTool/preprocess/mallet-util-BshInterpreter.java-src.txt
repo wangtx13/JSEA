@@ -1,0 +1,1 @@
+2002 m a l l e t m achine languag e ~mccallum 1 0 further ` l i e n s e io bsh interpreter bsh interpreter bsh interpreter interpreter interpreter bsh interpreter prefix commands eval + regex + io + types + pipe + pipe iterator + pipe tsf + classify + extract + + optimize prefix commands != eval prefix commands bsh eval e illegal argument bsh interpreter +e bsh interpreter 

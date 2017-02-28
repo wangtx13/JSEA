@@ -1,0 +1,1 @@
+dom factory 1 0 february 17 2004 1996 2006 disclose accordance xml dom factory author 1 0 february 17 2004 create dom factory element specified note element names are operation get dom storable o creates specified element create element tag specified get o tag specified instance get value o creates specified element create value 
