@@ -4,7 +4,7 @@ input_source="$1"
 suffix="$2"
 
 echo "Input source: $input_source"
-echo "Suffix: $suffix"
+echo "The number of topics: $suffix"
 
 # Please change "JSEA-path" to your real path of JSEA
 root_dir="/Users/wangtianxia1/IdeaProjects/JSEA/JSEA/JSEA-store-data/"
