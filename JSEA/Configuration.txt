@@ -1,0 +1,35 @@
+Check the path of JSEA (JSEA-path), and do the following configuration:
+1. Deploy Tomcat Server
+Edit “conf/server.xml” in Tomcat Server:
+(Find the <Host> tag and add a <Context> tag. Please change “JSEA-path” to the real path of JSEA)
+    <Host name="localhost"  appBase="webapps" unpackWARs="true" autoDeploy="true">
+        <Context docBase="/JSEA-path/JSEA“ path="/static"></Context>
+        ...
+
+    </Host>
+
+2. Configure the web.xml of JSEA
+web.xml (Please change “JSEA-path” to the real path of JSEA):
+    <context-param>
+        <description>Location to store uploaded file</description>
+        <param-name>file-upload</param-name>
+        <param-value>
+            /JSEA-path/JSEA/JSEA-store-data/upload/
+        </param-value>
+    </context-param>
+    <context-param>
+        <description>The location of the program</description>
+        <param-name>program-root-path</param-name>
+        <param-value>
+            /JSEA-path/JSEA/JSEA-store-data/
+        </param-value>
+    </context-param>
+
+
+3. Configure MALLET LDA toolkit
+Edit “mallet-2.0.8/topic-modeling.sh” in JSEA:
+(Fine “root_dir” and configure the path of JSEA. Please change “JSEA-path” to the real path of JSEA)
+root_dir=“/JSEA-path/JSEA-store-data/"
+
+
+

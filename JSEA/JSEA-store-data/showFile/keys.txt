@@ -1,0 +1,60 @@
+0	0.068	path list filename files key copy argument install installation absolute 
+1	0.01345	members scroller enumeration renderer map displaying obj line initializing splitter 
+2	0.77702	license general program free foundation tab tabs copy boston place 
+3	0.02605	combined parent title global visible previously remembers pre combines 
+4	0.04329	event listener border size set save text content height evt 
+5	0.03889	end mark action character macro sep kill registers replace textarea 
+6	0.01357	tabbed action change selected frame geometry options horizontal enhanced list 
+7	0.02871	service obj length plugins services smart automatically file searches choice 
+8	0	
+9	0.0262	current divider tree location grp init element save bar vertical 
+10	0.02737	add box dispose setup shown utilities changer linked max disk 
+11	0	
+12	0.01355	options index starting plugin frame dialog init buffer selected component 
+13	0.01511	plugin plugins create branch sort initialize classpublic broken copy received 
+14	0.03915	groups equals changed panes colors textarea syntax back docking mike 
+15	0	
+16	0.0148	read skip escaped buffer override unread str filter illegal skipped 
+17	0.03021	selection prop org position builder whitespace active equals separator gui 
+18	0.01498	caret text area buffer line clipboard emacs eat make view 
+19	0.02861	state current names collection original doesn unknown reload absolute gjt 
+20	0.09886	shortcut properties edit save obj matthieu folder action quietly reload 
+21	0.02897	result input buf text len start add length chars invocation 
+22	0.12163	keymap user manager property keymaps delete modified reset matthieu option 
+23	0.01375	path node log scroll obj label component select org bean 
+24	0.01349	deleted count special cardinal delete append length find offset history 
+25	0.01347	imported key entry directory settings map entries shortcuts starts manager 
+26	0	
+27	0.5727	org software jedit size copyright suite temple details warranty folding 
+28	0.06218	migration service time step migrate log migrations core svc implementations 
+29	0	
+30	0	
+31	0.01377	xml pre base start plugin manager 
+32	0.01372	reader cbuf nonnull len stream clazz reached malformed remaining outer 
+33	0	
+34	0	
+35	0.01348	folder maps illegal quietly filter nosettings mkdirs parent set matthieu 
+36	0.04628	pane dialog title layout panel preferred width dimension hash content 
+37	0	
+38	0.01357	write character target nullable encoder writer access math parse format 
+39	0.01319	installation eariler execute performs upgrades skip installed 
+40	0.0134	global def browser toolbar firewall gutter encodings editing context appearance 
+41	0.41061	edit set property gjt jedit ezust manager alan remove register 
+42	0	
+43	0	
+44	0	
+45	0	
+46	0.01374	event listener listeners child path parent indices source children fire 
+47	0.01366	escape sequence pushback native csq unicode ascii needed iso readn 
+48	0.01358	permissive encoding charset characters size instance min consideration conversion requested 
+49	0.05389	status check focus meaning implement resource 
+50	0.02613	history model join repeating gui identify means feel separators convert 
+51	0.04267	stream log override input props buffered output impl utilities closeable 
+52	0.03002	tree pane splitter stage visible deferred idx border operating refactored 
+53	0.18745	option group pane add options root panes member split pestov 
+54	0.06229	model tree list nodes changed length count inserted backed plugin 
+55	0.01363	service view opener open finders finder preferred fileopener pre search 
+56	0	
+57	0.02763	filter matthieu pathname data files guarantee instances compilation primarily updated 
+58	0.01366	cancel tabs buttons button panes option source apply index create 
+59	0	

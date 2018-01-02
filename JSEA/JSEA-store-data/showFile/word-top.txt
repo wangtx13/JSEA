@@ -1,0 +1,547 @@
+0 edit 41:65 2:13 20:7
+1 programmer 2:6 21:1
+2 text 18:45 21:12 4:9 2:7 0:2
+3 editor 2:7 16:1
+4 tab 2:22 4:1
+5 size 27:29 4:15 48:4 55:2
+6 indent 2:16 10:1
+7 tabs 2:20 58:11 51:1
+8 folding 27:15 12:1 35:1
+9 explicit 2:15 32:1
+10 collapse 27:14
+11 folds 2:12 20:1 19:1
+12 copyright 27:21 36:3
+13 matthieu 22:5 57:4 20:4 35:1
+14 casanova 2:14
+15 program 2:51
+16 free 2:50 57:1
+17 software 27:51
+18 redistribute 2:16 51:1
+19 modify 2:17
+20 terms 2:17
+21 general 2:54 22:1 32:1
+22 license 2:68
+23 published 2:17
+24 foundation 2:34
+25 distributed 2:17
+26 hope 2:16 52:1
+27 implied 2:17
+28 warranty 27:17
+29 details 27:17
+30 received 2:14 36:2 13:1
+31 copy 2:19 0:3 48:1 13:1
+32 write 2:16 38:14 7:1
+33 temple 27:17
+34 place 2:17
+35 suite 27:17
+36 boston 2:17
+37 org 27:58 17:10 23:5 1:1
+38 jedit 27:41 41:27 18:1
+39 keymap 22:175 51:1 18:1
+40 importsimport 51:2 38:1
+41 buffered 51:11
+42 input 21:20 51:14
+43 stream 51:26 32:10
+44 output 51:10 38:2
+45 closeable 51:6
+46 properties 20:17 41:3 16:1
+47 gjt 41:39 23:3 19:3 16:2 36:1 18:1
+48 misc 22:2
+49 utilities 51:9 10:4
+50 log 51:20 23:16 28:4
+51 author 2:9 36:2 57:1 16:1
+52 impl 51:9
+53 props 51:13
+54 modified 22:7 51:3
+55 constructor 20:1 12:1 6:1 10:1 22:1 47:1
+56 load 51:5 10:1
+57 resource 49:1
+58 keys 51:4
+59 unable 2:2
+60 close 51:4
+61 quietly 35:2 20:2
+62 shortcut 20:24
+63 override 51:15 16:13 20:1
+64 property 41:43 22:13 10:1
+65 set 41:59 4:14 35:1 22:1
+66 empty 4:4 51:2
+67 key 25:7 0:5
+68 remove 41:7
+69 equals 51:4 17:4 41:3 14:2
+70 hash 51:5 36:5
+71 obj 23:13 7:5 20:4 1:2
+72 save 4:9 20:5 9:3 51:1 40:1 50:1
+73 user 22:37
+74 manager 22:18 41:13 31:1 25:1
+75 parent 46:9 3:7 55:2 35:1
+76 mkdirs 22:1 35:1
+77 store 20:1
+78 combined 3:11
+79 options 53:31 12:13 6:3 14:1
+80 dialog 36:22 12:4 51:1
+81 alan 41:11 14:1 36:1
+82 ezust 41:13 12:1 58:1
+83 frame 12:4 6:4
+84 option 53:184 58:7 22:2
+85 combines 3:1
+86 global 40:7 3:4
+87 plugin 13:16 12:4 54:2 31:1
+88 single 27:1
+89 pre 55:3 31:2 3:1 21:1
+90 tabbed 6:10 12:1
+91 members 1:10 47:3 12:1 14:1 58:1
+92 group 53:116
+93 buffer 18:34 16:15 12:3
+94 pane 53:75 52:43 36:32 19:1
+95 starting 12:7
+96 index 12:10 58:6 46:4
+97 constructors 12:1 53:1
+98 remembers 3:1
+99 previously 3:1
+100 optional 53:2 4:1
+101 init 9:4 12:3
+102 title 36:17 3:6
+103 add 53:31 10:23 21:6 51:3
+104 selected 6:4 18:3 12:2 4:2
+105 component 23:7 12:1 58:1
+106 visible 52:7 3:1
+107 opener 55:10
+108 service 28:26 55:18 7:5
+109 sidekick 7:1
+110 core 28:3 55:1
+111 view 55:10 18:5 53:3
+112 fast 55:2
+113 open 55:9
+114 smart 7:2
+115 offer 55:1
+116 plugins 13:11 7:3
+117 list 54:21 0:6 6:2
+118 files 0:5 57:2 24:1
+119 message 0:2
+120 filename 0:5
+121 absolute 19:3 0:2
+122 path 23:45 46:12 0:6 24:2
+123 response 55:1
+124 net 27:1
+125 ticket 7:1
+126 opens 7:1
+127 popup 55:1
+128 choice 7:1
+129 search 55:2
+130 searches 7:1
+131 services 28:2 7:2 57:1
+132 preferred 36:11 55:4
+133 based 41:2
+134 fileopener 55:3
+135 console 55:1
+136 beanshell 55:1
+137 setting 41:1
+138 finders 55:7
+139 names 19:10 2:2
+140 installed 55:1 39:1
+141 length 54:5 21:5 24:3 7:3 0:1
+142 finder 55:5
+143 found 55:1
+144 file 7:1 22:1
+145 slava 53:5
+146 pestov 53:5
+147 portions 53:2 54:1
+148 mike 14:1
+149 dillon 40:1
+150 model 54:74 50:3
+151 root 53:28
+152 groups 14:4 53:3
+153 browser 40:4
+154 split 53:6
+155 def 40:4
+156 abbrevs 40:1
+157 appearance 40:1
+158 context 40:1
+159 docking 14:1
+160 editing 40:1
+161 encodings 40:1
+162 gutter 40:1
+163 mouse 27:1
+164 print 53:1
+165 firewall 40:1
+166 back 14:1
+167 shortcuts 25:2 27:1
+168 status 49:13
+169 syntax 14:1
+170 textarea 5:2 14:1
+171 toolbar 40:1
+172 colors 14:1
+173 panes 53:10 58:8 14:1
+174 displaying 1:2
+175 selecting 1:1
+176 border 4:19 52:3
+177 layout 36:14
+178 dimension 36:6
+179 event 46:31 4:23
+180 listener 46:29 4:22
+181 enumeration 1:4
+182 map 25:3 1:2 9:1
+183 panel 36:12
+184 scroll 23:15
+185 tree 54:57 52:47 9:7
+186 selection 17:41
+187 bean 23:3
+188 shell 23:2 41:1
+189 operating 52:2
+190 gui 50:2 17:2 4:1
+191 renderer 1:3
+192 embedded 23:1
+193 dialogs 36:1
+194 shows 9:2
+195 left 52:1 16:1
+196 splitter 52:8 1:1
+197 current 19:11 9:9 38:1
+198 deferred 52:5
+199 stage 52:7
+200 changed 54:8 58:4 14:1
+201 evt 4:4
+202 nodes 54:9
+203 builder 17:7
+204 idx 52:3
+205 label 23:10
+206 node 23:19 46:2
+207 prop 17:10
+208 eval 9:1
+209 active 17:6
+210 space 41:2 48:1
+211 put 53:2 47:1
+212 defined 41:1
+213 append 32:3 24:3 23:2
+214 ttext 23:2
+215 template 4:1
+216 throwable 23:2
+217 initializing 1:1 28:1
+218 revalidate 9:1
+219 repaint 2:1
+220 select 23:6
+221 elements 23:2 17:1
+222 element 9:3
+223 grp 9:6
+224 member 53:7 46:3
+225 pointer 41:1 32:1
+226 npe 23:1
+227 ignore 52:1
+228 provide 53:1 50:1
+229 children 46:8 52:1
+230 cases 36:1
+231 handled 52:1
+232 row 23:2
+233 height 4:4
+234 cell 4:1 54:1
+235 content 4:6 36:4
+236 bad 23:1
+237 apparently 9:1
+238 mac 9:1
+239 client 53:1
+240 line 18:24 1:1
+241 style 23:1 5:1
+242 angled 53:1
+243 handles 53:1
+244 scroller 1:4
+245 minimum 23:1
+246 vertical 9:2
+247 bar 9:2
+248 unit 17:1
+249 increment 9:1
+250 register 41:5
+251 initial 41:1
+252 ensure 52:1
+253 displayed 36:1
+254 startup 36:1 57:1
+255 count 54:4 24:4
+256 divider 9:8
+257 location 9:6
+258 width 36:9
+259 position 17:9 21:3
+260 saving 9:1
+261 action 5:12 6:8 20:3
+262 linked 10:3
+263 factory 58:3
+264 box 10:8
+265 button 58:8
+266 change 6:5
+267 enhanced 6:2
+268 replacement 58:1
+269 managing 36:1
+270 shown 10:4
+271 cancel 58:12
+272 apply 58:6 4:2 6:1
+273 setup 10:4
+274 create 58:5 13:3
+275 buttons 58:9
+276 glue 10:1
+277 common 36:2 58:1
+278 math 38:3 58:2 18:2
+279 max 24:2 10:2
+280 horizontal 6:2
+281 strut 58:2
+282 geometry 6:3
+283 performed 58:2
+284 source 46:8 58:6
+285 changer 10:3
+286 dispose 10:4
+287 fire 46:4 10:1
+288 settings 25:4 58:2
+289 disk 10:1
+290 rid 58:1
+291 state 19:23 58:2
+292 delete 22:7 24:3
+293 keymaps 22:10
+294 migration 28:41
+295 extracts 41:1
+296 removes 27:1
+297 places 28:2
+298 imported 25:7
+299 migrate 28:6
+300 directory 25:4 19:1
+301 folder 35:24 20:3
+302 entry 25:6
+303 entries 25:2
+304 ends 2:3
+305 starts 25:1
+306 reset 22:5
+307 reload 19:3 20:1
+308 collection 19:8
+309 collections 19:2
+310 runs 0:1
+311 nosettings 35:1
+312 system 0:1
+313 installation 39:2 0:2
+314 broken 19:2 13:1
+315 install 0:2
+316 show 22:1
+317 fatal 0:1
+318 exit 19:1
+319 maps 35:4
+320 unknown 19:3
+321 illegal 16:4 35:2
+322 argument 0:2 16:1
+323 original 19:6
+324 doesn 19:3 32:1
+325 copying 19:1
+326 filter 57:4 16:4 35:1
+327 substring 0:1 38:1
+328 states 22:1
+329 goal 28:1
+330 replace 5:3
+331 data 57:2
+332 located 57:1
+333 fact 41:1
+334 depending 28:1
+335 updated 57:1
+336 specific 28:1
+337 time 28:14
+338 called 2:1 18:1
+339 primarily 57:1
+340 compilation 57:1
+341 dependency 27:1
+342 concrete 27:2
+343 instances 57:1
+344 guarantee 57:1
+345 contributors 47:1
+346 reader 32:31
+347 writer 38:5 21:4
+348 pushback 47:9
+349 reflect 38:1
+350 invocation 21:4
+351 target 38:7
+352 charset 48:11
+353 encoder 38:6
+354 malformed 32:6
+355 annotation 16:2
+356 nonnull 32:20
+357 nullable 38:6
+358 encoding 48:15
+359 unicode 47:6
+360 escapes 32:1
+361 needed 47:5
+362 http 32:1
+363 download 48:1
+364 oracle 32:1
+365 javase 32:1
+366 docs 16:1
+367 api 48:1
+368 html 38:1
+369 bj??rn 48:1
+370 vampire 48:1
+371 kautler 32:1
+372 native 47:8
+373 ascii 47:5
+374 sequence 47:13
+375 csq 47:6
+376 start 21:6 31:1
+377 end 5:16 16:2
+378 str 16:5
+379 cbuf 32:20
+380 len 32:11 21:7
+381 buf 21:18 48:1
+382 encode 32:2
+383 arraycopy 16:1
+384 format 38:2
+385 permissive 48:16
+386 clazz 32:7
+387 instantiation 16:3
+388 access 38:3
+389 instance 48:3
+390 variables 21:2
+391 iso 47:4
+392 read 16:59
+393 delegate 16:2
+394 result 21:27
+395 escape 47:24
+396 escaped 16:15
+397 signalled 48:1
+398 captured 16:1
+399 check 49:12 21:2
+400 character 5:9 38:7
+401 reached 32:6
+402 unread 16:5
+403 remainder 21:1
+404 necessarily 47:1
+405 hit 32:1
+406 hex 32:2
+407 characters 48:6 5:1
+408 positions 32:2
+409 valid 16:2
+410 parse 38:2
+411 remaining 32:5 47:1
+412 readn 47:3
+413 chars 21:4
+414 requested 48:1
+415 underlying 32:1
+416 conversion 48:1
+417 additional 47:2
+418 collapsed 47:2
+419 sequences 32:1
+420 iterate 32:1
+421 maximum 16:1
+422 outer 32:3
+423 consideration 48:1
+424 complete 47:1
+425 missing 21:1
+426 backslash 18:2 32:1
+427 consumed 47:1
+428 collapsing 47:1 38:1
+429 min 47:2 48:1 24:1
+430 advance 32:1
+431 due 47:1
+432 skip 16:16 39:1
+433 negative 16:1
+434 skipped 16:3
+435 refactored 52:1
+436 classpublic 13:1
+437 initialize 13:1
+438 branch 13:2
+439 sort 13:1
+440 query 2:1
+441 registers 5:3
+442 history 50:4 24:2
+443 handler 18:3
+444 area 18:38
+445 emacs 18:11
+446 macro 5:7
+447 utility 50:1
+448 functions 18:2
+449 bsh 50:1
+450 macros 24:1
+451 brian 17:1
+452 clapper 50:1
+453 rewritten 5:1
+454 kill 5:4
+455 repeating 50:2
+456 caret 18:52
+457 offset 24:2
+458 ignoring 18:1
+459 trailing 17:1
+460 white 18:1
+461 newline 5:1
+462 whitespace 17:6
+463 deleted 24:4
+464 join 50:2
+465 lines 18:1
+466 emulate 24:1
+467 physical 18:1
+468 range 18:3
+469 simple 24:1
+470 clipboard 18:17
+471 greater 24:1
+472 repeat 18:4
+473 eat 18:8
+474 alphanums 5:1
+475 letter 17:1
+476 digit 5:1
+477 cardinal 24:3
+478 make 18:5
+479 prefix 18:4
+480 convert 50:1
+481 windows 18:1
+482 separators 50:1
+483 unix 17:1
+484 backslashes 24:1
+485 special 24:3
+486 sep 5:6
+487 separator 17:2
+488 regular 21:1
+489 expressions 41:1
+490 theory 21:1
+491 explicitly 24:1
+492 wrap 17:1
+493 mark 5:14
+494 pos 41:2
+495 temporary 17:1
+496 beep 17:1 21:1
+497 feel 50:1
+498 feedback 18:1
+499 region 21:1
+500 item 5:1
+501 find 24:2
+502 sentence 18:2
+503 beginning 24:1
+504 upper 5:1
+505 backed 54:2
+506 eric 54:1
+507 lay 46:1
+508 extracted 46:1
+509 child 46:13
+510 leaf 46:1
+511 table 46:1
+512 indices 46:8
+513 listeners 46:16
+514 inserted 54:2
+515 removed 46:2
+516 structure 46:2
+517 base 31:1
+518 easily 2:1
+519 implement 49:1
+520 step 28:6
+521 executed 28:2
+522 implementations 28:2
+523 xml 31:2
+524 call 28:1
+525 automatically 7:1
+526 means 50:1
+527 update 28:1
+528 upgrades 39:1
+529 advantage 28:1
+530 started 28:1
+531 late 28:1
+532 desireable 28:1
+533 performs 39:1
+534 execute 39:1
+535 migrations 28:3
+536 svc 28:2
+537 identify 50:1
+538 determine 28:1
+539 eariler 39:1
+540 calls 27:1
+541 performing 28:1
+542 meaning 49:1
+543 slightly 5:1
+544 focus 49:2
+545 accept 22:1
+546 pathname 57:3

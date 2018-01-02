@@ -1,0 +1,5 @@
+.idea/
+out/
+target/
+output/
+*.DS_Store

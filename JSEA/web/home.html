@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="./image/analysis.jpg">
+
+        <title>JSEA·Java Software Engineers Assistant</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="./js/ie-emulation-modes-warning.js"></script>
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Custom styles for this template -->
+        <link href="./css/home.css" rel="stylesheet">
+    </head>
+    <!-- NAVBAR
+    ================================================== -->
+    <body>
+        <div class="navbar-wrapper">
+            <div class="container">
+
+                <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="home.html">JSEA</a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Home </a></li>
+                                <li><a href="help.html">Help </a></li>
+                                <li><a href="show.html">Show </a></li>
+                                <li><a href="search.html">Search </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+
+        <!-- Carousel
+        ================================================== -->
+
+        <div id="myCarousel" class="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./image/office.jpg" alt="Second slide">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>JSEA · Java Software Engineers Assistant</h1>
+                            <p>
+                                JSEA·Java Software Engineers Assistant can help you to read and understand source code
+                                more easily and effectively by generating some topics through MALLET.
+                            </p>
+                            <p><a class="btn btn-lg btn-primary" href="#process" role="button">START</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.carousel -->
+
+
+
+
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="img-circle" src="./image/source-code.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h2>Preprocessing</h2>
+                    <p>
+                        Preprocessing in JSEA including:
+                        (1) Remove programming language information;
+                        (2) Split words;
+                        (3) Remove stop words;
+                        (4) Remove copyright information;
+                        (5) Remove nondescript information.
+                    </p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="./image/customize.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h2>Custom Stopwords</h2>
+                    <p>
+                        Except for stopword list from the MALLET tool, Programmer Assistor also remove custom stopwords.
+                        Including: (1) Useless words in java program, such as 'java', 'public' and so on; 
+                        (2) Useless words about Base Class Library.
+                    </p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img class="img-circle" src="./image/level.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h2>Good Showing</h2>
+                    <p>
+                        Showing the topics in a new way, which can help you to understand the meaning of topics better.
+                    </p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette" id="process">
+
+                <form action="PreProcessServlet" method="POST" id="upload_form" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label id="uploadFile">1. Upload the directory of source code that need to process.</label>
+                    </div>
+                    <p class="help-block illustrate">
+                        You'd better upload <b>source code with comments</b>.
+                    </p>
+                    <div class="form-group illustrate">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <input type="file" id="files" name="files" webkitdirectory>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="general">
+                                Remove words about Basic Library.
+                            </label>
+                            <p class="help-block illustrate">
+                                You can select it to remove words about Basic library, such as 'lang', 'util' and so on. (Advice: Select it.)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" onclick="enableList(this)" name="special">
+                                Remove words about Functional Library.
+                            </label>
+                            <p class="help-block illustrate">
+                                Example: JHotDraw is a Java GUI framework, so it is related to drawing and it uses libraries that can be used to draw graphics or interfaces. You can select 'Drawing' in the following list to remove Functional Library about drawing like 'swing' and so on. (Advice: Select it.)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <select multiple class="form-control" id="list" name="project_type" disabled="true">
+                                    <option>Drawing</option>
+                                    <option>Modeling</option>
+                                    <option>Need to do</option>
+                                    <option>Need to do</option>
+                                    <option>Need to do</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" onclick="enableCustomizePackage(this)" name="customizePackageInfoContent">
+                                Remove words about Customized Package.
+                            </label>
+                            <p class="help-block illustrate">
+                                Please input package names that developers written in the source code, such as “org”, “jhotdraw”, “cc” and so on for JHotDraw, then you can remove words about customized package. (Advice: Select it and input right customized package names)
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="customizePackage" name="customizePackageInfoContent" rows="1" placeholder="Please input customized package names into this filed..." disabled="true"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" onclick="enableTextArea(this)" name="copyrightInfo">
+                                Remove words about Copyright information.
+                            </label>
+                            <p class="help-block illustrate">
+                                Please copy the copyright information into this input filed, then you can remove words about copyright information. (Advice: Select it and input right copyright information)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="textarea" name="copyrightInfoContent" rows="5" placeholder="Please copy the copyright information into this filed..." disabled="true"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label id="topic modeling">2. Input the project name and the number of topics during topic modeling.</label>
+                    </div>
+                    <p class="help-block illustrate">
+                        Please input the project name.
+                    </p>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <input class="form-control" type="textarea" id="projectName" name="projectNameContent" rows="1" placeholder="Please input the project name..."/>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="help-block illustrate">
+                        Please input the number of topics. The number must be a positive integer.
+                    </p>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-10">
+                                <input class="form-control" type="number" id="topicCount" name="topicCountContent" min="1" step="1" data-bind="value:topicCount" placeholder="Please input the number of topics..."/>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" onclick="ifSubmit();" class="btn btn-primary processButton">START</button>
+                </form>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+
+            <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>2017 @Tianxia, Wang</p>
+            </footer>
+
+        </div><!-- /.container -->
+
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/docs.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="./js/ie10-viewport-bug-workaround.js"></script>
+        <!--custom js -->
+        <script src="./js/home.js"></script>
+    </body>
+</html>
