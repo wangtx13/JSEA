@@ -207,7 +207,7 @@ public class PreProcessServlet extends HttpServlet {
                 }
 
 //                out.println("<p>"+ copyrightStoplist.toString() +"</p>");
-                out.println("<h3 id = \"success\" class=\"fileHead\"> Successful Uploading and preprocessing!</h3>");
+
 
             } catch (FileUploadException e) {
                 // TODO Auto-generated catch block  
@@ -220,6 +220,7 @@ public class PreProcessServlet extends HttpServlet {
 
             PreProcessTool preProcessTool = new PreProcessTool(inputRootFilePath, outputFilePath, isGeneral, libraryTypeCondition, copyrightStoplist, customizedPackageList);
             preProcessTool.preProcess();
+            out.println("<h3 id = \"success\" class=\"fileHead\"> Successful Uploading and preprocessing!</h3>");
 
             //topic modeling
             out.println("<p></p>");

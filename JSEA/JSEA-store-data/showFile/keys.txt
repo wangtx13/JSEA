@@ -1,60 +1,80 @@
-0	0.068	path list filename files key copy argument install installation absolute 
-1	0.01345	members scroller enumeration renderer map displaying obj line initializing splitter 
-2	0.77702	license general program free foundation tab tabs copy boston place 
-3	0.02605	combined parent title global visible previously remembers pre combines 
-4	0.04329	event listener border size set save text content height evt 
-5	0.03889	end mark action character macro sep kill registers replace textarea 
-6	0.01357	tabbed action change selected frame geometry options horizontal enhanced list 
-7	0.02871	service obj length plugins services smart automatically file searches choice 
-8	0	
-9	0.0262	current divider tree location grp init element save bar vertical 
-10	0.02737	add box dispose setup shown utilities changer linked max disk 
-11	0	
-12	0.01355	options index starting plugin frame dialog init buffer selected component 
-13	0.01511	plugin plugins create branch sort initialize classpublic broken copy received 
-14	0.03915	groups equals changed panes colors textarea syntax back docking mike 
-15	0	
-16	0.0148	read skip escaped buffer override unread str filter illegal skipped 
-17	0.03021	selection prop org position builder whitespace active equals separator gui 
-18	0.01498	caret text area buffer line clipboard emacs eat make view 
-19	0.02861	state current names collection original doesn unknown reload absolute gjt 
-20	0.09886	shortcut properties edit save obj matthieu folder action quietly reload 
-21	0.02897	result input buf text len start add length chars invocation 
-22	0.12163	keymap user manager property keymaps delete modified reset matthieu option 
-23	0.01375	path node log scroll obj label component select org bean 
-24	0.01349	deleted count special cardinal delete append length find offset history 
-25	0.01347	imported key entry directory settings map entries shortcuts starts manager 
-26	0	
-27	0.5727	org software jedit size copyright suite temple details warranty folding 
-28	0.06218	migration service time step migrate log migrations core svc implementations 
-29	0	
-30	0	
-31	0.01377	xml pre base start plugin manager 
-32	0.01372	reader cbuf nonnull len stream clazz reached malformed remaining outer 
-33	0	
-34	0	
-35	0.01348	folder maps illegal quietly filter nosettings mkdirs parent set matthieu 
-36	0.04628	pane dialog title layout panel preferred width dimension hash content 
-37	0	
-38	0.01357	write character target nullable encoder writer access math parse format 
-39	0.01319	installation eariler execute performs upgrades skip installed 
-40	0.0134	global def browser toolbar firewall gutter encodings editing context appearance 
-41	0.41061	edit set property gjt jedit ezust manager alan remove register 
-42	0	
-43	0	
-44	0	
-45	0	
-46	0.01374	event listener listeners child path parent indices source children fire 
-47	0.01366	escape sequence pushback native csq unicode ascii needed iso readn 
-48	0.01358	permissive encoding charset characters size instance min consideration conversion requested 
-49	0.05389	status check focus meaning implement resource 
-50	0.02613	history model join repeating gui identify means feel separators convert 
-51	0.04267	stream log override input props buffered output impl utilities closeable 
-52	0.03002	tree pane splitter stage visible deferred idx border operating refactored 
-53	0.18745	option group pane add options root panes member split pestov 
-54	0.06229	model tree list nodes changed length count inserted backed plugin 
-55	0.01363	service view opener open finders finder preferred fileopener pre search 
-56	0	
-57	0.02763	filter matthieu pathname data files guarantee instances compilation primarily updated 
-58	0.01366	cancel tabs buttons button panes option source apply index create 
-59	0	
+0	0.0053	key resource bundle argument base locale button property miss stroke 
+1	0.0107	path radius decoration line stroke offset fill arrow tip decorator 
+2	0.01027	bound decorator point visible connector location clone change box inform 
+3	0.00843	focus action component owner editable label text bundle app select 
+4	0.00532	corner current coord prev line intersect iterator stroke left width 
+5	0.01732	handle owner view point figure track anchor cursor modifier edit 
+6	0.0084	window palette pref toolbar focus handler set listener border add 
+7	0.00719	figure presentation task set dependency pert list start duration time 
+8	0.00971	project recent model open application file title add clear frame 
+9	0.04788	add dom element close xml write output read open factory 
+10	0.00658	project action change chooser property init put component unsav pref 
+11	0.01667	locator relative east north south west bound add rectangle move 
+12	0.00534	frame pane set scroll desktop internal arrange size arrangement parent 
+13	0.00725	reader read data buffer end char length occur append unread 
+14	0.01983	action menu add bar set item tool put component separator 
+15	0.0097	width height line dimension diamond math side growy growx scale 
+16	0.01421	text layout holder figure font size tab area draw inset 
+17	0.00601	reader entity xml resolv str process skip validator whitespace read 
+18	0.00059	point curve bez hat bezi path fit center prime digitize 
+19	0.00837	path size general geom bezi mask slant outcode len move 
+20	0.00295	map put color buf token append tokeniz stream path str 
+21	0.04023	action label bundle resource evt perform configure instance visible real 
+22	0.00234	point relative position segment label seg distance length dim angle 
+23	0.05401	attribute key set map draw entry hash forbid basic put 
+24	0.01518	target connection find set connectable visible split exist track support 
+25	0.02143	color stroke width fill dash factor set font placement basic 
+26	0.00417	add rbmi group attribute grid bag constraint creation toolbar radio 
+27	0.01806	grow figure connector chop stroke triangle attribute key ellipse width 
+28	0.01198	thread worker construct set runnable finish start call run var 
+29	0.00972	evt point mouse tracker drag anchor key release editor press 
+30	0.00963	selection scale factor set hint rendering repaint size dimension select 
+31	0.019	editor view action figure selection select edit draw label iterator 
+32	0.00473	descriptor icon bean property set image index color mono obtain 
+33	0.00901	find bound add front back entry list quad rectangle result 
+34	0.05064	bound rectangle point width height anchor set draw geom math 
+35	0.00118	layout row component col vertical number container parent nrow column 
+36	0.01225	figure create prototype tool mouse edit view creation fire editor 
+37	0.02207	transform affine translate basic july move m???rz identity access snap 
+38	0.00662	point rectangle angle center math geom ctr chop line len 
+39	0.00298	xml element write child parse set entity precondition scan buf 
+40	0.00474	edit view widget overlay field set scroll bound container floating 
+41	0.00652	image border img paint height width fill component draw rect 
+42	0.01097	project save option chooser pane enable unsav sheet focus set 
+43	0.01965	connector connection start figure end set point connect liner find 
+44	0.00715	element attribute line xml data validation unexpect parse number miss 
+45	0.00775	component message parent show set frame window bound start location 
+46	0.01815	xml line nano net data revision parse occur message stream 
+47	0.00177	popup evt menu action mouse button timer font selection submenu 
+48	0.0198	area invalidate rectangle draw bound contributor disclose request fire author 
+49	0.00234	bound screen component preference pref height size window inset width 
+50	0.02587	handle add list level link invalidate detail view validate evt 
+51	0.01525	child layout figure bound composite index remove add basic attribute 
+52	0.06221	owner figure point geom disclose accordance author support derive draw 
+53	0.00842	tag dom factory node element xml list equal count index 
+54	0.00715	length bezi scale math data input start rotate polygon factor 
+55	0.00599	attribute element child namespace xml full index content enm iterator 
+56	0.00973	view editor set undo scroll button pane grid constrain layout 
+57	0.0192	edit undo redo undoable presentation composite change progress significant fire 
+58	0.01456	inset left top bottom height width insets size prefer equal 
+59	0.00354	extension equal proxy description create ignore title mouse set buf 
+60	0.00295	sheet option pane listener owner type display dialog chooser icon 
+61	0.01279	point node bezi path index control set count basic segment 
+62	0.00716	button result variable applet load save tool action pane live 
+63	0.01092	bar tool list share link creation action put toolbar toggle 
+64	0.00295	flavor data transferable restore transfer clipboard request xml datatransf support 
+65	0.03331	property listener change enable update evt remove handler state fire 
+66	0.00902	listener list notify interest fire edit register undoable remove basic 
+67	0.0392	project application app action create set open model multiple accordance 
+68	0.00477	set data text applet parameter figure result nano domi throwable 
+69	0.01296	editor button add tool label bundle draw factory create zoom 
+70	0.00539	xml builder prefix parser element namespace create key start associate 
+71	0.00235	button popup add put font toggle set focusable listener placement 
+72	0.08592	create icon disclose contributor accordance instance author draw net text 
+73	0.01532	view tool listener editor select set focus add constrain find 
+74	0.02039	figure group path add child svg sample ungroup basic list 
+75	0.03714	figure draw edit listener remove undoable collection fire change basic 
+76	0.00887	obj result gett access clazz internal parameter type accessible illegal 
+77	0.00538	attr type result size toggl comparator layer property compare put 
+78	0.01263	element current attribute document text str length open tag map 
+79	0.00651	reader stream current read str index input stack xml line 

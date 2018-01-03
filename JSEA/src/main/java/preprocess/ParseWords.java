@@ -5,10 +5,16 @@
  */
 package preprocess;
 
+import edu.mit.jwi.Dictionary;
+import edu.mit.jwi.morph.WordnetStemmer;
+
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -37,7 +43,17 @@ public class ParseWords {
     public StringBuffer parseAllWords() {
         StringBuffer outputWords = new StringBuffer();
 
-        String[] allWords = originalWords.toString().split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|\\\\r\\\\n|\n|\\\\n|\t|\\\\t|,|-|_|//|/|\\*|$|@|\\{|\\}|'|~|>|<|=");
+        String[] allWords = originalWords.toString().split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|\\\\r\\\\n|\n|\\\\n|\t|\\\\t|,|-|_|//|/|\\*|$|@|\\{|\\}|'|~|>|<|=|!");
+
+        //Prepare for stem words
+        String path = "/Users/wangtianxia1/IdeaProjects/JSEA/JSEA/dict";
+        Dictionary dict = new Dictionary(new File(path));
+        try {
+            dict.open();
+        } catch (IOException e) {
+            System.out.println("Cannot find the dictionary of the WordNet. Please make sure the path is correct:" + path);
+//            Logger.getLogger(ParseWords.class.getName()).log(Level.SEVERE, null, e);
+        }
 
         int wordCount = 0;
         for (String word : allWords) {
@@ -59,15 +75,18 @@ public class ParseWords {
                     if (parsedWords != null)
                         parsedWords = removeCopyrightInfo(parsedWords.toLowerCase());
                     if (parsedWords != null) {
+                        parsedWords = stemWords(parsedWords, dict);
                         outputWords.append(parsedWords);
                         outputWords.append(" ");
                         wordCount++;
                     }
+
                 }
             }
         }
 
         documentWordsCountList.put(extractedFile.getName(), wordCount);
+        dict.close();
         return outputWords;
     }
 
@@ -190,5 +209,15 @@ public class ParseWords {
             }
         }
         return word;
+    }
+
+    private String stemWords(String word, Dictionary dict) {
+        if(word == null || word.equals("")) return "";
+
+        WordnetStemmer stemmer = new WordnetStemmer(dict);
+
+        List<String> stemmedWords = stemmer.findStems(word, null);
+        if(stemmedWords.size() > 0) return stemmedWords.get(0);
+        else return word;
     }
 }

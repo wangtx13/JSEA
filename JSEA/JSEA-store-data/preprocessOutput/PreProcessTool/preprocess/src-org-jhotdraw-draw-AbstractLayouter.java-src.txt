@@ -1,0 +1,1 @@
+# layout 2 0 2006 01 14 1996 2006 it contributor disclose accordance draw geom layout author 2 0 2006 01 14 support precision coordinate 1 0 1 dezemb 2003 create layout layout insets2 d get inset figure child insets2 d value insets2 d child get attribute composite figure l y o u t i n s e t s value ? insets2 d 0 0 0 0 insets2 d value clone 
