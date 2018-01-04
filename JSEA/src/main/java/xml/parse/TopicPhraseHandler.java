@@ -60,8 +60,23 @@ public class TopicPhraseHandler extends DefaultHandler {
         }
     }
 
-    public String getMatchedPhrases() {
-        return matchedPhrases;
+//    public String getMatchedPhrases() {
+//            return matchedPhrases;
+//    }
+
+    public String getTop10MatchedPhrases() {
+        if (matchedPhrases == null) return matchedPhrases;
+        String[] phrases = matchedPhrases.split("; ");
+        String newPhrases = "";
+        if (phrases.length > 0) {
+            for(int i = 0; i < phrases.length && i < 10; i++) {
+                if(phrases[i].length() < 25)
+                    newPhrases = newPhrases + phrases[i] + "; ";
+            }
+            return newPhrases;
+        } else {
+            return matchedPhrases;
+        }
     }
 }
 

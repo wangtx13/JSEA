@@ -26,7 +26,8 @@ public class ExtractPhraseLabels {
                 SAXParser saxParser = factory.newSAXParser();
                 TopicPhraseHandler handler = new TopicPhraseHandler(i);
                 saxParser.parse(phraseLabelFilePath, handler);
-                String phrasesLabels = handler.getMatchedPhrases();
+//                String phrasesLabels = handler.getMatchedPhrases();
+                String phrasesLabels = handler.getTop10MatchedPhrases();
                 allPhraseLabels[i] = phrasesLabels;
             } catch (SAXException e) {
                 e.printStackTrace();
@@ -39,4 +40,5 @@ public class ExtractPhraseLabels {
 
         return allPhraseLabels;
     }
+
 }

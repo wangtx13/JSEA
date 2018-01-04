@@ -332,7 +332,7 @@ public class PreProcessServlet extends HttpServlet {
             writeMapIntStrAToFile(top3DocumentsFile, top3DocAndPer);
 
 
-            out.println("<h3 id = \"success\" class=\"fileHead\"> Successful Topic Modeling!</h3>");
+            out.println("<h3 id = \"success\" class=\"fileHead\">Successful Topic Modeling!</h3>");
             out.println("<h2 id = \"success\" class=\"fileHead\">Now, you can start using the \"Show\" function and the \"Search\" function.</h2>");
 
             out.println("</div>");

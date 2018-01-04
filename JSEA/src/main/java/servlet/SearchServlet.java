@@ -17,6 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static utility.Tools.sortMapByValueIntInt;
+import static utility.Tools.sortMapByValueWithStringKey;
 
 
 /**
@@ -67,14 +68,15 @@ public class SearchServlet extends HttpServlet {
                 Map<Integer, Integer> matchedTopics = new HashMap<>();
                 Map<Integer, String> topics = new HashMap<>();
 
-                File topDocumentsFile = new File(programRootPath + "showFile/topic-docs.txt");
-                Map<Integer, String> topThreeDocuments = new HashMap<>();
+//                File topDocumentsFile = new File(programRootPath + "showFile/topic-docs.txt");
+                File top3DocFile = new File(programRootPath + "showFile/top3Documents.txt");
+                Map<Integer, Map<String, Double>> top3Documents = new HashMap<>();
 
                 try (
                         InputStream inTopicKeys = new FileInputStream(topicsKey.getPath());
                         BufferedReader readerTopicKeys = new BufferedReader(new InputStreamReader(inTopicKeys));
-                        InputStream inTopicDocs = new FileInputStream(topDocumentsFile.getPath());
-                        BufferedReader readerTopicsDocs = new BufferedReader(new InputStreamReader(inTopicDocs))) {
+                        InputStream inTop3Doc = new FileInputStream(top3DocFile.getPath());
+                        BufferedReader readerTop3Doc = new BufferedReader(new InputStreamReader(inTop3Doc))) {
                     String topicLine = "";
                     while ((topicLine = readerTopicKeys.readLine()) != null) {
                         topics.put(topicCount, topicLine);
@@ -93,39 +95,23 @@ public class SearchServlet extends HttpServlet {
                         topicCount++;
                     }
 
-                    String docsLine = "";
-                    String threeFileName = "";
-                    int documentCountIndex = 0;
-                    int documentCount = 0;
-                    int checkCountLabel = 1;
-                    boolean checked = false;
-                    while ((docsLine = readerTopicsDocs.readLine()) != null) {
-                        if (!docsLine.equals("#topic doc name proportion ...")) {
-                            String[] linePart = docsLine.split("\t| ");
-                            int topicIndex = Integer.parseInt(linePart[0]);
-                            if (topicIndex == checkCountLabel && !checked) {
-                                documentCount = documentCountIndex;
-                                checked = true;
-                                topThreeDocuments.put(topicIndex - 1, threeFileName);
-                                threeFileName = "";
-                                documentCountIndex = 0;
-                            }
-                            if(documentCountIndex < 3) {
-                                String[] nameParts = linePart[2].split("/");
-                                String textName = nameParts[nameParts.length - 1];
-                                int lastIndexOfStrigula = textName.lastIndexOf('-');
-                                if (lastIndexOfStrigula >= 0) {
-                                    String fileName = textName.substring(0, lastIndexOfStrigula);
-                                    threeFileName = threeFileName + fileName + "\t";
-                                }
-                            }
-                            documentCountIndex++;
-                            if (documentCountIndex == documentCount) {
-                                topThreeDocuments.put(topicIndex, threeFileName);
-                                threeFileName = "";
-                                documentCountIndex = 0;
+                    String top3DocLine = "";
+//                    String threeFileName = "";
+//                    int documentCountIndex = 0;
+//                    int documentCount = 0;
+//                    int checkCountLabel = 1;
+//                    boolean checked = false;
+                    while (( top3DocLine = readerTop3Doc.readLine()) != null) {
+                        String[] linePart =  top3DocLine.split("\t");
+                        int topicNo =Integer.parseInt(linePart[0]);
+                        Map<String, Double> top3ForATopic = new HashMap<>();
+                        for(int i = 1; i < linePart.length; i = i + 2) {
+                            if(i+1 < linePart.length) {
+                                top3ForATopic.put(linePart[i], Double.parseDouble(linePart[i + 1]));//top file
                             }
                         }
+                        sortMapByValueWithStringKey(top3ForATopic);
+                        top3Documents.put(topicNo, top3ForATopic);
                     }
                 }
 
@@ -136,14 +122,21 @@ public class SearchServlet extends HttpServlet {
 
                 if(hasTopic) {
                     Map<Integer, Integer> sortedMatchedTopics = sortMapByValueIntInt(matchedTopics);
-                    for (Map.Entry<Integer, Integer> entry : sortedMatchedTopics.entrySet()) {
-                        int topicIndex = entry.getKey();
-                        int matchedDegree = entry.getValue();
+                    for (Map.Entry<Integer, Integer> entry_topic : sortedMatchedTopics.entrySet()) {
+                        int topicIndex = entry_topic.getKey();
+                        int matchedDegree = entry_topic.getValue();
                         String matchedTopicsString = topics.get(topicIndex);
                         if (!matchedTopicIndex.contains(topicIndex)) {
                             matchedTopicIndex.add(topicIndex);
                             String relativeLabels = allPhraseLabels[topicIndex];
-                            String relativeDocuments = topThreeDocuments.get(topicIndex);
+                            //get top three documents
+                            Map<String, Double> top3ForATopic = top3Documents.get(topicIndex);
+                            String relativeDocuments = "";
+                            for(Map.Entry<String, Double> entry_doc : top3ForATopic.entrySet()) {
+                                String fileName = entry_doc.getKey();
+                                double percentage = entry_doc.getValue();
+                                relativeDocuments = relativeDocuments + fileName + "\t";
+                            }
 
                             matchedQueryBuffer = matchedQueryBuffer.append("<b>Topics: </b>" + matchedTopicsString + "\n");
                             matchedQueryBuffer = matchedQueryBuffer.append("<b>Phrases: </b>" + relativeLabels + "\n");
@@ -155,29 +148,44 @@ public class SearchServlet extends HttpServlet {
                     }
                 }
 
-                if(hasLabels) {
-                    for (int i = 0; i < allPhraseLabels.length; ++i) {
-                        for (String str : searchQueryList) {
-                            if (allPhraseLabels[i].toLowerCase().contains(str) && !matchedTopicIndex.contains(i)) {
-                                matchedTopicIndex.add(i);
-                                String relativeTopics = topics.get(i);
-                                String relativeDocuments = topThreeDocuments.get(i);
-                                matchedQueryBuffer = matchedQueryBuffer.append("<b>Topics: </b>" + relativeTopics + "\n");
-                                matchedQueryBuffer = matchedQueryBuffer.append("<b>Phrases: </b>" + allPhraseLabels[i] + "\n");
-                                matchedQueryBuffer = matchedQueryBuffer.append("Top 3 Documents: " + relativeDocuments);
-                                matchedQueryBuffer = matchedQueryBuffer.append("|");//another topic
-
-                                findMatchedQuery = true;
-                            }
-                        }
-                    }
-                }
+//                if(hasLabels) {
+//                    for (int i = 0; i < allPhraseLabels.length; ++i) {
+//                        for (String str : searchQueryList) {
+//                            if (allPhraseLabels[i].toLowerCase().contains(str) && !matchedTopicIndex.contains(i)) {
+//                                matchedTopicIndex.add(i);
+//                                String relativeTopics = topics.get(i);
+//                                //get top three documents
+//                                Map<String, Double> top3ForATopic = top3Documents.get(i);
+//                                String relativeDocuments = "";
+//                                for(Map.Entry<String, Double> entry_doc : top3ForATopic.entrySet()) {
+//                                    String fileName = entry_doc.getKey();
+//                                    double percentage = entry_doc.getValue();
+//                                    relativeDocuments = relativeDocuments + fileName + "\t";
+//                                }
+//                                matchedQueryBuffer = matchedQueryBuffer.append("<b>Topics: </b>" + relativeTopics + "\n");
+//                                matchedQueryBuffer = matchedQueryBuffer.append("<b>Phrases: </b>" + allPhraseLabels[i] + "\n");
+//                                matchedQueryBuffer = matchedQueryBuffer.append("Top 3 Documents: " + relativeDocuments);
+//                                matchedQueryBuffer = matchedQueryBuffer.append("|");//another topic
+//
+//                                findMatchedQuery = true;
+//                            }
+//                        }
+//                    }
+//                }
 
                 if(hasDocuments) {
-                    for(Map.Entry<Integer, String> entry : topThreeDocuments.entrySet()) {
+                    for(Map.Entry<Integer, Map<String, Double>> entry : top3Documents.entrySet()) {
                         int index = entry.getKey();
                         if(!matchedTopicIndex.contains(index)) {
-                            String documents = entry.getValue();
+                            //get top three documents
+                            Map<String, Double> top3ForATopic = top3Documents.get(index);
+                            String documents = "";
+                            for(Map.Entry<String, Double> entry_doc : top3ForATopic.entrySet()) {
+                                String fileName = entry_doc.getKey();
+                                double percentage = entry_doc.getValue();
+                                documents = documents + fileName + "\t";
+                            }
+
                             String documentsToMatch = documents.toLowerCase();
                             for (String str : searchQueryList) {
                                 if (documentsToMatch.contains(str)) {

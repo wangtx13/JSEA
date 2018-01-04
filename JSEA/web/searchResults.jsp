@@ -128,10 +128,16 @@
                     %>
                     </p>
                     <%
-                    } else {
+                    } else if (line.contains("<b>Topics: </b>")) {
                         for (String str : searchQuery.split(" |,|;")) {
                             line = line.replaceAll(str, "<b style='color:red'>" + str + "</b>");
                         }
+                    %>
+                    <p>
+                        <%=line%>
+                    </p>
+                    <%
+                            } else {
                     %>
                     <p>
                         <%=line%>
