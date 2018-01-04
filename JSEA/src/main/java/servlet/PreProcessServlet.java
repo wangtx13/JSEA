@@ -5,9 +5,7 @@
  */
 package servlet;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -26,6 +24,8 @@ import utility.ProcessPrinter;
 
 import static utility.Tools.createDirectoryIfNotExisting;
 import static utility.Tools.deleteFolderContent;
+import static utility.Tools.writeMapIntStrAToFile;
+
 
 /**
  *
@@ -246,12 +246,93 @@ public class PreProcessServlet extends HttpServlet {
             executor.run();
             out.println("</div>");
             out.println("<script>window.clearInterval(window.wtx);</script>");
-            out.println("<h3 id = \"success\" class=\"fileHead\"> Successful Topic Modeling!</h3>");
 
             //prepare for search
-            
+            File compositeFile = new File(programRootPath + "showFile/composition.txt");
+            String top3DocumentsFilePath = programRootPath + "showFile/top3Documents.txt";
+            Map<String, String> top3Documents = new HashMap<>();
+            Map<Integer, String[]> top3DocAndPer = new HashMap<>();
+
+            int totalFileNo = 0;
+
+            try (
+                    InputStream inComposite = new FileInputStream(compositeFile.getPath());
+                    BufferedReader readerComposite = new BufferedReader(new InputStreamReader(inComposite))) {
 
 
+                String compositeLine = "";
+                while ((compositeLine = readerComposite.readLine()) != null) {
+                    totalFileNo++;
+                }
+            }
+
+            try (
+                    InputStream inComposite = new FileInputStream(compositeFile.getPath());
+                    BufferedReader readerComposite = new BufferedReader(new InputStreamReader(inComposite))) {
+
+
+                String compositeLine = "";
+                Double[][] topicDocMatrix = new Double[topicCount][totalFileNo];
+                String[] fileNameList = new String[totalFileNo];
+                int fileNo = 0;
+                while ((compositeLine = readerComposite.readLine()) != null) {
+                    String[] linePart = compositeLine.split("\t| ");
+                    String[] nameParts = linePart[1].split("/");
+                    String textName = nameParts[nameParts.length - 1];
+                    int lastIndexOfStrigula = textName.lastIndexOf('-');
+                    if (lastIndexOfStrigula >= 0) {
+                        String fileName = textName.substring(0, lastIndexOfStrigula);
+                        fileNameList[fileNo] = fileName;
+                    }
+
+                    for (int i = 2; i < linePart.length; i++) {
+                        topicDocMatrix[i-2][fileNo] = Double.parseDouble(linePart[i]);
+                    }
+
+                    fileNo++;
+                }
+
+                //find top3 document for each topic
+                for(int i = 0; i < topicDocMatrix.length; i++) {
+                    double max1 = 0;
+                    String file1 = "";
+                    double max2 = 0;
+                    String file2 = "";
+                    double max3 = 0;
+                    String file3 = "";
+                    for (int j = 0; j < topicDocMatrix[i].length; j++) {
+                        if(topicDocMatrix[i][j] > max1) {
+                            max3 = max2;
+                            max2 = max1;
+                            max1 = topicDocMatrix[i][j];
+                            file1 = fileNameList[j];
+                        } else if (topicDocMatrix[i][j] > max2) {
+                            max3 = max2;
+                            max2 = topicDocMatrix[i][j];
+                            file2 = fileNameList[j];
+                        } else if (topicDocMatrix[i][j] > max3) {
+                            max3 = topicDocMatrix[i][j];
+                            file3 = fileNameList[j];
+                        }
+                    }
+                    String[] docAndPerList = new String[3];
+                    docAndPerList[0] = file1 + "\t" + max1;
+                    docAndPerList[1] = file2 + "\t" + max2;
+                    docAndPerList[2] = file3 + "\t" + max3;
+                    top3DocAndPer.put(i, docAndPerList);
+                }
+
+            }
+
+
+            File top3DocumentsFile = new File(top3DocumentsFilePath);
+            if(top3DocumentsFile.createNewFile()) {
+                System.out.println("Create successful: " + top3DocumentsFile.getName());
+            }
+            writeMapIntStrAToFile(top3DocumentsFile, top3DocAndPer);
+
+
+            out.println("<h3 id = \"success\" class=\"fileHead\"> Successful Topic Modeling!</h3>");
             out.println("<h2 id = \"success\" class=\"fileHead\">Now, you can start using the \"Show\" function and the \"Search\" function.</h2>");
 
             out.println("</div>");

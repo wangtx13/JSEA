@@ -7,6 +7,7 @@ package utility;
 
 import org.apache.commons.lang3.StringUtils;
 import preprocess.ParseJavaComments;
+import servlet.PreProcessServlet;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -74,6 +75,21 @@ public class Tools {
 
         } catch (IOException ex) {
             Logger.getLogger(ParseJavaComments.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+
+    public static void writeMapIntStrAToFile(File documentWordsCountFile, Map<Integer, String[]> topThreeDocuments) {
+        try {
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter(documentWordsCountFile.getPath()))) {
+                for(Map.Entry<Integer, String[]> entry: topThreeDocuments.entrySet()) {
+                    String[] docAndPerList = entry.getValue();
+                    writer.write(entry.getKey() + "\t" + docAndPerList[0] + "\t" + docAndPerList[1] + "\t" + docAndPerList[2] + "\n");
+                }
+            }
+
+        } catch (IOException ex) {
+            Logger.getLogger(PreProcessServlet.class.getName()).log(Level.SEVERE, null, ex);
         }
 
     }

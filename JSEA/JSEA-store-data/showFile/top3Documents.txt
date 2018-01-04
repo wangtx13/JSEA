@@ -1,0 +1,200 @@
+0
+src-org-jhotdraw-samples-draw-DrawApplicationModel.java	0.7927073300482365
+src-org-jhotdraw-samples-net-NetApplicationModel.java	0.72652233333957
+src-org-jhotdraw-samples-net-NetPanel.java	0.6126082025500994
+1
+src-org-jhotdraw-draw-FigureSelectionListener.java	0.7583201942071386
+src-org-jhotdraw-draw-AbstractLocator.java	0.7193648164416927
+src-org-jhotdraw-draw-FigureSelectionEvent.java	0.709784987909133
+2
+src-org-jhotdraw-draw-DiamondFigure.java	0.8577868927744677
+src-org-jhotdraw-draw-EllipseFigure.java	0.8223061170011681
+src-org-jhotdraw-draw-RectangleFigure.java	0.7823645952871635
+3
+src-org-jhotdraw-util-ResourceBundleUtil.java	0.7994525383872575
+src-org-jhotdraw-util-LocaleUtil.java	0.3598456636576679
+src-org-jhotdraw-draw-action-ColorIcon.java	0.319437410108995
+4
+src-org-jhotdraw-samples-pert-PertProject.java	0.7998295693184057
+src-org-jhotdraw-samples-draw-DrawProject.java	0.776512253525084
+src-org-jhotdraw-samples-svg-SVGProject.java	0.7621170873094114
+5
+src-org-jhotdraw-draw-DefaultDrawingView.java	0.3796386993107158
+src-org-jhotdraw-draw-NullHandle.java	0.27847035417003774
+src-org-jhotdraw-draw-LineFigure.java	0.23894270983128296
+6
+src-org-jhotdraw-draw-action-ImageBevelBorder.java	0.8872640341923773
+src-org-jhotdraw-geom-Dimension2DDouble.java	0.7899133207331165
+src-org-jhotdraw-draw-BorderRectangleFigure.java	0.6703659071811275
+7
+src-org-jhotdraw-draw-SelectionTool.java	0.742092055135351
+src-org-jhotdraw-draw-Tool.java	0.6487313321154514
+src-org-jhotdraw-xml-DOMStorable.java	0.620948348764391
+8
+src-org-jhotdraw-draw-FloatingTextField.java	0.5556756476837507
+src-org-jhotdraw-draw-TextTool.java	0.5289436090784847
+src-org-jhotdraw-draw-Options.java	0.519462102619597
+9
+src-net-n3-nanoxml-NonValidator.java	0.8401946793875159
+	0.7902347466233176
+src-net-n3-nanoxml-IXMLEntityResolver.java	0.7084976810560425
+10
+src-org-jhotdraw-app-DefaultOSXApplication.java	0.38348547141488815
+src-org-jhotdraw-app-action-MinimizeAction.java	0.37210453510549524
+src-org-jhotdraw-app-action-FocusAction.java	0.3695167861327683
+11
+src-org-jhotdraw-draw-BezierFigure.java	0.6365570773750516
+src-org-jhotdraw-geom-BezierPath.java	0.6196653166606348
+src-org-jhotdraw-draw-SlantedLiner.java	0.48917947914285353
+12
+src-org-jhotdraw-samples-draw-DrawApplet.java	0.8967030291053416
+src-org-jhotdraw-samples-net-NetApplet.java	0.8935984816737274
+src-org-jhotdraw-samples-pert-PertApplet.java	0.8871196552624997
+13
+src-org-jhotdraw-gui-datatransfer-CompositeTransferable.java	0.6958200633497765
+src-org-jhotdraw-util-prefs-PreferencesUtil.java	0.6810068818014375
+src-org-jhotdraw-app-action-DeleteAction.java	0.6011785536204304
+14
+src-org-jhotdraw-util-Methods.java	0.88711059835269
+src-net-n3-nanoxml-XMLParserFactory.java	0.3865948444382399
+src-org-jhotdraw-app-action-ProjectPropertyAction.java	0.08906921224260543
+15
+src-org-jhotdraw-samples-svg-SVGUtil.java	0.9102094968567501
+src-org-jhotdraw-xml-DefaultDOMFactory.java	0.13056706678336477
+src-org-jhotdraw-samples-svg-figures-SVGPath.java	0.1157291536047455
+16
+src-org-jhotdraw-draw-DefaultDrawingEditor.java	0.4640258353617095
+src-net-n3-nanoxml-ValidatorPlugin.java	0.4334196448365514
+src-org-jhotdraw-draw-action-SelectSameAction.java	0.40854235266498357
+17
+src-org-jhotdraw-draw-AbstractFigure.java	0.5842344323282118
+src-org-jhotdraw-draw-AbstractDrawing.java	0.5107916371065707
+src-org-jhotdraw-draw-AbstractFigureListener.java	0.5081957708575876
+18
+src-org-jhotdraw-gui-MDIDesktopPane.java	0.884217862987269
+src-org-jhotdraw-draw-action-VerticalGridLayout.java	0.8635117777973126
+src-org-jhotdraw-app-action-ArrangeAction.java	0.530244243488658
+19
+src-org-jhotdraw-geom-DoubleStroke.java	0.6419586102791439
+src-org-jhotdraw-geom-GrowStroke.java	0.31183321777172274
+src-org-jhotdraw-geom-BezierPath.java	0.2953463221603738
+20
+src-org-jhotdraw-app-action-OpenAction.java	0.6811715893194014
+src-org-jhotdraw-app-action-LoadRecentAction.java	0.6593598675663587
+src-org-jhotdraw-io-ExtensionFileFilter.java	0.6303105364585802
+21
+src-org-jhotdraw-samples-svg-SVGPanelBeanInfo.java	0.9287318119570113
+src-org-jhotdraw-samples-draw-DrawingPanelBeanInfo.java	0.9267572708332621
+src-org-jhotdraw-draw-Connector.java	0.9192227277655008
+22
+src-org-jhotdraw-geom-Geom.java	0.8499160064295849
+src-org-jhotdraw-draw-StickyChopConnector.java	0.2994315630156279
+src-org-jhotdraw-draw-ChopTriangleConnector.java	0.29220164725217834
+23
+src-org-jhotdraw-app-AbstractApplication.java	0.5824055268751287
+src-org-jhotdraw-app-DefaultApplicationModel.java	0.5511759339103353
+src-org-jhotdraw-samples-net-Main.java	0.5215557435623993
+24
+src-org-jhotdraw-util-prefs-ToolBarPrefsHandler.java	0.7080614598255834
+src-org-jhotdraw-draw-TransformEdit.java	0.18607621305647745
+src-org-jhotdraw-util-prefs-PreferencesUtil.java	0.18158222041211075
+25
+src-org-jhotdraw-draw-AbstractAttributedCompositeFigure.java	0.6648269899570327
+src-org-jhotdraw-draw-AttributedFigure.java	0.6281595120953724
+src-org-jhotdraw-draw-AttributeKeys.java	0.6181107629089618
+26
+src-org-jhotdraw-draw-AbstractLineDecoration.java	0.5792195754563957
+src-org-jhotdraw-draw-GeneralPathTip.java	0.5618038701905351
+src-org-jhotdraw-draw-ArrowTip.java	0.5535646628270262
+27
+src-net-n3-nanoxml-XMLParseException.java	0.988991225488417
+src-net-n3-nanoxml-XMLValidationException.java	0.8468213955368391
+src-net-n3-nanoxml-XMLParserFactory.java	0.6866820750825952
+28
+src-nanoxml-XMLElement.java	0.8846658469804768
+src-nanoxml-XMLParseException.java	0.08528970345823633
+src-org-jhotdraw-draw-ChopTriangleConnector.java	0.012047842771945786
+29
+src-org-jhotdraw-beans-AbstractBean.java	0.720444407526115
+src-org-jhotdraw-app-action-ToggleProjectPropertyAction.java	0.5862393930938473
+src-org-jhotdraw-app-action-AbstractProjectAction.java	0.5510409341428919
+30
+src-net-n3-nanoxml-XMLElement.java	0.8701742911859041
+src-net-n3-nanoxml-IXMLElement.java	0.7843374508422203
+src-org-jhotdraw-draw-FigureSelectionListener.java	0.44985903414338807
+31
+src-net-n3-nanoxml-StdXMLReader.java	0.7968941940698983
+src-nanoxml-XMLElement.java	0.5361927978190932
+src-net-n3-nanoxml-ContentReader.java	0.4713840123653605
+32
+src-org-jhotdraw-undo-CompositeEdit.java	0.8287653159197135
+src-org-jhotdraw-draw-GeometryEdit.java	0.5982252092357098
+src-org-jhotdraw-draw-Liner.java	0.5456986639367608
+33
+src-org-jhotdraw-draw-QuadTreeDrawing.java	0.827228419482782
+src-org-jhotdraw-draw-action-MoveToBackAction.java	0.7842963165736514
+src-org-jhotdraw-draw-Drawing.java	0.6933515118012676
+34
+src-org-jhotdraw-samples-pert-PertPanel.java	0.3223802500929739
+src-org-jhotdraw-samples-net-NetPanel.java	0.31964401560421796
+src-org-jhotdraw-samples-pert-figures-TaskFigure.java	0.31660646579951773
+35
+src-org-jhotdraw-geom-Bezier.java	0.9291039097021317
+src-org-jhotdraw-undo-NonUndoableEdit.java	1.1134553640523985E-5
+src-org-jhotdraw-util-LocaleUtil.java	1.0916938013911631E-5
+36
+src-org-jhotdraw-draw-ChangeConnectionHandle.java	0.6452708864275066
+src-org-jhotdraw-draw-LineConnectionFigure.java	0.639303294023853
+src-org-jhotdraw-draw-ChopTriangleConnector.java	0.6009886522668845
+37
+src-org-jhotdraw-draw-action-SwingWorker.java	0.9474119139526961
+src-org-jhotdraw-util-Worker.java	0.7310567013160854
+src-org-jhotdraw-draw-ChopTriangleConnector.java	0.6773366910520501
+38
+src-org-jhotdraw-xml-JavaxDOMOutput.java	0.9069912843755492
+src-org-jhotdraw-samples-svg-figures-SVGGroup.java	0.8791321588836954
+src-org-jhotdraw-xml-DOMInput.java	0.8595707958073586
+39
+src-net-n3-nanoxml-XMLWriter.java	0.6056458412418892
+src-org-jhotdraw-draw-Options.java	0.47133467965359244
+src-org-jhotdraw-xml-NanoXMLLiteDOMOutput.java	0.08249781219216266
+40
+src-org-jhotdraw-app-action-ClearAction.java	0.8162702382942124
+src-org-jhotdraw-app-action-CloseAction.java	0.7612298150919741
+src-org-jhotdraw-app-action-SaveAsAction.java	0.7243678631888294
+41
+src-org-jhotdraw-samples-svg-action-SplitAction.java	0.4634842393955745
+src-net-n3-nanoxml-ValidatorPlugin.java	0.45178414133266376
+src-org-jhotdraw-samples-svg-SVGDrawing.java	0.4105561369572634
+42
+src-org-jhotdraw-app-DefaultMDIApplication.java	0.45058763719670286
+src-org-jhotdraw-app-DefaultOSXApplication.java	0.43885773058327215
+src-org-jhotdraw-app-action-ToggleVisibleAction.java	0.4260438504443461
+43
+src-org-jhotdraw-geom-QuadTree2DDouble.java	0.9296142509816229
+src-org-jhotdraw-draw-RelativeDecoratorLocator.java	0.7554540252730608
+src-org-jhotdraw-draw-BezierLabelLocator.java	0.5648605174977684
+44
+src-org-jhotdraw-draw-CompositeFigure.java	0.6930929078104532
+src-org-jhotdraw-draw-VerticalLayouter.java	0.5593557541802809
+src-org-jhotdraw-draw-LocatorLayouter.java	0.5455099115700692
+45
+src-org-jhotdraw-draw-action-ToolBarButtonFactory.java	0.4767005172314134
+src-org-jhotdraw-draw-DelegationSelectionTool.java	0.27384137324225666
+src-org-jhotdraw-draw-action-JPopupButton.java	0.26058950354899035
+46
+src-org-jhotdraw-draw-RotateHandle.java	0.715592522884548
+src-org-jhotdraw-draw-TriangleRotationHandler.java	0.4886972130954228
+src-org-jhotdraw-draw-RoundRectRadiusHandle.java	0.4833846702979689
+47
+src-org-jhotdraw-gui-event-SheetEvent.java	0.6876529352649086
+src-org-jhotdraw-gui-event-SheetListener.java	0.4396155306249546
+src-org-jhotdraw-draw-Options.java	0.35880926263754204
+48
+src-org-jhotdraw-gui-JSheet.java	0.5433463676314563
+src-org-jhotdraw-app-action-ToggleVisibleAction.java	0.21841917250404486
+src-org-jhotdraw-draw-Drawing.java	0.12495773206504636
+49
+src-org-jhotdraw-draw-BezierLabelLocator.java	0.7671427426900557
+src-org-jhotdraw-draw-Locator.java	0.15459147537572493
+src-org-jhotdraw-undo-NonUndoableEdit.java	0.039977945373639086
