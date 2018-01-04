@@ -5,8 +5,6 @@
  */
 package servlet;
 
-import matrixreader.DocumentTopicMatrixReader;
-import matrixreader.MatrixReader;
 import xml.parse.ExtractPhraseLabels;
 
 import javax.servlet.ServletException;
@@ -18,7 +16,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import static utility.Tools.sortMapByValueForTopics;
+import static utility.Tools.sortMapByValueIntInt;
 
 
 /**
@@ -137,7 +135,7 @@ public class SearchServlet extends HttpServlet {
 
 
                 if(hasTopic) {
-                    Map<Integer, Integer> sortedMatchedTopics = sortMapByValueForTopics(matchedTopics);
+                    Map<Integer, Integer> sortedMatchedTopics = sortMapByValueIntInt(matchedTopics);
                     for (Map.Entry<Integer, Integer> entry : sortedMatchedTopics.entrySet()) {
                         int topicIndex = entry.getKey();
                         int matchedDegree = entry.getValue();

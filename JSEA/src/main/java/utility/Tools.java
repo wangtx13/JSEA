@@ -103,7 +103,7 @@ public class Tools {
     }
 
     //sort map in terms of value in descending order
-    public static Map<Integer, Double> sortMapByValueWithIntegerKey(Map<Integer, Double> unsortMap) {
+    public static Map<Integer, Double> sortMapByValueIntDouble(Map<Integer, Double> unsortMap) {
 
         // Convert Map to List
         List<Map.Entry<Integer, Double>> list =
@@ -127,7 +127,7 @@ public class Tools {
     }
 
     //sort map in terms of value in descending order
-    public static Map<String, Integer> sortMapByValueForTopicLine(Map<String, Integer> unsortMap) {
+    public static Map<String, Integer> sortMapByValueStrInt(Map<String, Integer> unsortMap) {
 
         // Convert Map to List
         List<Map.Entry<String, Integer>> list =
@@ -163,7 +163,7 @@ public class Tools {
         return sortedMap;
     }
 
-    public static Map<Integer, Integer> sortMapByValueForTopics(Map<Integer, Integer> unsortMap) {
+    public static Map<Integer, Integer> sortMapByValueIntInt(Map<Integer, Integer> unsortMap) {
 
         // Convert Map to List
         List<Map.Entry<Integer, Integer>> list =

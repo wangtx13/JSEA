@@ -106,6 +106,35 @@ body {
     font-size: 18px;
 }
 
+.img-heart {
+  width: 40px;
+  margin-left: 12px;
+}
+
+.text-heart {
+  margin-left: 12px;
+}
+
+.img-smile {
+  width: 40px;
+  margin-left: 8px;
+  margin-right: 12px;
+}
+
+.text-smile {
+  margin-left: 8px;
+  margin-right: 12px;
+}
+
+.text-grey {
+  color: lightgrey;
+}
+
+.emotion {
+  text-align: center;
+  vertical-align: middle !important
+}
+
 .show_error {
     color: red;
 }

@@ -248,6 +248,10 @@ public class PreProcessServlet extends HttpServlet {
             out.println("<script>window.clearInterval(window.wtx);</script>");
             out.println("<h3 id = \"success\" class=\"fileHead\"> Successful Topic Modeling!</h3>");
 
+            //prepare for search
+            
+
+
             out.println("<h2 id = \"success\" class=\"fileHead\">Now, you can start using the \"Show\" function and the \"Search\" function.</h2>");
 
             out.println("</div>");

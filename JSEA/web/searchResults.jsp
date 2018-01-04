@@ -83,6 +83,14 @@
                 for (String topicLine : tableResults) {
             %>
             <tr>
+                <td class="emotion">
+                    <img src="./image/heart-grey.png" class="img-circle img-heart grayscale">
+                    <div class="text-heart text-grey">10</div>
+                </td>
+                <td class="emotion">
+                    <img src="./image/emotion.png" class="img-circle img-smile">
+                    <div class="text-smile">97.66</div>
+                </td>
                 <td>
                     <%
                         String[] allLine = topicLine.split("\n");
@@ -125,7 +133,8 @@
                             line = line.replaceAll(str, "<b style='color:red'>" + str + "</b>");
                         }
                     %>
-                    <p><%=line%>
+                    <p>
+                        <%=line%>
                     </p>
                     <%
                             }
