@@ -238,4 +238,8 @@ public class Tools {
         String regex = "(?i)(" + StringUtils.join(keywords, "|") + ")";
         return source.replaceAll(regex, "<b style=\"color:red\">$1</b>");
     }
+
+    public static double formatDouble(double d) {
+        return (double)Math.round(d*100)/100;
+    }
 }

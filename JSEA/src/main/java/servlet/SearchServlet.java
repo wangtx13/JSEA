@@ -5,6 +5,10 @@
  */
 package servlet;
 
+import edu.cmu.lti.lexical_db.ILexicalDatabase;
+import edu.cmu.lti.lexical_db.NictWordNet;
+import edu.cmu.lti.ws4j.impl.WuPalmer;
+import edu.cmu.lti.ws4j.util.WS4JConfiguration;
 import xml.parse.ExtractPhraseLabels;
 
 import javax.servlet.ServletException;
@@ -18,6 +22,7 @@ import java.util.Map;
 
 import static utility.Tools.sortMapByValueIntInt;
 import static utility.Tools.sortMapByValueWithStringKey;
+import static utility.Tools.sortMapByValueIntDouble;
 
 
 /**
@@ -45,17 +50,22 @@ public class SearchServlet extends HttpServlet {
             String searchQuery = request.getParameter("searchQuery").toLowerCase();
             String[] searchQueryList = searchQuery.split(" |,|;");
             ArrayList<Integer> matchedTopicIndex = new ArrayList<>();
+            Map<Integer, Double> distSumToSort = new HashMap<Integer, Double>();
+            Map<Integer, Double> sameValue = new HashMap<Integer, Double>();
+            Map<Integer, Double> distSum = new HashMap<Integer, Double>();
 
             boolean hasTopic = false;
-            boolean hasLabels = false;
+//            boolean hasLabels = false;
             boolean hasDocuments = false;
             String[] showType = request.getParameterValues("showType");
             for(String str : showType) {
                 if(str.contains("topics")) {
                     hasTopic = true;
-                } else if(str.contains("labels")) {
-                    hasLabels = true;
-                } else if(str.contains("documents")) {
+                }
+//                else if(str.contains("labels")) {
+//                    hasLabels = true;
+//                }
+                else if(str.contains("documents")) {
                     hasDocuments = true;
                 }
             }
@@ -80,27 +90,11 @@ public class SearchServlet extends HttpServlet {
                     String topicLine = "";
                     while ((topicLine = readerTopicKeys.readLine()) != null) {
                         topics.put(topicCount, topicLine);
-
-                        int matchedDegree = 0;
-                        for(String str : searchQueryList) {
-                            if(topicLine.contains(str)) {
-                                matchedDegree++;
-                            }
-                        }
-
-                        if(matchedDegree > 0) {
-                            matchedTopics.put(topicCount, matchedDegree);
-                        }
-
                         topicCount++;
                     }
 
+                    //generate top3Documents Map with <topic No., <fileName, percentage of doc-topic>>
                     String top3DocLine = "";
-//                    String threeFileName = "";
-//                    int documentCountIndex = 0;
-//                    int documentCount = 0;
-//                    int checkCountLabel = 1;
-//                    boolean checked = false;
                     while (( top3DocLine = readerTop3Doc.readLine()) != null) {
                         String[] linePart =  top3DocLine.split("\t");
                         int topicNo =Integer.parseInt(linePart[0]);
@@ -113,99 +107,80 @@ public class SearchServlet extends HttpServlet {
                         sortMapByValueWithStringKey(top3ForATopic);
                         top3Documents.put(topicNo, top3ForATopic);
                     }
+
+                    //calculate the distance
+                    //calculate topics distance
+                    if (hasTopic) {
+                        for (Map.Entry<Integer, String> entry : topics.entrySet()) {
+                            String[] aSetOfTopics = entry.getValue().split(" |\t");
+                            int topicNo = entry.getKey();
+                            double distSumForATopicToSort = 0;
+                            double sameValueForATopic = 0;
+                            double distSumForATopic = 0;
+                            for (int i = 2; i < aSetOfTopics.length; i++) {
+                                for (int j = 0; j < searchQueryList.length; j++) {
+                                    if (aSetOfTopics[i].equals(searchQueryList[j])) {
+                                        distSumForATopicToSort += 100;
+                                        sameValueForATopic++;
+                                        findMatchedQuery = true;
+                                        break;
+                                    }
+                                    double distance = compute(aSetOfTopics[i], searchQueryList[j]);
+
+                                    distSumForATopicToSort += distance;
+                                    distSumForATopic += distance;
+                                }
+                            }
+                            sameValue.put(topicNo, sameValueForATopic);
+                            distSum.put(topicNo, distSumForATopic);
+                            distSumToSort.put(topicNo, distSumForATopicToSort);
+                        }
+                    }
+
+                    //calculate the match degree between search query and top 3 document names
+                    //Map<Integer, Map<String, Double>> top3Documents
+                    if(hasDocuments) {
+                        for (Map.Entry<Integer, Map<String, Double>> entry : top3Documents.entrySet()) {
+                            int topicNo = entry.getKey();
+                            Map<String, Double> top3DocForATopic = entry.getValue();
+                            double distSumForATopicToSort = distSumToSort.get(topicNo);
+                            double sameValueForATopic = sameValue.get(topicNo);
+                            for (Map.Entry<String, Double> entry_doc : top3DocForATopic.entrySet()) {
+                                String fileName = entry_doc.getKey();
+                                String[] classNameList = fileName.split("-");
+                                String className = classNameList[classNameList.length - 1];
+                                double percentage = entry_doc.getValue();
+                                for (int i = 0; i < searchQueryList.length; i++) {
+                                    if (className.toLowerCase().contains(searchQueryList[i])) {
+                                        distSumForATopicToSort += 100 * percentage;
+                                        sameValueForATopic += percentage;
+                                        findMatchedQuery = true;
+                                        break;
+                                    }
+                                }
+                            }
+                            sameValue.put(topicNo, sameValueForATopic);
+                            distSumToSort.put(topicNo, distSumForATopicToSort);
+                        }
+                    }
+
                 }
+
+                distSumToSort = sortMapByValueIntDouble(distSumToSort);
 
                 String phraseLabelFilePath = programRootPath + "showFile/topic-phrases.xml";
                 ExtractPhraseLabels extractPhraseLabels = new ExtractPhraseLabels(topicCount);
                 String[] allPhraseLabels = extractPhraseLabels.getAllPhraseLabels(phraseLabelFilePath, topicCount);
 
-
-                if(hasTopic) {
-                    Map<Integer, Integer> sortedMatchedTopics = sortMapByValueIntInt(matchedTopics);
-                    for (Map.Entry<Integer, Integer> entry_topic : sortedMatchedTopics.entrySet()) {
-                        int topicIndex = entry_topic.getKey();
-                        int matchedDegree = entry_topic.getValue();
-                        String matchedTopicsString = topics.get(topicIndex);
-                        if (!matchedTopicIndex.contains(topicIndex)) {
-                            matchedTopicIndex.add(topicIndex);
-                            String relativeLabels = allPhraseLabels[topicIndex];
-                            //get top three documents
-                            Map<String, Double> top3ForATopic = top3Documents.get(topicIndex);
-                            String relativeDocuments = "";
-                            for(Map.Entry<String, Double> entry_doc : top3ForATopic.entrySet()) {
-                                String fileName = entry_doc.getKey();
-                                double percentage = entry_doc.getValue();
-                                relativeDocuments = relativeDocuments + fileName + "\t";
-                            }
-
-                            matchedQueryBuffer = matchedQueryBuffer.append("<b>Topics: </b>" + matchedTopicsString + "\n");
-                            matchedQueryBuffer = matchedQueryBuffer.append("<b>Phrases: </b>" + relativeLabels + "\n");
-                            matchedQueryBuffer = matchedQueryBuffer.append("Top 3 Documents: " + relativeDocuments);
-                            matchedQueryBuffer = matchedQueryBuffer.append("|");//another topic
-
-                            findMatchedQuery = true;
-                        }
-                    }
-                }
-
-//                if(hasLabels) {
-//                    for (int i = 0; i < allPhraseLabels.length; ++i) {
-//                        for (String str : searchQueryList) {
-//                            if (allPhraseLabels[i].toLowerCase().contains(str) && !matchedTopicIndex.contains(i)) {
-//                                matchedTopicIndex.add(i);
-//                                String relativeTopics = topics.get(i);
-//                                //get top three documents
-//                                Map<String, Double> top3ForATopic = top3Documents.get(i);
-//                                String relativeDocuments = "";
-//                                for(Map.Entry<String, Double> entry_doc : top3ForATopic.entrySet()) {
-//                                    String fileName = entry_doc.getKey();
-//                                    double percentage = entry_doc.getValue();
-//                                    relativeDocuments = relativeDocuments + fileName + "\t";
-//                                }
-//                                matchedQueryBuffer = matchedQueryBuffer.append("<b>Topics: </b>" + relativeTopics + "\n");
-//                                matchedQueryBuffer = matchedQueryBuffer.append("<b>Phrases: </b>" + allPhraseLabels[i] + "\n");
-//                                matchedQueryBuffer = matchedQueryBuffer.append("Top 3 Documents: " + relativeDocuments);
-//                                matchedQueryBuffer = matchedQueryBuffer.append("|");//another topic
-//
-//                                findMatchedQuery = true;
-//                            }
-//                        }
-//                    }
-//                }
-
-                if(hasDocuments) {
-                    for(Map.Entry<Integer, Map<String, Double>> entry : top3Documents.entrySet()) {
-                        int index = entry.getKey();
-                        if(!matchedTopicIndex.contains(index)) {
-                            //get top three documents
-                            Map<String, Double> top3ForATopic = top3Documents.get(index);
-                            String documents = "";
-                            for(Map.Entry<String, Double> entry_doc : top3ForATopic.entrySet()) {
-                                String fileName = entry_doc.getKey();
-                                double percentage = entry_doc.getValue();
-                                documents = documents + fileName + "\t";
-                            }
-
-                            String documentsToMatch = documents.toLowerCase();
-                            for (String str : searchQueryList) {
-                                if (documentsToMatch.contains(str)) {
-                                    String relativeTopics = topics.get(index);
-                                    String relativeLabels = allPhraseLabels[index];
-                                    matchedQueryBuffer = matchedQueryBuffer.append("<b>Topics: </b>" + relativeTopics + "\n");
-                                    matchedQueryBuffer = matchedQueryBuffer.append("<b>Phrases: </b>" + relativeLabels + "\n");
-                                    matchedQueryBuffer = matchedQueryBuffer.append("Top 3 Documents: " + documents);
-                                    matchedQueryBuffer = matchedQueryBuffer.append("|");//another topic
-
-                                    findMatchedQuery = true;
-                                }
-                            }
-                        }
-                    }
-                }
-
-                request.setAttribute("matchedQuery", matchedQueryBuffer.toString());
-
-//                request.setAttribute("topicCount", topicCount);
+                request.setAttribute("topics", topics);
+                request.setAttribute("allPhraseLabels", allPhraseLabels);
+                request.setAttribute("top3Documents", top3Documents);
+                request.setAttribute("distSumToSort", distSumToSort);
+                request.setAttribute("sameValue", sameValue);
+                request.setAttribute("distSum", distSum);
+                request.setAttribute("hasTopic", hasTopic);
+                request.setAttribute("hasDocuments", hasDocuments);
+                request.setAttribute("findMatchedQuery", findMatchedQuery);
 
             } catch (FileNotFoundException ex) {
                 out.println(ex);
@@ -213,11 +188,11 @@ public class SearchServlet extends HttpServlet {
                 out.println(ex);
             }
 
-            if(findMatchedQuery) {
+//            if(findMatchedQuery) {
                 request.getRequestDispatcher("./searchResults.jsp").forward(request, response);
-            } else {
-                request.getRequestDispatcher("./noResults.jsp").forward(request, response);
-            }
+//            } else {
+//                request.getRequestDispatcher("./noResults.jsp").forward(request, response);
+//            }
         }
 
 
@@ -237,6 +212,13 @@ public class SearchServlet extends HttpServlet {
             }
         }
         return allFileNames;
+    }
+
+    private static double compute(String word1, String word2) {
+        WS4JConfiguration.getInstance().setMFS(true);
+        ILexicalDatabase db = new NictWordNet();
+        double s = new WuPalmer(db).calcRelatednessOfWords(word1, word2);
+        return s;
     }
 
 // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">

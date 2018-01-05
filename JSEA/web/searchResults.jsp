@@ -16,6 +16,8 @@
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="static utility.Tools.highlightKeywords" %>
+<%@ page import="java.util.HashMap" %>
+<%@ page import="static utility.Tools.formatDouble" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,88 +66,165 @@
     <div class="row featurette show_divider">
         <p class="illustrate">If you want to search other key words, please click <a href="search.html">here</a></p>
         <br/>
+        <%
+            String searchQuery = request.getParameter("searchQuery").toLowerCase();
+            List<String> searchQueriesList = new ArrayList<>();
+            for(String str : searchQuery.split(" |,|;")) {
+                searchQueriesList.add(str);
+            }
+
+            Map<Integer, String> topics = (Map<Integer, String>)request.getAttribute("topics");
+            String[] allPhraseLabels = (String[])request.getAttribute("allPhraseLabels");
+            Map<Integer, Map<String, Double>> top3Documents = (Map<Integer, Map<String, Double>>)request.getAttribute("top3Documents");
+            Map<Integer, Double> distSumToSort = (Map<Integer, Double>)request.getAttribute("distSumToSort");
+            Map<Integer, Double> sameValue = (Map<Integer, Double>)request.getAttribute("sameValue");
+            Map<Integer, Double> distSum = (Map<Integer, Double>)request.getAttribute("distSum");
+            boolean hasTopics = (boolean)request.getAttribute("hasTopic");
+            boolean hasDocuments = (boolean)request.getAttribute("hasDocuments");
+            boolean findMatchedQuery = (boolean)request.getAttribute("findMatchedQuery");
+        %>
         <h4>Your search query:</h4>
-        <p><%= request.getParameter("searchQuery")%>
+        <p><%=searchQuery%>
         </p>
+        <div class="illustrate">
+            <p><b>Tips: </b></p>
+            <li>1. Topics are sorted by their semantic similarity with the search query.</li>
+            <%
+                if (!findMatchedQuery) {
+            %>
+            <li>2. Red words are same as the search query. For your search query: "<%=searchQuery%>", <b class="text-tips">there is no same word in the topics and the top 3 class names...</b></li>
+            <%
+                } else {
+            %>
+            <li>2. Red words are same as the search query.</li>
+            <%
+                }
+            %>
+            <li>3. The heart icon means how much the topics and/or the names of top 3 documents are same with the search query.</li>
+            <li>4. The smile icon means how much the topics are similar with the search query in semantic meaning.</li>
+        </div>
         <br/>
-        <h3>Relative topics:</h3>
+        <h3>Topics: </h3>
         <br/>
         <table class="table table-striped">
             <%
-                String searchQuery = request.getParameter("searchQuery").toLowerCase();
-                String[] tableResults = request.getAttribute("matchedQuery").toString().split("\\|");
+                for (Map.Entry<Integer, Double> entry_sorted : distSumToSort.entrySet()) {
+                    int topicNo = entry_sorted.getKey();//topic index
+                    double sameValueForATopic = sameValue.get(topicNo); // same value = the number of words are same with query words + doc name contains same words * percentage of doc-topic
+                    sameValueForATopic = formatDouble(sameValueForATopic);
+                    double distForATopic = distSum.get(topicNo); // distance between words without same word and query words
+                    distForATopic = formatDouble(distForATopic);
+                    String topicLine = topics.get(topicNo); // topics line
+                    String highlightMatchedTopic = "";
+                    if(hasTopics) {
+                        for (String query : searchQueriesList) {
+                            highlightMatchedTopic = topicLine.replaceAll(query, "<b style='color:red'>" + query + "</b>");
+                        }
+                        topicLine = highlightMatchedTopic;
+                    }
+                    String label = allPhraseLabels[topicNo];
 
-                List<String> searchQueriesList = new ArrayList<>();
-                for(String str : searchQuery.split(" |,|;")) {
-                    searchQueriesList.add(str);
-                }
-
-                for (String topicLine : tableResults) {
             %>
             <tr>
+            <%
+                    if (sameValueForATopic != 0) {
+            %>
                 <td class="emotion">
-                    <img src="./image/heart-grey.png" class="img-circle img-heart grayscale">
-                    <div class="text-heart text-grey">10</div>
+                    <img src="./image/heart.png" class="img-circle img-heart">
+                    <div class="text-heart"><%=sameValueForATopic%></div>
                 </td>
                 <td class="emotion">
-                    <img src="./image/emotion.png" class="img-circle img-smile">
-                    <div class="text-smile">97.66</div>
+                    <img src="./image/smile-grey.png" class="img-circle img-smile">
+                    <div class="text-smile text-grey"> / </div>
                 </td>
+            <%
+                    } else if (distForATopic != 0) {
+            %>
+                <td class="emotion">
+                    <img src="./image/heart-grey.png" class="img-circle img-heart">
+                    <div class="text-heart text-grey"><%=sameValueForATopic%></div>
+                </td>
+                <td class="emotion">
+                    <img src="./image/smile.png" class="img-circle img-smile">
+                    <div class="text-smile"><%=distForATopic%></div>
+                </td>
+            <%
+                    } else {
+            %>
+                <td class="emotion">
+                    <img src="./image/heart-grey.png" class="img-circle img-heart">
+                    <div class="text-heart text-grey"><%=sameValueForATopic%></div>
+                </td>
+                <td class="emotion">
+                    <img src="./image/smile-grey.png" class="img-circle img-smile">
+                    <div class="text-smile text-grey"><%=distForATopic%></div>
+                </td>
+            <%
+                    }
+            %>
                 <td>
-                    <%
-                        String[] allLine = topicLine.split("\n");
-                        for (String line : allLine) {
-                            if (line.contains("Top 3 Documents: ")) {
-                    %>
+                    <p>
+                        <b>Topics: </b>
+                        <span><%=topicLine%></span>
+                    </p>
                     <p>
                         <b>Top 3 Documents: </b>
-                    <%
-                                line = line.replace("Top 3 Documents: ", "");
-                                String[] documents = line.split("\t");
-                                int index = 0;
-                                for (String fileName : documents) {
-                                    String link = "http://localhost:8080/static/JSEA-store-data/upload/" + fileName;
-                                    fileName = highlightKeywords(fileName, searchQueriesList);
-//                                    for (String str : searchQuery.split(" |,|;")) {
-//                                        String fileNameToMatch = fileName.toLowerCase();
-//                                        if(fileNameToMatch.contains(str)) {
-//
-//                                            fileName = "<b style='color:red'>" + fileName + "</b>";
-//                                        }
-////                                        fileName = fileName.replaceAll("(?i)" + str, "<b style='color:red'>" + str + "</b>");
-//                                    }
-                                    index++;
-                    %>
-                    <a href="<%=link%>" target="_blank"><%=fileName%>
-                    </a>;
-                    <%
-                        }
-                        if (index < 3) {
-                    %>
-                    no more file...
-                    <%
-                        }
-                    %>
-                    </p>
-                    <%
-                    } else if (line.contains("<b>Topics: </b>")) {
-                        for (String str : searchQuery.split(" |,|;")) {
-                            line = line.replaceAll(str, "<b style='color:red'>" + str + "</b>");
-                        }
-                    %>
-                    <p>
-                        <%=line%>
-                    </p>
-                    <%
-                            } else {
-                    %>
-                    <p>
-                        <%=line%>
-                    </p>
-                    <%
+                        <%
+                            // top 3 doc
+                            Map<String, Double> top3DocAndPerForATopic = top3Documents.get(topicNo); // <doc name, percentage of doc-topic>
+                            int docIndex = 1;
+                            //add link and highlight matched word
+                            for(Map.Entry<String, Double> entry_doc : top3DocAndPerForATopic.entrySet()) {
+                                String fileName = entry_doc.getKey();
+                                String link = "http://localhost:8080/static/JSEA-store-data/upload/" + fileName;
+                                if(hasDocuments) {
+                                    String[] classNameList = fileName.split("-");
+                                    String className = classNameList[classNameList.length - 1];
+                                    String highlightMatchedClassName = highlightKeywords(className, searchQueriesList);
+                                    String highlightMatchedDoc = "";
+                                    for (int i = 0; i < classNameList.length - 1; i++) {
+                                        highlightMatchedDoc += classNameList[i] + "-";
+                                    }
+                                    highlightMatchedDoc += highlightMatchedClassName;
+                                    fileName = highlightMatchedDoc;
+                                }
+
+
+                                docIndex++;
+
+                                if (docIndex < 3) {
+                        %>
+                        <a href="<%=link%>" target="_blank"><%=fileName%></a>;
+                        <%
+                                } else {
+                        %>
+                        <a href="<%=link%>" target="_blank"><%=fileName%></a>
+                        <%
+                                }
                             }
-                        }
-                    %>
+
+                            //if the number of doc less than 3, add "no more file tips"
+                            if (docIndex < 3) {
+                        %>
+                            no more relevant file...
+                        <%
+                            }
+                        %>
+                    </p>
+                    <p>
+                        <b>Phrases: </b>
+                        <%
+                            if(label.equals("")) {
+                        %>
+                        <span>/</span>
+                        <%
+                            } else {
+                        %>
+                        <span><%=label%></span>
+                        <%
+                            }
+                        %>
+                    </p>
                 </td>
             </tr>
             <%
