@@ -5,18 +5,9 @@
 --%>
 
 <%@ page import="java.util.Map" %>
-<%@ page import="matrixreader.MatrixReader" %>
-<%@ page import="matrixreader.DocumentTopicMatrixReader" %>
-<%@ page import="javax.xml.parsers.SAXParser" %>
-<%@ page import="javax.xml.parsers.SAXParserFactory" %>
-<%@ page import="xml.parse.TopicPhraseHandler" %>
-<%@ page import="org.xml.sax.SAXException" %>
-<%@ page import="javax.xml.parsers.ParserConfigurationException" %>
-<%@ page import="java.io.*" %>
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="static utility.Tools.highlightKeywords" %>
-<%@ page import="java.util.HashMap" %>
 <%@ page import="static utility.Tools.formatDouble" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
@@ -79,8 +70,6 @@
             Map<Integer, Double> distSumToSort = (Map<Integer, Double>)request.getAttribute("distSumToSort");
             Map<Integer, Double> sameValue = (Map<Integer, Double>)request.getAttribute("sameValue");
             Map<Integer, Double> distSum = (Map<Integer, Double>)request.getAttribute("distSum");
-            boolean hasTopics = (boolean)request.getAttribute("hasTopic");
-            boolean hasDocuments = (boolean)request.getAttribute("hasDocuments");
             boolean findMatchedQuery = (boolean)request.getAttribute("findMatchedQuery");
         %>
         <h4>Your search query:</h4>
@@ -116,12 +105,10 @@
                     distForATopic = formatDouble(distForATopic);
                     String topicLine = topics.get(topicNo); // topics line
                     String highlightMatchedTopic = "";
-                    if(hasTopics) {
-                        for (String query : searchQueriesList) {
-                            highlightMatchedTopic = topicLine.replaceAll(query, "<b style='color:red'>" + query + "</b>");
-                        }
-                        topicLine = highlightMatchedTopic;
+                    for (String query : searchQueriesList) {
+                        highlightMatchedTopic = topicLine.replaceAll(query, "<b style='color:red'>" + query + "</b>");
                     }
+                    topicLine = highlightMatchedTopic;
                     String label = allPhraseLabels[topicNo];
 
             %>
@@ -135,7 +122,7 @@
                 </td>
                 <td class="emotion">
                     <img src="./image/smile-grey.png" class="img-circle img-smile">
-                    <div class="text-smile text-grey"> / </div>
+                    <div class="text-smile text-grey"><%=distForATopic%></div>
                 </td>
             <%
                     } else if (distForATopic != 0) {
@@ -177,18 +164,15 @@
                             for(Map.Entry<String, Double> entry_doc : top3DocAndPerForATopic.entrySet()) {
                                 String fileName = entry_doc.getKey();
                                 String link = "http://localhost:8080/static/JSEA-store-data/upload/" + fileName;
-                                if(hasDocuments) {
-                                    String[] classNameList = fileName.split("-");
-                                    String className = classNameList[classNameList.length - 1];
-                                    String highlightMatchedClassName = highlightKeywords(className, searchQueriesList);
-                                    String highlightMatchedDoc = "";
-                                    for (int i = 0; i < classNameList.length - 1; i++) {
-                                        highlightMatchedDoc += classNameList[i] + "-";
-                                    }
-                                    highlightMatchedDoc += highlightMatchedClassName;
-                                    fileName = highlightMatchedDoc;
+                                String[] classNameList = fileName.split("-");
+                                String className = classNameList[classNameList.length - 1];
+                                String highlightMatchedClassName = highlightKeywords(className, searchQueriesList);
+                                String highlightMatchedDoc = "";
+                                for (int i = 0; i < classNameList.length - 1; i++) {
+                                    highlightMatchedDoc += classNameList[i] + "-";
                                 }
-
+                                highlightMatchedDoc += highlightMatchedClassName;
+                                fileName = highlightMatchedDoc;
 
                                 docIndex++;
 

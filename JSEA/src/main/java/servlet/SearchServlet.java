@@ -54,21 +54,7 @@ public class SearchServlet extends HttpServlet {
             Map<Integer, Double> sameValue = new HashMap<Integer, Double>();
             Map<Integer, Double> distSum = new HashMap<Integer, Double>();
 
-            boolean hasTopic = false;
-//            boolean hasLabels = false;
-            boolean hasDocuments = false;
             String[] showType = request.getParameterValues("showType");
-            for(String str : showType) {
-                if(str.contains("topics")) {
-                    hasTopic = true;
-                }
-//                else if(str.contains("labels")) {
-//                    hasLabels = true;
-//                }
-                else if(str.contains("documents")) {
-                    hasDocuments = true;
-                }
-            }
 
             try {
                 String topicsFilePath = programRootPath + "showFile/keys.txt";
@@ -78,7 +64,6 @@ public class SearchServlet extends HttpServlet {
                 Map<Integer, Integer> matchedTopics = new HashMap<>();
                 Map<Integer, String> topics = new HashMap<>();
 
-//                File topDocumentsFile = new File(programRootPath + "showFile/topic-docs.txt");
                 File top3DocFile = new File(programRootPath + "showFile/top3Documents.txt");
                 Map<Integer, Map<String, Double>> top3Documents = new HashMap<>();
 
@@ -110,7 +95,6 @@ public class SearchServlet extends HttpServlet {
 
                     //calculate the distance
                     //calculate topics distance
-                    if (hasTopic) {
                         for (Map.Entry<Integer, String> entry : topics.entrySet()) {
                             String[] aSetOfTopics = entry.getValue().split(" |\t");
                             int topicNo = entry.getKey();
@@ -135,33 +119,30 @@ public class SearchServlet extends HttpServlet {
                             distSum.put(topicNo, distSumForATopic);
                             distSumToSort.put(topicNo, distSumForATopicToSort);
                         }
-                    }
 
                     //calculate the match degree between search query and top 3 document names
                     //Map<Integer, Map<String, Double>> top3Documents
-                    if(hasDocuments) {
-                        for (Map.Entry<Integer, Map<String, Double>> entry : top3Documents.entrySet()) {
-                            int topicNo = entry.getKey();
-                            Map<String, Double> top3DocForATopic = entry.getValue();
-                            double distSumForATopicToSort = distSumToSort.get(topicNo);
-                            double sameValueForATopic = sameValue.get(topicNo);
-                            for (Map.Entry<String, Double> entry_doc : top3DocForATopic.entrySet()) {
-                                String fileName = entry_doc.getKey();
-                                String[] classNameList = fileName.split("-");
-                                String className = classNameList[classNameList.length - 1];
-                                double percentage = entry_doc.getValue();
-                                for (int i = 0; i < searchQueryList.length; i++) {
-                                    if (className.toLowerCase().contains(searchQueryList[i])) {
-                                        distSumForATopicToSort += 100 * percentage;
-                                        sameValueForATopic += percentage;
-                                        findMatchedQuery = true;
-                                        break;
-                                    }
+                    for (Map.Entry<Integer, Map<String, Double>> entry : top3Documents.entrySet()) {
+                        int topicNo = entry.getKey();
+                        Map<String, Double> top3DocForATopic = entry.getValue();
+                        double distSumForATopicToSort = distSumToSort.get(topicNo);
+                        double sameValueForATopic = sameValue.get(topicNo);
+                        for (Map.Entry<String, Double> entry_doc : top3DocForATopic.entrySet()) {
+                            String fileName = entry_doc.getKey();
+                            String[] classNameList = fileName.split("-");
+                            String className = classNameList[classNameList.length - 1];
+                            double percentage = entry_doc.getValue();
+                            for (int i = 0; i < searchQueryList.length; i++) {
+                                if (className.toLowerCase().contains(searchQueryList[i])) {
+                                    distSumForATopicToSort += 100 * percentage;
+                                    sameValueForATopic += percentage;
+                                    findMatchedQuery = true;
+                                    break;
                                 }
                             }
-                            sameValue.put(topicNo, sameValueForATopic);
-                            distSumToSort.put(topicNo, distSumForATopicToSort);
                         }
+                        sameValue.put(topicNo, sameValueForATopic);
+                        distSumToSort.put(topicNo, distSumForATopicToSort);
                     }
 
                 }
@@ -178,8 +159,8 @@ public class SearchServlet extends HttpServlet {
                 request.setAttribute("distSumToSort", distSumToSort);
                 request.setAttribute("sameValue", sameValue);
                 request.setAttribute("distSum", distSum);
-                request.setAttribute("hasTopic", hasTopic);
-                request.setAttribute("hasDocuments", hasDocuments);
+//                request.setAttribute("hasTopic", hasTopic);
+//                request.setAttribute("hasDocuments", hasDocuments);
                 request.setAttribute("findMatchedQuery", findMatchedQuery);
 
             } catch (FileNotFoundException ex) {

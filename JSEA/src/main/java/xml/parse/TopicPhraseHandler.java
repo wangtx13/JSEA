@@ -69,7 +69,7 @@ public class TopicPhraseHandler extends DefaultHandler {
         String[] phrases = matchedPhrases.split("; ");
         String newPhrases = "";
         if (phrases.length > 0) {
-            for(int i = 0; i < phrases.length && i < 10; i++) {
+            for(int i = 0; i < phrases.length && i < 5; i++) {
                 if(phrases[i].length() < 25)
                     newPhrases = newPhrases + phrases[i] + "; ";
             }
