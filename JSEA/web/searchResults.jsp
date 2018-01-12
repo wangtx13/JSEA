@@ -9,6 +9,8 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="static utility.Tools.highlightKeywords" %>
 <%@ page import="static utility.Tools.formatDouble" %>
+<%@ page import="static utility.Tools.splitCamelWords" %>
+<%@ page import="static utility.Tools.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -104,9 +106,10 @@
                     double distForATopic = distSum.get(topicNo); // distance between words without same word and query words
                     distForATopic = formatDouble(distForATopic);
                     String topicLine = topics.get(topicNo); // topics line
-                    String highlightMatchedTopic = "";
-                    for (String query : searchQueriesList) {
-                        highlightMatchedTopic = topicLine.replaceAll(query, "<b style='color:red'>" + query + "</b>");
+                    String[] aSetOfTopics = topicLine.split(" |\t");
+                    String highlightMatchedTopic = aSetOfTopics[0] + "\t" + aSetOfTopics[1] + "\t";
+                    for (int i = 2; i < aSetOfTopics.length; i++) {
+                        highlightMatchedTopic += highlightKeywords(aSetOfTopics[i], searchQueriesList)+ " ";
                     }
                     topicLine = highlightMatchedTopic;
                     String label = allPhraseLabels[topicNo];
@@ -166,12 +169,22 @@
                                 String link = "http://localhost:8080/static/JSEA-store-data/upload/" + fileName;
                                 String[] classNameList = fileName.split("-");
                                 String className = classNameList[classNameList.length - 1];
-                                String highlightMatchedClassName = highlightKeywords(className, searchQueriesList);
+                                String[] classNameNoSuffixList = className.split("\\.");
+                                String classNameNoSuffix = className;
+                                if(classNameNoSuffixList.length > 0) {
+                                    classNameNoSuffix = classNameNoSuffixList[0];
+                                }
+                                String[] splitClass = splitDocName(classNameNoSuffix);
+                                String highlightMatchedClassName = "";
+                                for(int i = 0; i < splitClass.length; i++) {
+                                    splitClass[i] = highlightKeywords(splitClass[i], searchQueriesList);
+                                    highlightMatchedClassName += splitClass[i];
+                                }
                                 String highlightMatchedDoc = "";
                                 for (int i = 0; i < classNameList.length - 1; i++) {
                                     highlightMatchedDoc += classNameList[i] + "-";
                                 }
-                                highlightMatchedDoc += highlightMatchedClassName;
+                                highlightMatchedDoc += highlightMatchedClassName + ".java";
                                 fileName = highlightMatchedDoc;
 
                                 docIndex++;

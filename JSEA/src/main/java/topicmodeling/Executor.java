@@ -1,5 +1,6 @@
 package topicmodeling;
 
+import config.Config;
 import utility.StreamGobbler;
 
 import java.io.File;
@@ -7,7 +8,7 @@ import java.io.IOException;
 import java.util.function.Consumer;
 
 public class Executor {
-    private static final String MALLET_PATH = "/Users/wangtianxia1/IdeaProjects/JSEA/mallet-2.0.8";
+    private static final String MALLET_PATH = Config.MALLET_PATH;
 
     private ProcessBuilder processBuilder;
     private Consumer<String> consumer;

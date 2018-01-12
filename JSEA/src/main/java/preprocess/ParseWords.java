@@ -5,6 +5,7 @@
  */
 package preprocess;
 
+import config.Config;
 import edu.mit.jwi.Dictionary;
 import edu.mit.jwi.morph.WordnetStemmer;
 
@@ -17,6 +18,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import static utility.Tools.splitCamelWords;
 
 /**
  * @author apple
@@ -46,12 +48,12 @@ public class ParseWords {
         String[] allWords = originalWords.toString().split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|\\\\r\\\\n|\n|\\\\n|\t|\\\\t|,|-|_|//|/|\\*|$|@|\\{|\\}|'|~|>|<|=|!");
 
         //Prepare for stem words
-        String path = "/Users/wangtianxia1/IdeaProjects/JSEA/JSEA/dict";
-        Dictionary dict = new Dictionary(new File(path));
+        String DICT_PATH = Config.DICT_PATH;
+        Dictionary dict = new Dictionary(new File(DICT_PATH));
         try {
             dict.open();
         } catch (IOException e) {
-            System.out.println("Cannot find the dictionary of the WordNet. Please make sure the path is correct:" + path);
+            System.out.println("Cannot find the dictionary of the WordNet. Please make sure the DICT_PATH is correct:" + DICT_PATH);
 //            Logger.getLogger(ParseWords.class.getName()).log(Level.SEVERE, null, e);
         }
 
@@ -67,7 +69,9 @@ public class ParseWords {
 
                 /*若word被拆分，将拆分后的词加入*/
                 for (String aSplitWord : splitWords) {
-                    String parsedWords = removeStopWords(aSplitWord);
+                    String parsedWords = stemWords(aSplitWord, dict);
+                    if (parsedWords != null)
+                        parsedWords = removeStopWords(parsedWords);
                     if (parsedWords != null)
                         parsedWords = removeClassLibrary(parsedWords.toLowerCase());
                     if (parsedWords != null)
@@ -75,7 +79,6 @@ public class ParseWords {
                     if (parsedWords != null)
                         parsedWords = removeCopyrightInfo(parsedWords.toLowerCase());
                     if (parsedWords != null) {
-                        parsedWords = stemWords(parsedWords, dict);
                         outputWords.append(parsedWords);
                         outputWords.append(" ");
                         wordCount++;
@@ -88,47 +91,6 @@ public class ParseWords {
         documentWordsCountList.put(extractedFile.getName(), wordCount);
         dict.close();
         return outputWords;
-    }
-
-    private String[] splitCamelWords(String word) {
-        word = word.replace("XML", "Xml");
-        word = word.replace("DOM", "Dom");
-        word = word.replace("JHotDraw", "Jhotdraw");
-        word = word.replace("ID", "Id");
-
-        String regEx = "[A-Z]";
-        Pattern p1 = Pattern.compile(regEx);
-        Matcher m1 = p1.matcher(word);
-
-        boolean startWithUpper = false;
-        startWithUpper = Pattern.matches("[A-Z].*", word);
-
-        String[] words = p1.split(word);
-        List<String> list = new ArrayList<>();
-        for (int i = 0; i < words.length; i++) {
-            list.add(words[i]);
-        }
-
-        int count = 0;
-        while (m1.find()) {
-            if (count + 1 < words.length) {
-                list.set(count + 1, m1.group() + list.get(count + 1));
-                ++count;
-            } else {
-                list.add(m1.group());
-            }
-        }
-
-        if (startWithUpper && words.length != 0) {
-            list.remove(0);
-        }
-
-        for (int i = 0; i < list.size(); ++i) {
-            list.set(i, list.get(i).toLowerCase());
-        }
-
-        String[] result = list.toArray(new String[1]);
-        return result;
     }
 
     private String removeStopWords(String word) {
@@ -201,7 +163,7 @@ public class ParseWords {
     }
 
     private String processAWord(String stopwordsString, String word) {
-        String[] stopwords = stopwordsString.split(" ");
+        String[] stopwords = stopwordsString.split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|\\\\r\\\\n|\n|\\\\n|\t|\\\\t|,|-|_|//|/|\\*|$|@|\\{|\\}|'|~|>|<|=|!");
         for (String s : stopwords) {
             if (s.equals(word)) {
                 word = null;

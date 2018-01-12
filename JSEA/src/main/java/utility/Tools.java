@@ -16,6 +16,8 @@ import java.io.IOException;
 import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**
@@ -34,7 +36,7 @@ public class Tools {
             dirPath = dirPath + File.separator;
         }
         if(dir.mkdirs()) {
-            System.out.println("create successful: " + dirPath);
+//            System.out.println("create successful: " + dirPath);
             return true;
         } else {
             System.out.println("create fail...");
@@ -163,11 +165,99 @@ public class Tools {
     }
 
     public static String highlightKeywords(String source, List<String> keywords) {
-        String regex = "(?i)(" + StringUtils.join(keywords, "|") + ")";
-        return source.replaceAll(regex, "<b style=\"color:red\">$1</b>");
+        String lowerSource = source.toLowerCase();
+        for (String query : keywords) {
+            if(query.equals(lowerSource)) {
+                source = "<b style='color:red'>" + source + "</b>";
+            }
+        }
+        return source;
+//        String regex = "(?i)(" + StringUtils.join(keywords, "|") + ")";
+//        return source.replaceAll(regex, "<b style=\"color:red\">$1</b>");
     }
 
     public static double formatDouble(double d) {
         return (double)Math.round(d*100)/100;
+    }
+
+    public static String[] splitCamelWords(String word) {
+        word = word.replace("XML", "Xml");
+        word = word.replace("DOM", "Dom");
+        word = word.replace("JHotDraw", "Jhotdraw");
+        word = word.replace("ID", "Id");
+
+        String regEx = "[A-Z]";
+        Pattern p1 = Pattern.compile(regEx);
+        Matcher m1 = p1.matcher(word);
+
+        boolean startWithUpper = false;
+        startWithUpper = Pattern.matches("[A-Z].*", word);
+
+        String[] words = p1.split(word);
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < words.length; i++) {
+            list.add(words[i]);
+        }
+
+        int count = 0;
+        while (m1.find()) {
+            if (count + 1 < words.length) {
+                list.set(count + 1, m1.group() + list.get(count + 1));
+                ++count;
+            } else {
+                list.add(m1.group());
+            }
+        }
+
+        if (startWithUpper && words.length != 0) {
+            list.remove(0);
+        }
+
+        for (int i = 0; i < list.size(); ++i) {
+            list.set(i, list.get(i).toLowerCase());
+        }
+
+        String[] result = list.toArray(new String[1]);
+        return result;
+    }
+
+    public static String[] splitDocName(String word) {
+        word = word.replace("XML", "Xml");
+        word = word.replace("DOM", "Dom");
+        word = word.replace("JHotDraw", "Jhotdraw");
+        word = word.replace("ID", "Id");
+        String regEx = "[A-Z]";
+        Pattern p1 = Pattern.compile(regEx);
+        Matcher m1 = p1.matcher(word);
+
+        boolean startWithUpper = false;
+        startWithUpper = Pattern.matches("[A-Z].*", word);
+
+        String[] words = p1.split(word);
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < words.length; i++) {
+            list.add(words[i]);
+        }
+
+        int count = 0;
+        while (m1.find()) {
+            if (count + 1 < words.length) {
+                list.set(count + 1, m1.group() + list.get(count + 1));
+                ++count;
+            } else {
+                list.add(m1.group());
+            }
+        }
+
+        if (startWithUpper && words.length != 0) {
+            list.remove(0);
+        }
+
+//        for (int i = 0; i < list.size(); ++i) {
+//            list.set(i, list.get(i).toLowerCase());
+//        }
+
+        String[] result = list.toArray(new String[1]);
+        return result;
     }
 }

@@ -63,8 +63,8 @@ public class TraversalFiles {
                     }
                 }
                 else {
-                    System.out.println(f.getPath());
-                    System.out.println(" isn't a java file.");
+//                    System.out.println(f.getPath());
+//                    System.out.println(" isn't a java file.");
                 } 
                 fileList(f, node, path, outputFilePath, ifGeneral, libraryTypeCondition, copyrightInfoContent, customizedPackageList, documentWordsCountList);
             }
