@@ -1,1 +1,0 @@
-# dom storable 1 0 february 17 2004 1996 2006 contributor right reserve thi disclose accordance term enter xml io make persistent using dom output write dom input read p convention every implement dom storable m u s t provide parameterles constructor wern randelshof 1 0 february 17 2004 create dom storable write dom output out i o read dom input i o 

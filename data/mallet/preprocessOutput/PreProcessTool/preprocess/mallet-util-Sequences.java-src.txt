@@ -1,1 +1,0 @@
-types sequence utility types sequence and similar classes sequences elementwise accuracy sequence truth sequence predicted accuracy = 0 truth size == predicted size i = 0 i < predicted size i++ logger fine token accuracy ref +reference output get i + viterbi +output get i truth get i to equals predicted get i to accuracy++ accuracy predicted size 

@@ -1,1 +1,0 @@
-2002 m a l l e t m achine languag e ~mccallum 1 0 further ` l i e n s e formmater and replaces simple formatter it just writes out message no adornments author david pinto <a href= mailto pinto >pinto edu< a> logging plain log formatter simple formatter plain log formatter format log record record record get message + 

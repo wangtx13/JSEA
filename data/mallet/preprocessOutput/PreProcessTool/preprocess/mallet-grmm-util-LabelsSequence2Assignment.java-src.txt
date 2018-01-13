@@ -1,1 +1,0 @@
-2006 m a l l e t m achine languag e ~mccallum 1 0 further ` l i e n s e pipe pipe types instance types labels sequence $ labels sequence2 assignment v 1 1 2007 10 22 21 37 58 exp $ labels sequence2 assignment pipe instance pipe instance carrier labels sequence lbls = labels sequence carrier get target carrier set target labels assignment lbls carrier 

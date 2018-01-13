@@ -1,1 +1,0 @@
-2002 m a l l e t m achine languag e ~mccallum 1 0 further ` l i e n s e author andrew mc callum <a href= mailto >mccallum edu< a> types arrays hash set hash map types alphabet types matrix property list could also be called convention matrix1 deprecated rarely used and should be removed akm 1 2008public vector constant matrix value index set value index value 

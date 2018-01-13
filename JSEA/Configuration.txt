@@ -26,10 +26,10 @@ web.xml (Please change “JSEA-path” to the real path of JSEA):
     </context-param>
 
 
-3. Configure MALLET LDA toolkit
-Edit “mallet-2.0.8/topic-modeling.sh” in JSEA:
-(Fine “root_dir” and configure the path of JSEA. Please change “JSEA-path” to the real path of JSEA)
-root_dir=“/JSEA-path/JSEA-store-data/"
+3. Configure class path
+Edit “config.Config.java” in JSEA:
+MALLET_PATH = "/JSEA-path/JSEA/mallet-2.0.8";
+DICT_PATH = "/JSEA-path/JSEA/JSEA/dict";
 
 
 

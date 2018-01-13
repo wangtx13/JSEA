@@ -1,1 +1,0 @@
-2002 m a l l e t m achine languag e ~mccallum 1 0 further ` l i e n s e pipe types instance convert in target field into a floating point numeric type author david mimno target2 pipe instance pipe instance carrier carrier get target != ! carrier get target illegal argument target must be a conversion to carrier set target carrier get target carrier 

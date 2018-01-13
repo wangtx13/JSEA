@@ -1,1 +1,0 @@
-pipe iterator iterator types instance empty instance iterator iterator< instance> has next instance next illegal state iterator never has any instances remove illegal state iterator does not support remove 

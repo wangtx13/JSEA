@@ -45,7 +45,7 @@ public class ParseWords {
     public StringBuffer parseAllWords() {
         StringBuffer outputWords = new StringBuffer();
 
-        String[] allWords = originalWords.toString().split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|\\\\r\\\\n|\n|\\\\n|\t|\\\\t|,|-|_|//|/|\\*|$|@|\\{|\\}|'|~|>|<|=|!");
+        String[] allWords = originalWords.toString().split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|\\\\r\\\\n|\n|\\\\n|\t|\\\\t|,|-|_|//|/|\\*|$|@|\\{|\\}|'|~|>|<|=|!|#");
 
         //Prepare for stem words
         String DICT_PATH = Config.DICT_PATH;
@@ -69,7 +69,7 @@ public class ParseWords {
 
                 /*若word被拆分，将拆分后的词加入*/
                 for (String aSplitWord : splitWords) {
-                    String parsedWords = stemWords(aSplitWord, dict);
+                    String parsedWords = removeStopWords(aSplitWord);
                     if (parsedWords != null)
                         parsedWords = removeStopWords(parsedWords);
                     if (parsedWords != null)
@@ -78,6 +78,10 @@ public class ParseWords {
                         parsedWords = removeCustomizedPackageInfo(parsedWords.toLowerCase());
                     if (parsedWords != null)
                         parsedWords = removeCopyrightInfo(parsedWords.toLowerCase());
+                    if (parsedWords != null) {
+                        parsedWords = stemWords(aSplitWord, dict);
+                        parsedWords = removeStopWords(parsedWords);
+                    }
                     if (parsedWords != null) {
                         outputWords.append(parsedWords);
                         outputWords.append(" ");
@@ -163,7 +167,7 @@ public class ParseWords {
     }
 
     private String processAWord(String stopwordsString, String word) {
-        String[] stopwords = stopwordsString.split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|\\\\r\\\\n|\n|\\\\n|\t|\\\\t|,|-|_|//|/|\\*|$|@|\\{|\\}|'|~|>|<|=|!");
+        String[] stopwords = stopwordsString.split(" |\"|\\(|\\)|\\[|\\]|\\.|&|:|;|\r\n|\\\\r\\\\n|\n|\\\\n|\t|\\\\t|,|-|_|//|/|\\*|$|@|\\{|\\}|'|~|>|<|=|!|#");
         for (String s : stopwords) {
             if (s.equals(word)) {
                 word = null;

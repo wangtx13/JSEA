@@ -1,1 +1,0 @@
-2002 m a l l e t m achine languag e ~mccallum 1 0 further ` l i e n s e author andrew mc callum <a href= mailto >mccallum edu< a> types immutablepublic sequence< e> size e get index 

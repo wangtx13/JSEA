@@ -1,1 +1,0 @@
-2003 m a l l e t m achine languag e ~mccallum 1 0 further ` l i e n s e a measure distance between two < o d e> constant vector< o d e>s author jerod weinman < a h r e f= mailto weinman >weinman edu< a> types types sparse vector stores a hash each being compared efficient computation cached metric metric distance sparse vector a hash a sparse vector b hash b 

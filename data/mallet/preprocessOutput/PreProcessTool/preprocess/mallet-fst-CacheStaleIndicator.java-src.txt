@@ -1,1 +1,0 @@
-indicates when value gradient during training becomes stale <p> <tt> threaded optimizable< tt> author gaurav chandalia cache stale indicator value stale gradient stale 
